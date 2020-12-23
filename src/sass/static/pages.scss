@@ -1708,5 +1708,12 @@ body #not_authenticated_financial ul.checked > li {
 }
 
 .dropdown__icon-filter {
-    border: 1px solid $COLOR_LIGHT_GRAY;
+    position: relative;
+    left: 30px;
+    top: -2px;
+    pointer-events: none;
+}
+
+.dropdown-statement-filter {
+    padding-left: 35px;
 }

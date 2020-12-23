@@ -109,7 +109,6 @@ const StatementUI = (() => {
         errorMessage,
         exportCSV,
         updateAccountStatistics,
-
         setOauthApps: values => (oauth_apps = values),
     };
 })();

@@ -38,7 +38,7 @@ const Statement = () => (
                     <div className='gr-row gr-row-align-right gr-row-align-left-m gr-row-align-middle'>
                         <img src={it.url_for('images/pages/statement/reports-statement-icon-filter-icon.svg')} className = 'dropdown__icon-filter' />
                         <Select
-                            className
+                            className='dropdown-statement-filter'
                             id='dropdown-statement-filter'
                             options={[
                                 { text: it.L('All'),   value: 'all', selected: true  },
