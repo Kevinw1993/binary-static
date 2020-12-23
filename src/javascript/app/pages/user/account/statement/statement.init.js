@@ -82,7 +82,7 @@ const StatementInit = (() => {
         if (current_batch.length < batch_size) {
             no_more_data = true;
         }
-
+ 
         if (!tableExist()) {
             StatementUI.createEmptyStatementTable().appendTo('#statement-container');
             $('.act, .credit').addClass('nowrap');
@@ -109,7 +109,7 @@ const StatementInit = (() => {
             };
 
             const p_from_top = $(document).scrollTop();
-
+            
             if (!tableExist() || p_from_top < hidableHeight(70)) return;
 
             if (finishedConsumed() && !no_more_data && !pending) {
@@ -144,7 +144,6 @@ const StatementInit = (() => {
         transactions_received = 0;
         transactions_consumed = 0;
         filter =  $('#dropdown-statement-filter').val();
-        console.log(filter);
 
         BinarySocket.send({ oauth_apps: 1 }).then((response) => {
             addTooltip(StatementUI.setOauthApps(buildOauthApps(response)));
@@ -164,6 +163,8 @@ const StatementInit = (() => {
         initPage();
 
         $('#dropdown-statement-filter').on('change', (e) => {
+            e.stopPropagation();
+            e.preventDefault();
             const { value } = e.target;
             filter = value;
             StatementUI.errorMessage(null);
