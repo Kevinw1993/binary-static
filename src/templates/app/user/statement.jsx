@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button, DatePicker } from '../../_common/components/elements.jsx';
 import Loading from '../../_common/components/loading.jsx';
+import { Select } from '../../_common/components/elements.jsx';
 
 const AccountStatisticsBox = ({ id, title, heading, className }) => (
     <div className={`gr-3 gr-12-m ${className || ''}`}>
@@ -26,12 +27,27 @@ const Statement = () => (
                 <AccountStatisticsBox id='total_withdrawals' heading={it.L('Total withdrawals')} />
                 <AccountStatisticsBox id='net_deposits'      heading={it.L('Net deposits')} />
             </div>
-
             <div id='util_row' className='gr-row gr-padding-10 gr-parent invisible container'>
-                <div className='gr-12 gr-12-m'>
-                    <div className='gr-row gr-row-align-right gr-row-align-left-m gr-row-align-middle'>
+                <div className='gr-8 gr-8-m'>
+                    <div className='gr-row gr-row-align-left gr-row-align-left-m gr-row-align-middle'>
                         <DatePicker id='date_to' text={it.L('Show all historical transactions up to')} />
                         <Button id='download_statement_btn' className='button-secondary invisible' text={it.L('Download your statement')} />
+                    </div>
+                </div>
+                <div className='gr-4 gr-4-m'>
+                    <div className='gr-row gr-row-align-right gr-row-align-left-m gr-row-align-middle'>
+                        <img src={it.url_for('images/pages/statement/reports-statement-icon-filter-icon.svg')} className = 'dropdown__icon-filter' />
+                        <Select
+                            className
+                            id='dropdown-statement-filter'
+                            options={[
+                                { text: it.L('All'),   value: 'all', selected: true  },
+                                { text: it.L('Buy'),   value: 'buy' },
+                                { text: it.L('Sell'),  value: 'sell'},
+                                { text: it.L('Deposit'),  value: 'deposit' },
+                                { text: it.L('Withdrawal'), value: 'withdrawal' },
+                            ]}
+                        />
                     </div>
                 </div>
                 <div className='gr-12 gr-12-m align-end'>

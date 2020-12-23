@@ -20,6 +20,7 @@ const StatementInit = (() => {
         no_more_data,
         pending,
         current_batch,
+        filter,
         transactions_received,
         transactions_consumed;
 
@@ -42,7 +43,11 @@ const StatementInit = (() => {
     };
 
     const getNextBatchStatement = () => {
-        getStatement({ offset: transactions_received, limit: batch_size });
+        if (filter === 'all') {
+            getStatement({ offset: transactions_received, limit: batch_size });
+        } else {
+            getStatement({ offset: transactions_received, limit: batch_size, action_type: filter });
+        }
         pending = true;
     };
 
@@ -91,12 +96,6 @@ const StatementInit = (() => {
                             .append($('<p/>', { class: 'notice-msg center-text', text: localize('Your account has no trading activity.') }))));
             } else {
                 $('#util_row').setVisibility(1);
-                // uncomment to enable export to CSV
-                // $('#download_csv')
-                //     .setVisibility(1)
-                //     .find('a')
-                //     .off('click')
-                //     .on('click', () => { StatementUI.exportCSV(); });
             }
         }
         showLocalTimeOnHover('td.date');
@@ -143,6 +142,7 @@ const StatementInit = (() => {
         current_batch         = [];
         transactions_received = 0;
         transactions_consumed = 0;
+        filter =  $('#dropdown-statement-filter').val();
 
         BinarySocket.send({ oauth_apps: 1 }).then((response) => {
             addTooltip(StatementUI.setOauthApps(buildOauthApps(response)));
@@ -165,6 +165,15 @@ const StatementInit = (() => {
             $('.barspinner').setVisibility(1);
             initPage();
         });
+
+        $('#dropdown-statement-filter').on('change', (e) => {
+            const { value } = e.target;
+            filter = value;
+            StatementUI.clearTableContent();
+            $('.barspinner').setVisibility(1);
+            initPage();
+        });
+
         ViewPopup.viewButtonOnClick('#statement-container');
     };
 
