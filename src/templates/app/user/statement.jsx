@@ -1,7 +1,6 @@
 import React from 'react';
-import { Button, DatePicker } from '../../_common/components/elements.jsx';
+import { Button, DatePicker, Select } from '../../_common/components/elements.jsx';
 import Loading from '../../_common/components/loading.jsx';
-import { Select } from '../../_common/components/elements.jsx';
 
 const AccountStatisticsBox = ({ id, title, heading, className }) => (
     <div className={`gr-3 gr-12-m ${className || ''}`}>
@@ -43,7 +42,7 @@ const Statement = () => (
                             options={[
                                 { text: it.L('All'),   value: 'all', selected: true  },
                                 { text: it.L('Buy'),   value: 'buy' },
-                                { text: it.L('Sell'),  value: 'sell'},
+                                { text: it.L('Sell'),  value: 'sell' },
                                 { text: it.L('Deposit'),  value: 'deposit' },
                                 { text: it.L('Withdrawal'), value: 'withdrawal' },
                             ]}
