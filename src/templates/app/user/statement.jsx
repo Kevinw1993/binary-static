@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Button, DatePicker, Select } from '../../_common/components/elements.jsx';
 import Loading from '../../_common/components/loading.jsx';
@@ -27,18 +28,18 @@ const Statement = () => (
                 <AccountStatisticsBox id='net_deposits'      heading={it.L('Net deposits')} />
             </div>
             <div id='util_row' className='gr-row gr-padding-10 gr-parent invisible container'>
-                <div className='gr-8 gr-8-m'>
-                    <div className='gr-row gr-row-align-left gr-row-align-left-m gr-row-align-middle'>
+                <div className='gr-8'>
+                    <div className='gr-row gr-row-align-left gr-row-align-left-m'>
                         <DatePicker id='date_to' text={it.L('Show all historical transactions up to')} />
                         <Button id='download_statement_btn' className='button-secondary invisible' text={it.L('Download your statement')} />
                     </div>
                 </div>
-                <div className='gr-4 gr-4-m'>
-                    <div className='gr-row gr-row-align-right gr-row-align-left-m gr-row-align-middle'>
+                <div className='gr-4'>
+                    <div className='gr-row gr-row-align-right gr-row-align-left-m'>
                         <img src={it.url_for('images/pages/statement/reports-statement-icon-filter-icon.svg')} className = 'dropdown__icon-filter' />
                         <Select
                             className='dropdown-statement-filter'
-                            id='dropdown-statement-filter'
+                            id='dropdown_statement_filter'
                             options={[
                                 { text: it.L('All'),   value: 'all', selected: true  },
                                 { text: it.L('Buy'),   value: 'buy' },

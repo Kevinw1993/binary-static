@@ -126,7 +126,7 @@ const StatementInit = (() => {
         no_more_data = false;
 
         current_batch = [];
-        filter =  $('#dropdown-statement-filter').val();
+        filter =  $('#dropdown_statement_filter').val();
 
         transactions_received = 0;
         transactions_consumed = 0;
@@ -143,7 +143,7 @@ const StatementInit = (() => {
         current_batch         = [];
         transactions_received = 0;
         transactions_consumed = 0;
-        filter =  $('#dropdown-statement-filter').val();
+        filter =  $('#dropdown_statement_filter').val();
 
         BinarySocket.send({ oauth_apps: 1 }).then((response) => {
             addTooltip(StatementUI.setOauthApps(buildOauthApps(response)));
@@ -162,11 +162,13 @@ const StatementInit = (() => {
     const onLoad = () => {
         initPage();
 
-        $('#dropdown-statement-filter').on('change', (e) => {
+        $('#dropdown_statement_filter').on('change', (e) => {
             e.stopPropagation();
             e.preventDefault();
-            const { value } = e.target;
-            filter = value;
+
+            // update the filter state
+            filter = e.target;
+
             StatementUI.errorMessage(null);
             StatementUI.clearTableContent();
             $('.barspinner').setVisibility(1);
