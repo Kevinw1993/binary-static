@@ -29,16 +29,16 @@ const Statement = () => (
             </div>
             <div id='util_row' className='gr-row gr-padding-10 gr-parent invisible container'>
                 <div className='gr-8'>
-                    <div className='gr-row gr-row-align-left gr-row-align-left-m'>
+                    <div className='gr-row gr-row-align-left'>
                         <DatePicker id='date_to' text={it.L('Show all historical transactions up to')} />
                         <Button id='download_statement_btn' className='button-secondary invisible' text={it.L('Download your statement')} />
                     </div>
                 </div>
                 <div className='gr-4'>
                     <div className='gr-row gr-row-align-right gr-row-align-left-m'>
-                        <img src={it.url_for('images/pages/statement/reports-statement-icon-filter-icon.svg')} className = 'dropdown__icon-filter' />
+                        <img src={it.url_for('images/pages/statement/reports-statement-icon-filter-icon.svg')} className = 'dropdown-statement__filter__icon' />
                         <Select
-                            className='dropdown-statement-filter'
+                            className='dropdown-statement__filter'
                             id='dropdown_statement_filter'
                             options={[
                                 { text: it.L('All'),   value: 'all', selected: true  },

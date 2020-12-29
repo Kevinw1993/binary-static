@@ -1709,13 +1709,17 @@ body #not_authenticated_financial ul.checked > li {
     max-width: 496px;
 }
 
-.dropdown__icon-filter {
-    position: relative;
-    left: 30px;
-    top: -2px;
-    pointer-events: none;
-}
+.dropdown {
+    &-statement {
+        &__filter {
+            padding-left: 3.5rem;
 
-.dropdown-statement-filter {
-    padding-left: 3.5rem;
+            &__icon {
+                position: relative;
+                left: 30px;
+                top: -2px;
+                pointer-events: none;
+            }
+        }
+    }
 }
