@@ -96,6 +96,12 @@ const StatementInit = (() => {
                             .append($('<p/>', { class: 'notice-msg center-text', text: localize('Your account has no trading activity.') }))));
             } else {
                 $('#util_row').setVisibility(1);
+                // uncomment to enable export to CSV
+                // $('#download_csv')
+                //     .setVisibility(1)
+                //     .find('a')
+                //     .off('click')
+                //     .on('click', () => { StatementUI.exportCSV(); });
             }
         }
         showLocalTimeOnHover('td.date');
