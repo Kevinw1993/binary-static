@@ -132,7 +132,6 @@ const StatementInit = (() => {
         no_more_data = false;
 
         current_batch = [];
-        filter =  $('#dropdown_statement_filter').val();
 
         transactions_received = 0;
         transactions_consumed = 0;
