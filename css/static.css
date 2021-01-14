@@ -2276,8 +2276,20 @@ body #not_authenticated_financial ul.checked > li {
     .filtered {
       width: 30px; } }
 
+@media (max-width: 500px) {
+  .changed .select-dropdown {
+    display: inline; } }
+
 .changed .select-dropdown:after {
   content: ''; }
+
+@media (max-width: 500px) {
+  .datee {
+    display: block; } }
+
+@media (max-width: 500px) {
+  .date2 {
+    display: inline; } }
 
 .timeline {
   margin: 0 auto;
