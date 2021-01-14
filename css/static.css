@@ -2250,14 +2250,6 @@ body #not_authenticated_financial ul.checked > li {
 #self_exclusion_dialog #dialog_content {
   max-width: 496px; }
 
-.dropdown-statement__filter {
-  padding-left: 3.5rem; }
-  .dropdown-statement__filter__icon {
-    position: relative;
-    left: 30px;
-    top: -2px;
-    pointer-events: none; }
-
 .timeline {
   margin: 0 auto;
   overflow: hidden;
