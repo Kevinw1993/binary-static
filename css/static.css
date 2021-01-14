@@ -2250,6 +2250,35 @@ body #not_authenticated_financial ul.checked > li {
 #self_exclusion_dialog #dialog_content {
   max-width: 496px; }
 
+#dropdown_statement_filter {
+  size: 30px; }
+  #dropdown_statement_filter:after {
+    content: ''; }
+  #dropdown_statement_filter #content div.select ul.select-options {
+    size: 40px; }
+
+.fleksi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  @media (max-width: 500px) {
+    .fleksi {
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: start; } }
+
+.filtered {
+  width: 17rem; }
+  @media (max-width: 500px) {
+    .filtered {
+      width: 30px; } }
+
+.changed .select-dropdown:after {
+  content: ''; }
+
 .timeline {
   margin: 0 auto;
   overflow: hidden;
