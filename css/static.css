@@ -2283,7 +2283,7 @@ body #not_authenticated_financial ul.checked > li {
 .date-picker {
   display: inline-block; }
 
-.mobile-select :after {
+.select .mobile-select :after {
   pointer-events: none !important; }
 
 .timeline {
