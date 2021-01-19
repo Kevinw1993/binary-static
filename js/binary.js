@@ -32047,7 +32047,7 @@ var StatementInit = function () {
 
     var initPage = function initPage() {
         Dropdown('#dropdown_statement_filter', true);
-
+        $('.select').after().css('pointer-events', 'none');
         batch_size = 200;
         chunk_size = batch_size / 2;
         no_more_data = false;
