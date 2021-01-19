@@ -32047,11 +32047,6 @@ var StatementInit = function () {
 
     var initPage = function initPage() {
         Dropdown('#dropdown_statement_filter', true);
-        $('.select').css('background-color', 'yellow');
-        $('.select::after').css('background-color', 'yellow');
-        $('.select').after('');
-
-        $('#dropdown_statement_filter').parent().toggleClass('changed');
 
         batch_size = 200;
         chunk_size = batch_size / 2;
