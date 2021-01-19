@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Button, DatePicker, Select } from '../../_common/components/elements.jsx';
+import { Button, DatePicker } from '../../_common/components/elements.jsx';
 import Loading from '../../_common/components/loading.jsx';
 
 const AccountStatisticsBox = ({ id, title, heading, className }) => (
@@ -27,27 +27,21 @@ const Statement = () => (
                 <AccountStatisticsBox id='total_withdrawals' heading={it.L('Total withdrawals')} />
                 <AccountStatisticsBox id='net_deposits'      heading={it.L('Net deposits')} />
             </div>
-            <div id='util_row' className='gr-row gr-padding-10 gr-parent invisible container'>
-                <div className='gr-8'>
-                    <div className='gr-row gr-row-align-left'>
-                        <DatePicker id='date_to' text={it.L('Show all historical transactions up to')} />
-                        <Button id='download_statement_btn' className='button-secondary invisible' text={it.L('Download your statement')} />
-                    </div>
-                </div>
-                <div className='gr-4'>
-                    <div className='gr-row gr-row-align-right gr-row-align-left-m'>
-                        <img src={it.url_for('images/pages/statement/reports-statement-icon-filter-icon.svg')} className = 'dropdown-statement__filter__icon' />
-                        <Select
+            <div id='util_row' className='gr-row gr-padding-20 gr-parent invisible container'>
+                <div className='statement-tool gr-12'>
+                    <DatePicker id='date_to' className='date-picker' text={it.L('Show all historical transactions up to')} />
+                    <Button id='download_statement_btn' className='button-secondary invisible' text={it.L('Download your statement')} />
+                    <div className='filter-container'>
+                        <select
                             className='dropdown-statement__filter'
                             id='dropdown_statement_filter'
-                            options={[
-                                { text: it.L('All'),   value: 'all', selected: true  },
-                                { text: it.L('Buy'),   value: 'buy' },
-                                { text: it.L('Sell'),  value: 'sell' },
-                                { text: it.L('Deposit'),  value: 'deposit' },
-                                { text: it.L('Withdrawal'), value: 'withdrawal' },
-                            ]}
-                        />
+                        >
+                            <option value='all' selected>{it.L('All transactions')}</option>
+                            <option value='buy'>{it.L('Buy')}</option>
+                            <option value='sell'>{it.L('Sell')}</option>
+                            <option value='deposit'>{it.L('Deposit')}</option>
+                            <option value='withdrawal'>{it.L('Withdrawal')}</option>
+                        </select>
                     </div>
                 </div>
                 <div className='gr-12 gr-12-m align-end'>

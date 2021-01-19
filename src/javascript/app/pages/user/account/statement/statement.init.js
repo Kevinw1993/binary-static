@@ -1,3 +1,4 @@
+const Dropdown             = require('@binary-com/binary-style').selectDropdown;
 const StatementUI          = require('./statement.ui');
 const ViewPopup            = require('../../view_popup/view_popup');
 const Client               = require('../../../../base/client');
@@ -141,6 +142,8 @@ const StatementInit = (() => {
     };
 
     const initPage = () => {
+        Dropdown('#dropdown_statement_filter', true);
+        
         batch_size            = 200;
         chunk_size            = batch_size / 2;
         no_more_data          = false;
