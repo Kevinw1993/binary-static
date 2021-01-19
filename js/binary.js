@@ -32048,6 +32048,7 @@ var StatementInit = function () {
     var initPage = function initPage() {
         Dropdown('#dropdown_statement_filter', true);
         $('.select').toggleClass('mobile-select');
+        $('.mobile-select').css({ pointerEvents: 'none' });
 
         batch_size = 200;
         chunk_size = batch_size / 2;
