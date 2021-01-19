@@ -2284,7 +2284,7 @@ body #not_authenticated_financial ul.checked > li {
   display: inline-block; }
 
 .mobile-select :after {
-  pointer-events: none; }
+  pointer-events: none !important; }
 
 .timeline {
   margin: 0 auto;
