@@ -1708,31 +1708,3 @@ body #not_authenticated_financial ul.checked > li {
 #self_exclusion_dialog #dialog_content {
     max-width: 496px;
 }
-
-.statement-tool {
-    display: flex;
-    flex-flow: row;
-    justify-content: space-between;
-    @media (max-width: 804px) {
-        flex-flow: column;
-    }
-}
-
-.filter-container {
-    display: inline-block;
-    width: 15rem;
-    margin-left: 10px;
-
-    @media (max-width: 480px) {
-        width: 75%;
-    }
-
-    @media (max-width: 804px) {
-        margin-top: 10px;
-        margin-left: 0;
-    }
-}
-
-.date-picker {
-    display: inline-block;
-}

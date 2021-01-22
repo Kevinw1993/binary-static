@@ -83,7 +83,6 @@ const StatementInit = (() => {
         if (current_batch.length < batch_size) {
             no_more_data = true;
         }
- 
         if (!tableExist()) {
             StatementUI.createEmptyStatementTable().appendTo('#statement-container');
             $('.act, .credit').addClass('nowrap');
@@ -116,7 +115,6 @@ const StatementInit = (() => {
             };
 
             const p_from_top = $(document).scrollTop();
-            
             if (!tableExist() || p_from_top < hidableHeight(70)) return;
 
             if (finishedConsumed() && !no_more_data && !pending) {
@@ -143,7 +141,6 @@ const StatementInit = (() => {
 
     const initPage = () => {
         Dropdown('#dropdown_statement_filter', true);
-        
         batch_size            = 200;
         chunk_size            = batch_size / 2;
         no_more_data          = false;

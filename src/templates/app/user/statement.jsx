@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button, DatePicker } from '../../_common/components/elements.jsx';
 import Loading from '../../_common/components/loading.jsx';
@@ -28,10 +27,10 @@ const Statement = () => (
                 <AccountStatisticsBox id='net_deposits'      heading={it.L('Net deposits')} />
             </div>
             <div id='util_row' className='gr-row gr-padding-20 gr-parent invisible container'>
-                <div className='statement-tool gr-12'>
-                    <DatePicker id='date_to' className='date-picker' text={it.L('Show all historical transactions up to')} />
+                <div id='statement-tool' className='gr-12'>
+                    <DatePicker id='date_to' className='date-picker-statement' text={it.L('Show all historical transactions up to')} />
                     <Button id='download_statement_btn' className='button-secondary invisible' text={it.L('Download your statement')} />
-                    <div className='filter-container'>
+                    <div id='filter-container'>
                         <select
                             className='dropdown-statement__filter'
                             id='dropdown_statement_filter'
