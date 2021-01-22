@@ -335,11 +335,20 @@
     max-width: 100%;
     width: 72px; }
 
+#page_msg {
+  font-size: 1rem; }
+
+.act_new_account.button-disabled {
+  cursor: not-allowed; }
+
 #new_account_icon {
   background-image: url("../images/pages/metatrader/icons/new_account.svg");
   background-repeat: no-repeat;
   background-position: 18px 6px;
-  padding-left: 48px; }
+  padding-left: 48px;
+  pointer-events: none; }
+  #new_account_icon.disabled {
+    background-image: url("../images/pages/metatrader/icons/new_account_disabled.svg"); }
 
 #mt_download a[data-type=alt-link] {
   cursor: pointer; }
@@ -2249,39 +2258,6 @@ body #not_authenticated_financial ul.checked > li {
 
 #self_exclusion_dialog #dialog_content {
   max-width: 496px; }
-
-.statement-tool {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row;
-          flex-flow: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
-  @media (max-width: 804px) {
-    .statement-tool {
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-flow: column;
-              flex-flow: column; } }
-
-.filter-container {
-  display: inline-block;
-  width: 15rem;
-  margin-left: 10px; }
-  @media (max-width: 480px) {
-    .filter-container {
-      width: 75%; } }
-  @media (max-width: 804px) {
-    .filter-container {
-      margin-top: 10px;
-      margin-left: 0; } }
-
-.date-picker {
-  display: inline-block; }
 
 .timeline {
   margin: 0 auto;
