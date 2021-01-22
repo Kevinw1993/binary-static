@@ -31990,7 +31990,6 @@ var StatementInit = function () {
         if (current_batch.length < batch_size) {
             no_more_data = true;
         }
-
         if (!tableExist()) {
             StatementUI.createEmptyStatementTable().appendTo('#statement-container');
             $('.act, .credit').addClass('nowrap');
@@ -32020,7 +32019,6 @@ var StatementInit = function () {
             };
 
             var p_from_top = $(document).scrollTop();
-
             if (!tableExist() || p_from_top < hidableHeight(70)) return;
 
             if (finishedConsumed() && !no_more_data && !pending) {
@@ -32047,9 +32045,6 @@ var StatementInit = function () {
 
     var initPage = function initPage() {
         Dropdown('#dropdown_statement_filter', true);
-        $('.select').toggleClass('mobile-select');
-        $('.mobile-select').css({ pointerEvents: 'none' });
-
         batch_size = 200;
         chunk_size = batch_size / 2;
         no_more_data = false;
