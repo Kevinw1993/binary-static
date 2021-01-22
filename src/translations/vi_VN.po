@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-static\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-01-04 05:18\n"
+"PO-Revision-Date: 2021-01-20 03:13\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "MIME-Version: 1.0\n"
@@ -30,6 +30,12 @@ msgstr "10"
 
 msgid "404"
 msgstr "404"
+
+msgid " (account created)"
+msgstr " (tài khoản đã được tạo)"
+
+msgid " (unavailable)"
+msgstr " (không khả dụng)"
 
 msgid " All calls are recorded for training and monitoring purposes."
 msgstr " Tất cả các cuộc gọi sẽ được ghi âm với mục đích giám sát và đào tạo."
@@ -554,7 +560,7 @@ msgid "1. Proof of identity"
 msgstr "1. chứng minh nhân thân"
 
 msgid "1. This link was sent by you"
-msgstr ""
+msgstr "1. Đường dẫn được gửi bởi bạn"
 
 msgid "1.5%"
 msgstr "1.5%"
@@ -593,13 +599,13 @@ msgid "2. Selfie with proof of ID"
 msgstr "2. Ảnh tự chụp kèm theo giấy tờ nhận dạng"
 
 msgid "2. Your desktop window stays open"
-msgstr ""
+msgstr "2. Desktop của bạn vẫn đang mở"
 
 msgid "20 – 39.999%"
 msgstr "20 – 39.999%"
 
-msgid "2020 Binary | All rights reserved"
-msgstr "2020 Binary | Đã đăng ký Bản quyền"
+msgid "2021 Binary | All rights reserved"
+msgstr "2021 Binary | Đã đăng ký Bản quyền"
 
 msgid "3.50"
 msgstr "3.50"
@@ -1087,6 +1093,9 @@ msgstr "Thêm /-để xác định một độ lệch giới hạn. Ví dụ, +0
 msgid "Add funds"
 msgstr "Thêm quỹ"
 
+msgid "Add more trade servers"
+msgstr "Thêm các server giao dịch"
+
 msgid "Additional business exposure:"
 msgstr "Sự tiếp xúc kinh doanh bổ sung:"
 
@@ -1230,7 +1239,7 @@ msgid "All credit card details are submitted directly to the Visa/Mastercard net
 msgstr "Mọi chi tiết thẻ tín dụng được chuyển trực tiếp đến hệ thống thẻ Visa/Master sử dụng công nghệ mã hóa SSL mới nhất, tuân theo qui định của ngân hàng."
 
 msgid "All details must be clear — nothing blurry"
-msgstr ""
+msgstr "Mọi chi tiết phải rõ ràng — không bị mờ"
 
 msgid "All durations"
 msgstr "Tất cả thời lượng"
@@ -1305,7 +1314,7 @@ msgid "Allow Clients to use e-wallets, which are not available directly on %1"
 msgstr "Cho phép Khách hàng sử dụng ví điện tử, mà không có trực tiếp trên %1"
 
 msgid "Allow camera access"
-msgstr ""
+msgstr "Cho phép truy cập vào máy quay"
 
 msgid "Allow equals"
 msgstr "Cho phép bằng nhau"
@@ -1374,7 +1383,7 @@ msgid "An eagerness for robust risk management to keep up with the increasing pa
 msgstr "Một sự háo hức mạnh mẽ đối với quản lý rủi ro để theo kịp với tốc độ trao đổi thông tin ngày càng tăng nhanh"
 
 msgid "An error occurred while loading the component"
-msgstr ""
+msgstr "Có lỗi xảy ra khi tải thành phần"
 
 msgid "An excellent command of spoken and written English"
 msgstr "Khả năng xuất sắc trong Tiếng Anh nói và viết"
@@ -1913,9 +1922,6 @@ msgstr "Số Dư Tài Khoản:"
 msgid "Bank statement"
 msgstr "Sao kê ngân hàng"
 
-msgid "Bank wire, credit card, e-wallet"
-msgstr "Chuyển khoản ngân hàng, thẻ tín dụng, ví điện tử"
-
 msgid "Bank wire/Money transfer"
 msgstr "Điện chuyển khoản ngân hàng/Chuyển tiền"
 
@@ -2121,7 +2127,7 @@ msgid "Blogger and vlogger"
 msgstr "Blogger và vlogger"
 
 msgid "Blurry photo detected"
-msgstr ""
+msgstr "Phát hiện ảnh bị mờ"
 
 msgid "Books and records"
 msgstr "Dữ liệu và sổ sách giao dịch"
@@ -2316,16 +2322,16 @@ msgid "Call Spread/Put Spread"
 msgstr "Mua Chênh lệch/Bán Chênh lệch"
 
 msgid "Camera access is denied"
-msgstr ""
+msgstr "Truy cập vào camera đã bị từ chối"
 
 msgid "Camera not detected"
-msgstr ""
+msgstr "Không tìm thấy camera"
 
 msgid "Camera not working"
-msgstr ""
+msgstr "Camera không hoạt động"
 
 msgid "Camera not working?"
-msgstr ""
+msgstr "Camera không hoạt động?"
 
 msgid "Can I offer my referrals an incentive to sign up through my unique affiliate link rather than sign up directly?"
 msgstr "Tôi có thể mời người tôi giới thiệu đăng ký qua đường dẫn liên kết đặc biệt của tôi thay vì đăng ký trực tiếp không?"
@@ -2457,7 +2463,7 @@ msgid "Charting platforms"
 msgstr "Biểu đồ sàn"
 
 msgid "Check back here to finish the submission"
-msgstr ""
+msgstr "Kiểm tra lại tại đây để hoàn tất quá trình gửi"
 
 msgid "Check our systems against the latest attacks, vulnerabilities, and mitigations"
 msgstr "Rà soát hệ thống để chống các cuộc tấn công, giảm nhược điểm, và giảm thiểu các mối nguy cơ"
@@ -2469,19 +2475,19 @@ msgid "Check out the payment methods accepted by the payment agents in the list 
 msgstr "Xem các phương thức thanh toán được chấp nhận trong danh sách dưới đây."
 
 msgid "Check selfie"
-msgstr ""
+msgstr "Kiểm tra ảnh tự chụp"
 
 msgid "Check that it is connected and functional. You can also <fallback>continue verification on your phone</fallback>"
-msgstr ""
+msgstr "Kiểm tra xem nó đã được kết nối và hoạt động chưa. Bạn cũng có thể <fallback>tiếp tục xác minh trên điện thoại của mình</fallback>"
 
 msgid "Check that your number is correct"
-msgstr ""
+msgstr "Kiểm tra xem số của bạn có đúng không"
 
 msgid "Check your image"
-msgstr ""
+msgstr "Hãy kiểm tra ảnh của bạn"
 
 msgid "Check your mobile"
-msgstr ""
+msgstr "Hãy kiểm tra điện thoại của bạn"
 
 msgid "Checked"
 msgstr "Đã kiểm tra"
@@ -2507,11 +2513,14 @@ msgstr "Chọn khoảng được trả và hệ thống của chúng tôi sẽ t
 msgid "Choose a payout from $1 to $50,000."
 msgstr "Chọn khoảng được trả từ $1 tới $50,000."
 
+msgid "Choose a server for your MT5 %1 account:"
+msgstr "Chọn một server cho tài khoản MT5 %1:"
+
 msgid "Choose an account"
 msgstr "Chọn một tài khoản"
 
 msgid "Choose document"
-msgstr ""
+msgstr "Chọn tài liệu"
 
 msgid "Choose from 100+ tradable instruments, backed by award-winning technology and innovation since 2000."
 msgstr "Chọn từ 100+ công cụ có thể giao dịch được, được ủng hộ bởi công nghệ đoạt giải thưởng và đổi mới từ năm 2000."
@@ -2526,7 +2535,7 @@ msgid "Choose from three main trade types:"
 msgstr "Chọn từ ba loại giao dịch chính:"
 
 msgid "Choose one or more cryptocurrency accounts:"
-msgstr "Chọn một hoặc nhiều tài khoản tiền điện tử:"
+msgstr "Chọn một hoặc nhiều tài khoản cryptocurrency:"
 
 msgid "Choose scopes:"
 msgstr "Chọn loại:"
@@ -2621,8 +2630,8 @@ msgstr "Khách hàng đồng ý tuân thủ với các yêu cầu hợp lý củ
 msgid "Clients are also advised that their rights may be prejudiced if they provide the wrong information as the Company would not be in a position to act in their best interests."
 msgstr "Khách hàng cũng được khuyên rằng các quyền của họ có thể sẽ bị giới hạn nếu họ cung cấp thông tin sai sự thật và khi đó Công Ty sẽ không ở vị trí để có thể hành động vì lợi ích tốt nhất cho họ."
 
-msgid "Clients from the rest of the world (excluding certain countries such as the USA, Canada, Hong Kong) will have their FX and CFD Metatrader 5 account opened with Deriv (BVI) Ltd. %1 is not available in the British Virgin Islands."
-msgstr "Khách hàng từ các khu vực còn lại trên thế giới (trừ một số quốc gia như Hoa Kỳ, Canada, Hồng Kông) sẽ có thể mở tài khoản FX và CFD Metatrader 5 với Công Ty TNHH Deriv (BVI). %1 không có sẵn tại quần đảo British Virgin."
+msgid "Clients from the rest of the world (excluding certain countries such as the USA, Canada, Hong Kong) who wish to trade CFDs on financial instruments and cryptocurrencies can have MetaTrader 5 accounts under Deriv (BVI) Ltd. %1 is not available in the British Virgin Islands."
+msgstr "Khách hàng từ phần còn lại của thế giới (không bao gồm một số quốc gia nhất định như Hoa Kỳ, Canada, Hồng Kông) muốn giao dịch CFD trên các công cụ tài chính và tiền điện tử có thể có tài khoản MetaTrader 5 thuộc Deriv (BVI) Ltd. %1 không khả dụng trong Quần đảo British Virgin."
 
 msgid "Clients from the rest of the world (excluding certain countries such as the USA, Canada, Hong Kong) will have their FX and CFD Metatrader 5 account opened with Deriv (V) Ltd. %1 is not available in the Republic of Vanuatu."
 msgstr "Khách hàng từ các khu vực còn lại trên thế giới (trừ một số quốc gia như Hoa Kỳ, Canada, Hồng Kông) sẽ có tài khoản FX và CFD Metatrader 5 mở ra với Deriv (V) Ltd. %1 không có sẵn tại nước Cộng Hòa Vanuatu."
@@ -2691,7 +2700,7 @@ msgid "Close all or any of the client's Open Positions at a closing level that i
 msgstr "Đóng tất cả hoặc bất kỳ Phiên Mở nào của khách hàng ở một mức đóng hợp lý có sẵn"
 
 msgid "Close identity verification screen"
-msgstr ""
+msgstr "Đóng màn hình xác minh danh tính"
 
 msgid "Close my account"
 msgstr "Đóng tài khoản"
@@ -2934,7 +2943,7 @@ msgid "Congratulations! We'll make you a fair and competitive offer, and we don'
 msgstr "Chúc mừng! Chúng tôi sẽ gửi cho bạn một lời mời cạnh tranh công bằng, và chúng tôi không buộc bạn thương lượng để loại bỏ bất bình đẳng lương và căng thẳng công việc."
 
 msgid "Connected to your mobile"
-msgstr ""
+msgstr "Kết nối tới di động của bạn"
 
 msgid "Connecting to server"
 msgstr "Đang kết nối với máy chủ"
@@ -2943,7 +2952,7 @@ msgid "Connection error: Please check your internet connection."
 msgstr "Lỗi kết nối: xin vui lòng kiểm tra kết nối internet của bạn."
 
 msgid "Connection lost"
-msgstr ""
+msgstr "Mất kết nối"
 
 msgid "Consent"
 msgstr "Đồng ý"
@@ -2973,19 +2982,19 @@ msgid "Contact us"
 msgstr "Liên hệ"
 
 msgid "Continue"
-msgstr ""
+msgstr "Tiếp tục"
 
 msgid "Continue on phone"
-msgstr ""
+msgstr "Tiếp tục trên điện thoại"
 
 msgid "Continue on your phone"
-msgstr ""
+msgstr "Tiếp tục trên điện thoại"
 
 msgid "Continue trading"
 msgstr "Tiếp tục giao dịch"
 
 msgid "Continue with the verification"
-msgstr ""
+msgstr "Tiếp tục thực hiện xác minh"
 
 msgid "Continuous Indices – Choose from the Volatility 10 Index, Volatility 25 Index, Volatility 50 Index, Volatility 75 Index, and Volatility 100 Index. These indices correspond to simulated markets with constant volatilities of 10%, 25%, 50%, 75%, and 100% respectively."
 msgstr "Các chỉ số liên tục - chọn từ chỉ số Biến động 10, Biến động 25, Biến động 50, Biến động 75 và Biến động 100. Các chỉ số này đồng phản ứng với các thị trường mô phỏng với các biến động không đổi là 10%, 25%, 50%, 75% và 100%."
@@ -3108,19 +3117,19 @@ msgid "Coordinate with payment system service providers in offering cryptocurren
 msgstr "Phối hợp với các nhà cung cấp dịch vụ hệ thống thanh toán trong việc triển khai tiền điện tử và ví điện tử làm phương pháp thanh toán"
 
 msgid "Copied"
-msgstr ""
+msgstr "Đã sao chép"
 
 msgid "Copy"
-msgstr ""
+msgstr "Sao chép"
 
 msgid "Copy link"
-msgstr ""
+msgstr "Sao chép đường dẫn"
 
 msgid "Copy the link to your mobile browser"
-msgstr ""
+msgstr "Sao chép đường dẫn vào trình duyệt trên điện thoại của bạn"
 
 msgid "Copy the link to your phone"
-msgstr ""
+msgstr "Sao chép đường dẫn vào điện thoại của bạn"
 
 msgid "Copyright"
 msgstr "Bản Quyền"
@@ -3150,7 +3159,7 @@ msgid "Countries report: Displays a list of countries where your clicks are comi
 msgstr "Báo cáo quốc gia: Hiển thị một danh sách các quốc gia nơi các nhấp chuột của bạn đang đến từ"
 
 msgid "Country not found"
-msgstr ""
+msgstr "Không tìm thấy tên quốc gia"
 
 msgid "Country of Residence"
 msgstr "Quốc gia cư trú"
@@ -3342,7 +3351,7 @@ msgid "Customer-centric partnership"
 msgstr "Quan hệ đối tác lấy khách hàng làm trung tâm"
 
 msgid "Cut-off image detected"
-msgstr ""
+msgstr "Phát hiện hình ảnh đã bị chỉnh sửa"
 
 msgid "Cyberjaya"
 msgstr "Cyberjaya"
@@ -3374,11 +3383,17 @@ msgstr "DIEL RTS28 cho năm 2019"
 msgid "DIEL forms part of %1the Investor Compensation Scheme%2 (the \"Scheme\"), which is a rescue fund for investors that are clients of failed investment firms licensed by the MFSA. The Scheme covers 90% of the Company's net liability to a client in respect of investments that qualify for compensation under the Investment Services Act subject to a maximum payment to any one person of €20,000. The Scheme is based on EC Directive 97/9."
 msgstr "DIEL là một phần của %1Đề án Bồi thường cho Nhà đầu tư%2 (\"Đề án\") là quỹ cứu trợ cho các nhà đầu tư, là khách hàng của công ty đầu tư bị thất bại được cấp phép bởi MFSA. Quỹ bao gồm 90% nợ phải trả thuần của Công ty cho khách hàng đối với đầu tư đủ điều kiện được bồi thường theo Luật đầu tư, chi trả tối đa €20,000 cho mỗi người. Đề án này được dựa trên Chỉ thị EC 97/9."
 
+msgid "DIEL has the duty to disclose all the circumstances that are material to the product or services that it provides to the clients before and during the provision of such product and/or service. DIEL is obliged to do so in accordance with its licensed activities."
+msgstr "DIEL có nhiệm vụ tiết lộ tất cả các tình huống cụ thể về sản phẩm hoặc dịch vụ mà họ cung cấp cho khách hàng trước và trong khi cung cấp sản phẩm và/hoặc dịch vụ đó. DIEL có nghĩa vụ làm như vậy để tuân thủ các hoạt động được cấp phép của mình."
+
 msgid "DIEL is a company established in Malta under registration number C70156 and having its registered office at W Business Centre, Level 3, Triq Dun Karm, Birkirkara, BKR 9033, Malta."
 msgstr "DIEL là công ty được thành lập tại Malta theo quy định số C70156 và đăng kí văn phòng tại W Business Centre, Tầng 3, Triq Dun Karm, Birkirkara, BKR 9033, Malta."
 
-msgid "DIEL is authorised and regulated by the Malta Financial Services Authority (\"MFSA\") under the Investment Services Act (Cap. 370, Laws of Malta) (the \"Act\") to carry on investment business. DIEL is authorised by the MFSA to deal on own account (i.e. offer and act as counterparty to trades) and to execute orders on behalf of other clients; both services are in relation to financial derivative products relating to foreign exchange, indices and other financial products or assets (\"Financial Products\"). DIEL is not authorised to and does not offer investment, financial, legal, tax, regulatory, and/or other types of advice or state an opinion in relation to a Transaction under any circumstances. Clients should get independent advice from an investment adviser if they have any doubts about dealing in financial products."
-msgstr "DIEL được ủy quyền và quản lý bởi Cơ Quan Quản Lý Dịch Vụ Tài Chính Malta (\"MFSA\") theo Bộ Luật Dịch Vụ Đầu Tư (Luật số 370 của Malta) (\"Bộ Luật\") để thực hiện các hoạt động đầu tư. DIEL được cho phép bởi MFSA để tự thực hiện các hoạt động của mình (Ví dụ: cung cấp và hoạt động như một đối tác với các giao dịch) và thực hiện các yêu cầu thay mặt cho khách hàng; cả hai dịch vụ đều có liên hệ đến các sản phẩm tài chính có liên quan đến ngoại hối, chỉ số và các sản phẩm khác hoặc các loại tài sản (\"Sản Phẩm Tài Chính\"). DIEL không được ủy quyền và sẽ không cung cấp các tư vấn về đầu tư, tài chính, pháp lý, thuế, quy định và/hoặc bất cứ loại tư vấn nào khác hoặc một ý kiến liên quan đến giao dịch dưới bất kỳ trường hợp nào. Khách hàng nên tìm lời khuyên độc lập từ tư vấn đầu tư nếu họ có bất kỳ lo ngại khi sử dụng các sản phẩm tài chính."
+msgid "DIEL is authorised and regulated by the Malta Financial Services Authority (\"MFSA\") under the Investment Services Act (Cap. 370, Laws of Malta) (the \"Act\") to carry on investment business. It is also authorised and subject to limited regulation by the Financial Conduct Authority in the UK. Details about the extent of our authorisation and regulation by the Financial Conduct Authority are available from us on request. DIEL is authorised by the MFSA to deal on own account (i.e. offer and act as counterparty to trades) and to execute orders on behalf of other clients; both services are in relation to financial derivative products relating to foreign exchange, indices and other financial products or assets (\"Financial Products\"). DIEL is not authorised to and does not offer investment, financial, legal, tax, regulatory, and/or other types of advice or state an opinion in relation to a Transaction under any circumstances. Clients should get independent advice from an investment adviser if they have any doubts about dealing in financial products."
+msgstr "DIEL được ủy quyền và quản lý bởi Cơ quan Dịch vụ Tài chính Malta (\"MFSA\") theo Đạo luật Dịch vụ Đầu tư (Cap. 370, Luật Malta) (\"Đạo luật\") để thực hiện hoạt động kinh doanh đầu tư. Nó cũng được ủy quyền và tuân theo quy định hạn chế của Cơ quan Quản lý Tài chính ở Vương quốc Anh. Chúng tôi cung cấp thông tin chi tiết về phạm vi ủy quyền và quy định của chúng tôi bởi Cơ quan quản lý tài chính theo yêu cầu. DIEL được MFSA ủy quyền để giao dịch trên tài khoản của chính mình (nghĩa là cung cấp và hoạt động như một đối tác để giao dịch) và thực hiện các lệnh thay mặt cho các khách hàng khác; cả hai dịch vụ đều liên quan đến các sản phẩm phái sinh tài chính liên quan đến ngoại hối, chỉ số và các sản phẩm hoặc tài sản tài chính khác (\"Sản phẩm Tài chính\"). DIEL không được ủy quyền và không đưa ra các lời khuyên về đầu tư, tài chính, pháp lý, thuế, quy định và/hoặc các loại khác hoặc nêu ý kiến ​​liên quan đến Giao dịch trong bất kỳ trường hợp nào. Khách hàng nên nhận lời khuyên độc lập từ cố vấn đầu tư nếu họ có bất kỳ nghi ngờ nào về việc kinh doanh các sản phẩm tài chính."
+
+msgid "DIEL is authorised by the MFSA to deal on own account (i.e. offer and act as counterparty to trades) and to execute orders on behalf of other clients; both services are in relation to financial derivative products relating to foreign exchange, indices and other financial products or assets (\"Financial Products\"). DIEL is not authorised to and does not offer investment, financial, legal, tax, regulatory, and/or other types of advice or state an opinion in relation to a Transaction under any circumstances. Clients should get independent advice from an investment adviser if they have any doubts about dealing in financial products."
+msgstr "DIEL được MFSA ủy quyền để giao dịch trên tài khoản của chính mình (nghĩa là cung cấp và hoạt động như một đối tác để giao dịch) và thực hiện các lệnh thay mặt cho các khách hàng khác; cả hai dịch vụ đều liên quan đến các sản phẩm phái sinh tài chính liên quan đến ngoại hối, chỉ số và các sản phẩm hoặc tài sản tài chính khác (\"Sản phẩm Tài chính\"). DIEL không được ủy quyền và không đưa ra các lời khuyên về đầu tư, tài chính, pháp lý, thuế, quy định và/hoặc các loại khác hoặc nêu ý kiến ​​liên quan đến Giao dịch trong bất kỳ trường hợp nào. Khách hàng nên nhận lời khuyên độc lập từ cố vấn đầu tư nếu họ có bất kỳ nghi ngờ nào về việc kinh doanh các sản phẩm tài chính."
 
 msgid "DIEL is entitled under the Rules to rely upon information provided by clients. Clients should ensure that they provide DIEL with accurate and complete information and notify DIEL in the event that any information supplied to DIEL changes. Clients should note that if they provide DIEL with inaccurate information, or if they fail to notify DIEL of any changes to information previously supplied by them, this may adversely affect the quality of the services that DIEL can provide."
 msgstr "Theo Quy tắc, DIEL được phép dựa vào những thông tin được cung cấp bởi khách hàng. Khách hàng nên đảm bảo rằng họ cung cấp cho DIEL các thông tin chính xác và hoàn thiện đồng thời thông báo cho DIEL khi có bất kỳ sự thay đổi thông tin. Xin lưu ý rằng nếu khách hàng cung cấp cho DIEL các thông tin thiếu chính xác, hoặc họ không thông báo cho DIEL về bất kỳ sự thay đổi nào họ tạo ra cho các thông tin đã cung cấp từ trước, điều này có thể gây ảnh hưởng đến chất lượng dịch vụ mà DIEL có thể cung cấp."
@@ -3406,6 +3421,9 @@ msgstr "Giới hạn doanh thu hàng ngày"
 
 msgid "Dash vs US dollar"
 msgstr "Dash vs đô-la Mỹ"
+
+msgid "Dashboard"
+msgstr "Bảng điều khiển"
 
 msgid "Data Analytics"
 msgstr "Phân Tích Dữ Liệu"
@@ -3533,11 +3551,11 @@ msgstr "Gửi tiền và rút tiền của bạn thông qua chuyển khoản ng�
 msgid "Deposit as little as 5 USD to start trading."
 msgstr "Chỉ cần nạp tối thiểu 5 USD để bắt đầu giao dịch."
 
+msgid "Deposit into or withdraw from your real account"
+msgstr "Nạp vào hoặc rút ra từ tài khoản thực của bạn"
+
 msgid "Deposit or withdraw below"
 msgstr "Gửi tiền hoặc rút dưới đây"
-
-msgid "Deposit or withdraw to your account via bank wire, credit card, or e-wallet."
-msgstr "Gửi hay rút tiền qua tài khoản của bạn bằng điện chuyển khoản ngân hàng, thẻ tín dụng hay ví điện tử."
 
 msgid "Deposit: %1 blockchain confirmations"
 msgstr "Đặt cọc: %1 blockchain xác nhận"
@@ -3650,14 +3668,20 @@ msgstr "Công ty TNHH Đầu tư Limited (Châu Âu) tổng hợp giá thầu v
 msgid "Deriv Investments (Europe) Limited and Deriv (Europe) Limited: Malta"
 msgstr "Deriv Investments (Europe) Limited và Deriv (Europe) Limited: Malta"
 
+msgid "Deriv Investments (Europe) Limited is a company established in Malta, at W Business Centre, Level 3, Triq Dun Karm, Birkirkara BKR 9033. It is licensed in Malta and regulated by the Malta Financial Services Authority, Triq l-Imdina, Zone 1, Central Business District, Birkirkara CBD 1010, Malta, under the Investments Services Act to provide investment services in the European Union."
+msgstr "Deriv Investments (Europe) Limited là một công ty được thành lập tại Malta, tại Trung tâm Kinh doanh W, Tầng 3, Triq Dun Karm, Birkirkara BKR 9033. Nó được cấp phép tại Malta và được quản lý bởi Cơ quan Dịch vụ Tài chính Malta, Triq l-Imdina, Khu 1 , Khu Thương mại Trung tâm, Birkirkara CBD 1010, Malta, theo Đạo luật Dịch vụ Đầu tư để cung cấp dịch vụ đầu tư tại Liên minh Châu Âu."
+
 msgid "Deriv Investments (Europe) Limited is entitled to provide services in another EU Member State through EU passporting rights. Refer to the map below for the list of EU countries that have access to %1 via EU passporting rights - freedom to provide cross border services."
 msgstr "Đầu tư Deriv Limited (Châu Âu) được quyền cung cấp các dịch vụ trong một quốc gia thành viên EU thông qua EU passporting quyền. Xem bản đồ dưới đây cho danh sách các quốc gia châu Âu có quyền truy cập vào %1 thông qua EU passporting quyền - quyền tự do để cung cấp các dịch vụ qua biên giới."
 
 msgid "Deriv Investments (Europe) Limited is required to collect your tax information."
 msgstr "Công ty TNHH Đầu tư Deriv Limited (Châu Âu) được yêu cầu để thu thập thông tin thuế của bạn."
 
-msgid "Deriv Investments (Europe) Limited, W Business Centre, Level 3, Triq Dun Karm, Birkirkara, BKR 9033, Malta. Licensed and regulated as a Category 3 Investment Services provider by the Malta Financial Services Authority (%1licence no. IS/70156%2)."
-msgstr "Công Ty TNHH Đầu tư Deriv Limited (Châu Âu), W Business Centre, Level 3, Triq Dun Karm, Birkirkara, BKR 9033, Malta. Được cấp phép và quy định như là một nhà cung cấp dịch vụ đầu tư loại 3 bởi cơ quan dịch vụ tài chính Malta (%1giấy phép số. IS/70156%2)."
+msgid "Deriv Investments (Europe) Limited, W Business Centre, Level 3, Triq Dun Karm, Birkirkara BKR 9033, Malta, is licensed in Malta and authorised by the Malta Financial Services Authority under the Investments Services Act to provide investment services in the European Union."
+msgstr "Deriv Investments (Europe) Limited, W Business Center, Tầng 3, Triq Dun Karm, Birkirkara BKR 9033, Malta, được cấp phép tại Malta và được Cơ quan Dịch vụ Tài chính Malta ủy quyền theo Đạo luật Dịch vụ Đầu tư để cung cấp dịch vụ đầu tư tại Liên minh Châu Âu."
+
+msgid "Deriv Investments (Europe) Limited, W Business Centre, Level 3, Triq Dun Karm, Birkirkara BKR 9033, Malta, is licensed in Malta and regulated by the Malta Financial Services Authority under the Investments Services Act to provide investment services in the European Union (%1licence no. IS/70156%2). It is also authorised and subject to limited regulation by the Financial Conduct Authority in the UK. Details about the extent of our authorisation and regulation by the Financial Conduct Authority are available from us on request."
+msgstr "Deriv Investments (Europe) Limited, W Business Center, Tầng 3, Triq Dun Karm, Birkirkara BKR 9033, Malta, được cấp phép tại Malta và được Cơ quan Dịch vụ Tài chính Malta quản lý theo Đạo luật Dịch vụ Đầu tư để cung cấp dịch vụ đầu tư tại Liên minh Châu Âu (%1giấy phép số IS/70156%2). Nó cũng được ủy quyền và tuân theo quy định hạn chế của Cơ quan Quản lý Tài chính ở Vương quốc Anh. Chúng tôi cung cấp thông tin chi tiết về mức độ ủy quyền và quy định của chúng tôi bởi Cơ quan quản lý tài chính theo yêu cầu."
 
 msgid "Deriv Investments (Europe) Limited, or"
 msgstr "Công ty Đầu tư Deriv Limited (Châu Âu), hoặc"
@@ -3774,7 +3798,7 @@ msgid "Discover what’s new"
 msgstr "Tìm hiểu những dịch vụ mới"
 
 msgid "Dismiss alert"
-msgstr ""
+msgstr "Tắt cảnh bảo"
 
 msgid "Display your proof of address when prompted."
 msgstr "Hiển thị chứng minh địa chỉ khi được hỏi."
@@ -3834,7 +3858,7 @@ msgid "Document and administer database policies, procedures, and standards"
 msgstr "Các chính sách, quy trình và tiêu chuẩn cho tài liệu và quản trị cơ sở dữ liệu"
 
 msgid "Document example"
-msgstr ""
+msgstr "Ví dụ về tài liệu"
 
 msgid "Document our current and intended future systems and software architecture"
 msgstr "Lưu giữ cấu trúc hệ thống cùng phần mềm hiện tại và tương lai của chúng tôi"
@@ -3843,16 +3867,16 @@ msgid "Document submission status"
 msgstr "Tình trạng nộp tài liệu"
 
 msgid "Document uploaded"
-msgstr ""
+msgstr "Tài liệu đã được tải lên"
 
 msgid "Documents from that country are not currently supported — <fallback>try another document type</fallback>"
-msgstr ""
+msgstr "Tài liệu từ quốc gia này hiện tại chưa được hỗ trợ — <fallback>thử loại tài liệu khác</fallback>"
 
 msgid "Documents uploaded"
-msgstr ""
+msgstr "Tài liệu đã được tải lên"
 
 msgid "Documents you can use to verify your identity"
-msgstr ""
+msgstr "Các tài liệu bạn có thể sử dụng để xác minh danh tính"
 
 msgid "Does Not Touch"
 msgstr "Không Chạm"
@@ -3864,7 +3888,7 @@ msgid "Don't have a %1 account yet?"
 msgstr "Không có tài khoản %1?"
 
 msgid "Don't refresh this page"
-msgstr ""
+msgstr "Đừng làm mới trang này"
 
 msgid "Don't share your %1 account or payment methods with any other person."
 msgstr "Không chia sẻ tài khoản %1 hoặc các phương thức thanh toán của bạn với bất kỳ người nào khác."
@@ -3912,7 +3936,7 @@ msgid "Drive rapid growth and business development to support the company's sale
 msgstr "Thúc đẩy tăng trưởng nhanh chóng và phát triển kinh doanh để hỗ trợ cho các mục tiêu bán hàng và tiếp thị của công ty"
 
 msgid "Driver's license"
-msgstr ""
+msgstr "Giấy phép lái xe"
 
 msgid "Driving licence"
 msgstr "Giấy phép lái xe"
@@ -3937,6 +3961,9 @@ msgstr "Các kiến trúc tiêu biểu của Dubai bao gồm tòa nhà ca
 
 msgid "Dubai, United Arab Emirates"
 msgstr "Dubai, Tiểu Vương Quốc Ả-rập"
+
+msgid "Due to an issue on our server, some of your MT5 accounts are unavailable at the moment. %1Please bear with us and thank you for your patience."
+msgstr "Do vấn đề với máy chủ, một số tài khoản MT5 của bạn không khả dụng bây giờ. %1Vui lòng thông cảm cho chúng tôi và cảm ơn sự kiên nhẫn của bạn."
 
 msgid "Due to market volatility and gold's reputation as a safe-haven asset, you predict that the price of gold will rise."
 msgstr "Do thị trường biến động và danh tiếng của vàng như là một tài sản vô cùng an toàn, bạn dự đoán rằng giá vàng sẽ tăng lên."
@@ -4125,7 +4152,7 @@ msgid "Enable %1two-factor authentication%2 on your account."
 msgstr "Kích hoạt %1 Xác thực 2 yếu tố %2 trên tài khoản của bạn."
 
 msgid "Enable camera"
-msgstr ""
+msgstr "Bật camera"
 
 msgid "Enable two-factor authentication for an extra layer of security."
 msgstr "Kích hoạt xác thực 2 yếu tố cho thêm lớp bảo mật."
@@ -4179,7 +4206,7 @@ msgid "Enjoy our fastest type of trading with our Tick Trade app, wherever you a
 msgstr "Trải nghiệm phương thức giao dịch nhanh nhất với ứng dụng giao dịch Tick Trade của chúng tôi, dù bạn ở bất cứ đâu."
 
 msgid "Enlarge image"
-msgstr ""
+msgstr "Phóng to hình ảnh"
 
 msgid "Ensure that your original documents are ready when the video call starts"
 msgstr "Đảm bảo rằng tài liệu gốc của bạn đã sẵn sàng trước khi bắt đầu cuộc gọi video"
@@ -4191,7 +4218,7 @@ msgid "Ensure the integrity of releases by coordinating testing activities"
 msgstr "Đảm bảo sự toàn vẹn của mỗi bản phát hành bằng cách phối hợp với các hoạt động thử nghiệm"
 
 msgid "Enter mobile number"
-msgstr ""
+msgstr "Nhập số điện thoại"
 
 msgid "Enter payment agent ID"
 msgstr "Nhập ID của đại lý thanh toán"
@@ -4203,7 +4230,7 @@ msgid "Enter your email"
 msgstr "Nhập địa chỉ email của bạn"
 
 msgid "Enter your mobile number:"
-msgstr ""
+msgstr "Nhập số điện thoại của bạn:"
 
 msgid "Entertainment"
 msgstr "Giải trí"
@@ -4320,13 +4347,13 @@ msgid "Everyone else can use the FIX API to connect to our One Zero bridge – s
 msgstr "Tất cả mọi người khác có thể sử dụng FIX API để kết nối tới cầu One Zero của chúng tôi - tùy thuộc vào một bài kiểm tra về sự phù hợp."
 
 msgid "Example of a blurry document"
-msgstr ""
+msgstr "Ví dụ về giấy tờ bị mờ"
 
 msgid "Example of a cut-off document"
-msgstr ""
+msgstr "Ví dụ về tài liệu bị khuyết"
 
 msgid "Example of a document with glare"
-msgstr ""
+msgstr "Ví dụ của tài liệu bị lóa"
 
 msgid "Example:"
 msgstr "Ví dụ:"
@@ -4629,10 +4656,10 @@ msgid "FXOpen"
 msgstr "FXOpen"
 
 msgid "Face forward and make sure your eyes are clearly visible"
-msgstr ""
+msgstr "Hướng về phía trước và đảm bảo rằng mắt bạn hiện rõ"
 
 msgid "Face photo page"
-msgstr ""
+msgstr "Trang ảnh khuôn mặt"
 
 msgid "Facility that allows you to set limits on your account."
 msgstr "Tiện ích cho phép bạn thiết lập giới hạn cho tài khoản của mình."
@@ -4700,8 +4727,8 @@ msgstr "Tháng Hai"
 msgid "February"
 msgstr "Tháng Hai"
 
-msgid "Feel free to contact our friendly and helpful customer service experts. They're always available to answer your questions. You can contact us via email and telephone."
-msgstr "Đừng ngại ngần liên hệ với các chuyên gia chăm sóc khách hàng tử tế và thân thiện của chúng tôi. Họ luôn luôn sẵn sàng trả lời mọi câu hỏi của bạn. Bạn có thể liên hệ với chúng tôi qua email và qua điện thoại."
+msgid "Feel free to contact our friendly and helpful customer service experts. They're always available to answer your questions. You can contact us via live chat."
+msgstr "Vui lòng liên hệ với các chuyên gia chăm sóc khách hàng thân thiện và hữu ích của chúng tôi. Họ luôn sẵn sàng trả lời câu hỏi của bạn. Bạn có thể liên hệ với chúng tôi qua trò chuyện trực tiếp."
 
 msgid "Feel free to get in touch with us at %1. We'd love to hear from you."
 msgstr "Đừng ngại liên lạc với chúng tôi tại %1. Chúng tôi rất vui khi nhận được các phản hồi của bạn."
@@ -4731,16 +4758,16 @@ msgid "File Name"
 msgstr "Tên tệp tin"
 
 msgid "File not uploaded."
-msgstr ""
+msgstr "Tập tin chưa được tải lên."
 
 msgid "File records and documents of customer interactions according to existing guidelines"
 msgstr "Hồ sơ tệp và tài liệu về tương tác của khách hàng theo nguyên tắc hiện tại"
 
 msgid "File size exceeded."
-msgstr ""
+msgstr "Tệp quá giới hạn."
 
 msgid "File type not supported"
-msgstr ""
+msgstr "Loại file không được hỗ trợ"
 
 msgid "Filtering Controls"
 msgstr "Điều khiển bộ lọc"
@@ -4785,7 +4812,7 @@ msgid "Financial assessment"
 msgstr "Đánh giá tài chính"
 
 msgid "Financial concerns"
-msgstr "Các thắc mắc tài chính"
+msgstr ""
 
 msgid "Financial derivatives that allow you to trade on the movement of underlying assets."
 msgstr "Phái sinh tài chính cho phép bạn giao dịch trên sự di chuyển tài sản cơ bản."
@@ -4854,7 +4881,7 @@ msgid "Follow the law and these Terms"
 msgstr "Tuân thủ Luật và những Điều khoản sau đây"
 
 msgid "Follow these steps to recover camera access:"
-msgstr ""
+msgstr "Làm theo các bước sau để khôi phục quyền truy cập máy ảnh:"
 
 msgid "Follow up on the recommendations and timeline for corrective actions with department heads"
 msgstr "Theo dõi trên các khuyến nghị và thời gian cho các hành động khắc phục với lãnh đạo các phòng ban"
@@ -5013,7 +5040,7 @@ msgid "Front Side"
 msgstr "Mặt trước"
 
 msgid "Front and back"
-msgstr ""
+msgstr "Trước và sau"
 
 msgid "Front side"
 msgstr "Mặt trước"
@@ -5114,20 +5141,17 @@ msgstr "Tỷ lệ hoa hồng cao"
 msgid "Get %1"
 msgstr "Có thêm %1"
 
-msgid "Get 10,000.00 USD"
-msgstr "Nhận 10,000.00 USD"
-
 msgid "Get Started"
 msgstr "Bắt đầu"
 
 msgid "Get link via SMS"
-msgstr ""
+msgstr "Nhận đường dẫn qua SMS"
 
 msgid "Get out of the city centre and enjoy the serenity of island life free from the excesses of commercialisation. Friendly, helpful locals are also never far off."
 msgstr "Hãy ra khỏi trung tâm thành phố và tận hưởng sự thanh thản của cuộc sống trên đảo, tránh xa những bộn bề âu lo. Những người dân địa phương thân thiện và đáng mến đang chờ đón bạn."
 
 msgid "Get secure link"
-msgstr ""
+msgstr "Nhận đường dẫn an toàn"
 
 msgid "Get started with MT5"
 msgstr "Bắt đầu với MT5"
@@ -5136,7 +5160,7 @@ msgid "Get your price"
 msgstr "Hãy định giá của bạn"
 
 msgid "Get your secure link"
-msgstr ""
+msgstr "Nhận đường dẫn bảo mật của bạn"
 
 msgid "Getting Started"
 msgstr "Bắt Đầu"
@@ -5148,7 +5172,7 @@ msgid "Given the Company's role as a Margin trading service provider as describe
 msgstr "Vai trò của Công Ty như là một nhà cung cấp dịch vụ kinh doanh ký quỹ như đã được mô tả trong Thỏa Thuận, Công Ty tìm cách tránh các thị trường thái quá ảnh hưởng đến mức độ phù hợp với nhu cầu giao dịch của khách hàng và chính sách quản lý rủi ro cũng như thủ tục kinh doanh của Công Ty. Bằng việc tiếp tục sử dụng dịch vụ kinh doanh ký quỹ đã được mô tả trong Thỏa Thuận này, khách hàng đồng ý rằng họ đã nhận ra khả năng mâu thuẫn lợi ích có thể phát sinh và không thể bị loại bỏ hoàn toàn, và họ đồng ý với Công Ty và tiếp tục hoạt động bất chấp mâu thuẫn về lợi ích."
 
 msgid "Glare detected"
-msgstr ""
+msgstr "Đã phát hiện lóa"
 
 msgid "Global Banking & Finance Awards"
 msgstr "Giải Thưởng Ngân Hàng Và Tài Chính Toàn Cầu"
@@ -5193,13 +5217,13 @@ msgid "Go to statement"
 msgstr "Xem sao kê"
 
 msgid "Go to the %1Cashier%2 to withdraw funds from your %3 accounts."
-msgstr "Đi đến %1Thu Ngân%2 để rút vốn từ tài khoản %3 của bạn."
+msgstr ""
 
 msgid "Go to the %1MT5 dashboard%2 to withdraw funds from your Binary.com MT5 account."
-msgstr "Đi đến %1Bảng điều khiển MT5%2 để rút vốn từ tài khoản Binary.com MT5 của bạn."
+msgstr ""
 
 msgid "Go to the %1portfolio page%2 to close all open positions from your Binary.com accounts."
-msgstr "Đi đến %1trang danh mục đầu tư%2 để đóng các giao dịch mở từ các tài khoản Binary.com của bạn."
+msgstr ""
 
 msgid "Go with the leader"
 msgstr "Đồng hành cùng đơn vị giao dịch hàng đầu"
@@ -5238,13 +5262,13 @@ msgid "Government Officers"
 msgstr "Các nhân viên chính phủ"
 
 msgid "Grant access to your camera from your browser settings"
-msgstr ""
+msgstr "Cấp quyền truy cập vào máy ảnh của bạn từ cài đặt trình duyệt"
 
 msgid "Graphics Designer"
 msgstr "Nhân Viên Thiết Kế Đồ Họa"
 
 msgid "Great, that's everything we need"
-msgstr ""
+msgstr "Rất tốt, đó là tất cả những gì chúng tôi cần"
 
 msgid "Group History"
 msgstr "Lịch Sử Công Ty"
@@ -5298,7 +5322,7 @@ msgid "Here's an example of the EUR/USD currency pair and its bid-ask price:"
 msgstr "Dưới đây là một ví dụ về các cặp tiền tệ EUR/USD và giá mua vào - bán ra của nó:"
 
 msgid "Here's how to do it:"
-msgstr ""
+msgstr "Sau đây là cách thực hiện:"
 
 msgid "Here, you can set and adjust the amount of money and time you spend trading on SmartTrader, WebTrader, and Binary Bot. Setting your limits is optional and you can adjust them at any time. If you don’t wish to set a specific limit, leave the field blank."
 msgstr "Tại đây, bạn có thể thiết lập hoặc tùy chỉnh số tiền và thời gian bạn giao dịch trên SmartTrader, WebTrader, và Binary Bot. Việc thiết lập giới hạn là tùy thuộc vào bạn và bạn có thể thay đổi chúng bất kỳ lúc nào. Nếu bạn không muốn đặt ra một giới hạn nhất định, hãy để trống ô giới hạn."
@@ -5439,7 +5463,7 @@ msgid "How to read the table above"
 msgstr "Làm thế nào để đọc bảng trên"
 
 msgid "How to scan a QR code"
-msgstr ""
+msgstr "Cách quét mã QR"
 
 msgid "How to trade CFDs"
 msgstr "Làm thế nào để giao dịch các hợp đồng CFD"
@@ -5491,34 +5515,34 @@ msgid "I hereby confirm that the tax information I provided is true and complete
 msgstr "Tôi xin xác nhận rằng thông tin thuế tôi cung cấp là đúng sự thật và đầy đủ. Tôi cũng sẽ thông báo cho Công ty TNHH Đầu tư Binary Limited (Châu Âu) về bất kỳ thay đổi nào để thông tin này."
 
 msgid "I want to change my affiliate instead"
-msgstr "Tôi muốn thay đổi bên liên kết của mình"
+msgstr ""
 
 msgid "I want to change my currency instead"
-msgstr "Tôi muốn thay đổi đơn vị tiền tệ của mình"
+msgstr ""
 
 msgid "I want to close my account"
-msgstr "Tôi muốn đóng tài khoản của mình"
+msgstr ""
 
 msgid "I want to limit my trading activity instead"
-msgstr "Tôi muốn giới hạn các hoạt động giao dịch của mình"
+msgstr ""
 
 msgid "I want to open a cryptocurrency account instead"
-msgstr "Tôi muốn mở một tài khoản tiền điện tử"
+msgstr ""
 
 msgid "I want to open a fiat currency account instead"
-msgstr "Tôi muốn mở một tài khoản tiền pháp định"
+msgstr ""
 
 msgid "I want to open a real account instead"
-msgstr "Tôi muốn mở một tài khoản thực"
+msgstr ""
 
 msgid "I want to open another cryptocurrency account instead"
-msgstr "Tôi muốn mở một tài khoản tiền điện tử khác"
+msgstr ""
 
 msgid "I want to reapply"
 msgstr "Tôi muốn nộp đơn xin lại"
 
 msgid "I want to set my currency instead"
-msgstr "Tôi muốn đặt đơn vị tiền tệ"
+msgstr ""
 
 msgid "I would like to be treated as a professional client."
 msgstr "Tôi muốn được đối xử như một khách hàng chuyên nghiệp."
@@ -5617,7 +5641,7 @@ msgid "If force majeure events last for more than 30 business days, the Party no
 msgstr "Nếu kháng sự kiện kéo dài trong hơn 30 ngày làm việc, các bên không bị kháng các sự kiện có thể chấm dứt thỏa thuận này ngay lập tức."
 
 msgid "If it doesn’t work, download a QR code scanner from Google Play or the App Store"
-msgstr ""
+msgstr "Nếu không hoạt động, tải một mã quét QR từ Google Play hoặc the App Store"
 
 msgid "If such documents expire, the Company reserves the right to request updated documentation."
 msgstr "Nếu các tài liệu trên hết hạn, Công Ty có quyền yêu cầu bản cập nhật của các tài liệu đó."
@@ -5779,7 +5803,7 @@ msgid "If you have a payment reference (for example 122), you can enter it here.
 msgstr "Nếu bạn có một con số thanh toán tham khảo (Ví dụ như 122), bạn có thể nhập chúng tại đây."
 
 msgid "If you have opened positions in your MT5 account, please close them too."
-msgstr "Nếu bạn có các giao dịch mở trong tài khoản MT5 của mình, xin hãy đảm báo chúng đã được đóng."
+msgstr ""
 
 msgid "If you keep any positions open overnight, an interest adjustment will be made to your trading account as indication of the cost required to keep your position open."
 msgstr "Nếu bạn giữ cho bất kỳ phiên mở nào qua đêm, điều chỉnh lãi suất sẽ được thực hiện cho tài khoản giao dịch như là một dấu hiệu của các chi phí cần thiết để giữ phiên của bạn mở."
@@ -5792,6 +5816,9 @@ msgstr "Nếu bạn cần trợ giúp, vui lòng liên hệ với đội ngũ %1
 
 msgid "If you reside in the UK and are considering self-exclusion, you may wish to register with GAMSTOP."
 msgstr "Nếu bạn cư trú tại Vương quốc Anh và đang xem xét việc tự loại trừ, bạn có thể muốn đăng ký với GAMSTOP."
+
+msgid "If you reside in the UK and you are unhappy with our response you may escalate your complaint to the %1Financial Ombudsman Service%2."
+msgstr "Nếu bạn cư trú tại Vương quốc Anh và bạn không hài lòng với phản hồi của chúng tôi, bạn có thể chuyển khiếu nại của mình lên %1Dịch vụ thanh tra Financial%2."
 
 msgid "If you score well in the hackathon or talent test, we'll send you a Self-Assessment Topgrading Interview (SATI) questionnaire. Do well on the SATI and we'll invite you for an interview with a member of our recruitment team."
 msgstr "Nếu bạn có điểm tốt trong hackathon hoặc kiểm tra tài năng, chúng tôi sẽ gửi cho bạn một bảng câu hỏi phỏng vấn tự đánh giá điểm hàng đầu (SATI). Làm tốt trên SATI và chúng tôi sẽ mời bạn cho một cuộc phỏng vấn với một nhân viên của chúng tôi."
@@ -5908,7 +5935,7 @@ msgid "If you select a specific <strong>end time</strong>, the <strong>end time<
 msgstr "Nếu bạn chọn <strong>thời gian kết thúc cụ thể</strong>, <strong>thời gian kết thúc</strong> là thời gian đã được lựa chọn."
 
 msgid "If you want to change your affiliate, contact %1partners@binary.com%2 for more information on how you can do this."
-msgstr "Nếu bạn muốn thay đổi Liên kết của mình, hãy liên hệ với %1partners@binary.com%2 để biết thêm thông tin về cách thức thực hiện."
+msgstr ""
 
 msgid "If you wish to reduce or remove the self-exclusion period, contact our %1Customer Support%1."
 msgstr "Nếu bạn muốn giảm hoặc xóa khoảng thời gian tự loại trừ, hãy liên hệ với %1Bộ phận hỗ trợ khách hàng%1."
@@ -6331,6 +6358,9 @@ msgstr "Đồng ý rằng vào Ngày Khởi Đầu của Thỏa Thuận này và
 msgid "It is agreed that the Company shall not be responsible or liable for any matter arising out of or in relation to the use and operation of any website owned or used by the Agent. It is understood that the Agent shall indemnify the Company for all and any losses that the Company may suffer arising out of, or in relation to the use or operations of any website used or owned by the Agent."
 msgstr "Đồng ý rằng công ty sẽ không chịu trách nhiệm hoặc chịu trách nhiệm về bất kỳ vấn đề nào phát sinh từ trên hoặc liên quan đến việc sử dụng hoặc hoạt động nào của bất kỳ trang web thuộc sở hữu hoặc sử dụng nào của các đại lý. Chúng tôi hiểu rõ rằng các đại lý sẽ bồi thường cho công ty cho tất cả và bất kỳ thiệt hại mà các công ty có thể bị phát sinh ra của, hoặc liên quan đến việc sử dụng hoặc hoạt động của bất kỳ trang web nào được sử dụng hoặc thuộc sở hữu của các đại lý."
 
+msgid "It is also authorised and subject to limited regulation by the Financial Conduct Authority in the UK. Details about the extent of our authorisation and regulation by the Financial Conduct Authority are available from us on request."
+msgstr "Công ty cũng được ủy quyền và tuân theo quy định hạn chế của Cơ quan Quản lý Tài chính ở Vương quốc Anh. Chúng tôi cung cấp thông tin chi tiết về phạm vi ủy quyền và quy định bởi Cơ quan quản lý tài chính theo yêu cầu."
+
 msgid "It is further agreed and understood that the Agent shall not use any domain name that includes the name %1 and any derivation or variation of this name that might give the impression that the Company and the Agent are the same person."
 msgstr "Đồng ý và hiểu rằng Đại lý sẽ không sử dụng bất kỳ tên miền nào có tên %1 và bất kỳ dẫn xuất hoặc biến thể nào của tên này có thể tạo ấn tượng rằng Công Ty và Đại Lý là cùng một Người."
 
@@ -6368,16 +6398,16 @@ msgid "It is the responsibility of each client to read and understand this legal
 msgstr "Mỗi khách hàng có trách nhiệm đọc và hiểu thông báo pháp lý này và các điều khoản và điều kiện (\"Điều khoản\") theo đó điều chỉnh việc mua lại các hợp đồng tài chính qua trang web này."
 
 msgid "It may be disconnected. <fallback>Try using your phone instead</fallback>."
-msgstr ""
+msgstr "Máy ảnh có thể bị ngắt kết nối. <fallback>Thử dùng điện thoại thay thế</fallback>."
 
 msgid "It may take a few minutes to arrive"
-msgstr ""
+msgstr "Sẽ mất vài phút để chuyển dữ liệu"
 
 msgid "It must be an official photo ID"
-msgstr ""
+msgstr "Cần phải có một ảnh ID chính thức"
 
 msgid "It will only take a couple of minutes."
-msgstr ""
+msgstr "Việc này sẽ chỉ mất vài phút."
 
 msgid "It's completely free to join our IB programme. We've never charged a fee and we never will."
 msgstr "Tham gia chương trình IB của chúng tôi là hoàn toàn miễn phí. Chúng tôi đã không bao giờ tính một khoản phí và chúng tôi sẽ không bao giờ làm vậy."
@@ -6392,7 +6422,7 @@ msgid "Item"
 msgstr "Hạng mục"
 
 msgid "It’ll take longer to verify you if we can’t read it"
-msgstr ""
+msgstr "Sẽ mất nhiều thời gian để xác minh nếu chúng tôi không đọc được tài liệu"
 
 msgid "J. Electronic trading platform and transactions"
 msgstr "J. Nền tảng kinh doanh và giao dịch điện tử"
@@ -6449,7 +6479,7 @@ msgid "Keep safe"
 msgstr "Giữ an toàn"
 
 msgid "Keep this window open while using your mobile"
-msgstr ""
+msgstr "Để mở cửa sổ trình duyệt này khi bạn đang sử dụng điện thoại"
 
 msgid "Keep track of your authorised applications."
 msgstr "Theo dõi liên tục các ứng dụng được cho phép của bạn."
@@ -6722,7 +6752,7 @@ msgid "Link to and direct the Company's clients to the Programmer's Application.
 msgstr "Đường dẫn và chuyển tiếp các khách hàng của Công Ty đến Ứng Dụng của Lập Trình Viên."
 
 msgid "Linked to your computer"
-msgstr ""
+msgstr "Kết nối với máy tính của bạn"
 
 msgid "Links"
 msgstr "Các liên kết"
@@ -6761,10 +6791,10 @@ msgid "Living on an island paradise has its perks. Labuan is one of those rare g
 msgstr "Cuộc sống ở một hòn đảo thiên đường thực là một đặc quyền. Labuan là một trong nhưng viên đá quý mà vẫn chưa bị qua thương mại hóa quá mức nên vẫn giữ được hình ảnh của một thị trấn nhỏ đầy quyến rũ và một cộng đồng gắn bó chăt chẽ. Labuan chào đón du khách tới quanh năm nhờ hòn đảo này có khí hậu ôn hòa khắp các mùa, với nhiệt độ hàng ngày trung bình từ 28 đến 32 độ C."
 
 msgid "Loading"
-msgstr ""
+msgstr "Đang tải"
 
 msgid "Loading..."
-msgstr ""
+msgstr "Đang tải..."
 
 msgid "Located 10 minutes away, Malaysia's intelligent garden city offers stunning greenery and exquisite structures."
 msgstr "Nằm cách đó 10 phút, các công viên thông minh xanh của Malaysia cung cấp cảnh quan tuyệt đẹp và các cấu trúc tinh tế."
@@ -6818,7 +6848,7 @@ msgid "Looking for the %1 Desktop app?"
 msgstr "Bạn đang tìm %1 ứng dụng desktop?"
 
 msgid "Looks like you took too long"
-msgstr ""
+msgstr "Dường như bạn đã mất quá nhiều thời gian"
 
 msgid "Loss"
 msgstr "Thua lỗ"
@@ -6977,43 +7007,43 @@ msgid "Make another transfer"
 msgstr "Tạo một chuyển khoản khác"
 
 msgid "Make sure all of the document is in the photo"
-msgstr ""
+msgstr "Hãy đảm bảo tất cả các tài liệu đã có ở trong ảnh"
 
 msgid "Make sure details are clear to read, with no blur or glare"
-msgstr ""
+msgstr "Đảm bảo rằng các chi tiết rõ ràng, không bị mờ hoặc lóa"
 
 msgid "Make sure everything is clear"
-msgstr ""
+msgstr "Đảm bảo mọi thứ rõ ràng"
 
 msgid "Make sure full document is visible"
-msgstr ""
+msgstr "Đảm bảo hiển thị toàn bộ tài liệu"
 
 msgid "Make sure that production and publication of content are technically accurate, well-written, and easily understandable"
 msgstr "Đảm bảo rằng việc sản xuất và xuất bản nội dung chính xác về mặt kỹ thuật, trình bày tốt và dễ hiểu"
 
 msgid "Make sure your card details are clear to read, with no blur or glare"
-msgstr ""
+msgstr "Đảm bảo rằng các chi tiết trên thẻ của bạn rõ ràng, không bị mờ hoặc lóa"
 
 msgid "Make sure your device has a working camera"
-msgstr ""
+msgstr "Đảm bảo thiết bị của bạn có camera đang hoạt động"
 
 msgid "Make sure your device's camera works"
-msgstr ""
+msgstr "Đảm bảo máy quay trên điện thoại của bạn vẫn hoạt động"
 
 msgid "Make sure your license details are clear to read, with no blur or glare"
-msgstr ""
+msgstr "Đảm bảo rằng các chi tiết trên giấy phép của bạn rõ ràng, không bị mờ hoặc lóa"
 
 msgid "Make sure your passport details are clear to read, with no blur or glare"
-msgstr ""
+msgstr "Đảm bảo rằng các chi tiết trên hộ chiếu của bạn rõ ràng, không bị mờ hoặc lóa"
 
 msgid "Make sure your permit details are clear to read, with no blur or glare"
-msgstr ""
+msgstr "Đảm bảo rằng các chi tiết trên giấy phép của bạn rõ ràng, không bị mờ hoặc lóa"
 
 msgid "Make sure your selfie clearly shows your face"
-msgstr ""
+msgstr "Đảm bảo ảnh tự chụp của bạn hiển thị rõ ràng khuôn mặt của bạn"
 
 msgid "Make sure§"
-msgstr ""
+msgstr "Hãy đảm bảo§"
 
 msgid "Make your trade"
 msgstr "Giao dịch"
@@ -7400,10 +7430,13 @@ msgid "Mother's maiden name"
 msgstr "Tên của Mẹ"
 
 msgid "Move away from direct light"
-msgstr ""
+msgstr "Tránh khỏi ánh sáng trực tiếp"
 
 msgid "Move away from direct light — no glare"
-msgstr ""
+msgstr "Tránh khỏi ánh sáng trực tiếp — không bị lóa"
+
+msgid "Move funds in and out of your real account."
+msgstr "Chuyển tiền vào và ra khỏi tài khoản thực của bạn."
 
 msgid "Mr"
 msgstr "Ngài"
@@ -7433,7 +7466,7 @@ msgid "Multilingual platforms"
 msgstr "Nền tảng đa ngôn ngữ"
 
 msgid "Multiple faces found"
-msgstr ""
+msgstr "Phát hiện nhiều khuôn mặt"
 
 msgid "Multiple income opportunities"
 msgstr "Vô vàn các cơ hội để tăng nguồn thu nhập"
@@ -7457,7 +7490,7 @@ msgid "Must be a clear, colour photo or scanned image"
 msgstr "Phải là một ảnh rõ ràng, có màu hoặc ảnh đã qua máy Scan"
 
 msgid "Must be under 10MB."
-msgstr ""
+msgstr "Phải dưới 10MB."
 
 msgid "My Players report: Displays a list of your clients according to their IDs and the date they signed up"
 msgstr "Báo cáo người chơi của tôi: Hiển thị một danh sách khách hàng của bạn theo ID của họ và ngày họ đăng ký"
@@ -7634,10 +7667,10 @@ msgid "No delay, neglect, or forbearance on the part of either party in enforcin
 msgstr "Không có sự chậm trễ, bỏ bê hoặc cấm đối với một trong hai bên trong việc thực thi bất kỳ điều khoản hoặc điều kiện nào của Thỏa thuận này đối với bên kia, hoặc được coi là từ bỏ hoặc từ chối bất kỳ quyền nào của bên đó theo Thỏa thuận này."
 
 msgid "No document detected"
-msgstr ""
+msgstr "Không phát hiện tài liệu nào"
 
 msgid "No face found"
-msgstr ""
+msgstr "Không nhận diện được khuôn mặt"
 
 msgid "No fiduciary duty"
 msgstr "Không có trách nhiệm ủy thác"
@@ -7691,7 +7724,7 @@ msgid "Not at all. Joining our affiliate programme is completely free and always
 msgstr "Không có gì. Tham gia chương trình liên kết của chúng tôi là hoàn toàn miễn phí và sẽ luôn luôn là thế."
 
 msgid "Not interested in trading"
-msgstr "Không có hứng thú với giao dịch"
+msgstr ""
 
 msgid "Not leaving devices unattended"
 msgstr "Không để thiết bị ngoài tầm giám sát"
@@ -7835,7 +7868,7 @@ msgid "Once you click the 'Submit' button, the funds will be withdrawn from your
 msgstr "Một khi bạn nhấp chuột vào nút \"Gửi yêu cầu\", tiền sẽ được rút khỏi tài khoản của bạn và được chuyển tới tài khoản của khách hàng của bạn."
 
 msgid "Once you've finished we'll take you to the next step"
-msgstr ""
+msgstr "Một khi bạn đã hoàn thành chúng tôi sẽ đưa bạn đến bước tiếp theo"
 
 msgid "One Zero"
 msgstr "One Zero"
@@ -7916,7 +7949,7 @@ msgid "Only one account is allowed per person. No withdrawals and/or refunds may
 msgstr "Chỉ cho phép một người sử dụng một tài khoản. Không có rút tiền hoặc tiền bồi hoàn vào trong tài khoản với tên sai hoặc nhiều tài khoản được mở bởi cùng một người."
 
 msgid "Only your face can be in the selfie"
-msgstr ""
+msgstr "Chỉ được phép có mặt của một mình bạn trên ảnh tự chụp"
 
 msgid "Oops... Page Not Available"
 msgstr "Rất tiếc... Trang không tồn tại"
@@ -7958,13 +7991,13 @@ msgid "Open positions"
 msgstr "Tuyển Dụng"
 
 msgid "Open the link and complete the tasks"
-msgstr ""
+msgstr "Mở liên kết và hoàn thành nhiệm vụ"
 
 msgid "Open the link on your mobile"
-msgstr ""
+msgstr "Mở một đường dẫn trên điện thoại của bạn"
 
 msgid "Open your new bank account"
-msgstr ""
+msgstr "Mở mới tài khoản ngân hàng của bạn"
 
 msgid "Open-Source Projects"
 msgstr "Các Dự Án Nguồn Mở"
@@ -8036,7 +8069,7 @@ msgid "Other than the payment of Commissions, Binary is not liable to the Introd
 msgstr "Ngoài việc thanh toán hoa hồng, Binary không chịu trách nhiệm với Nhà môi giới giới thiệu hoặc Cộng sự của họ hoặc bất kỳ người nào khác về bất kỳ vấn đề nào phát sinh từ hoặc liên quan đến Thỏa thuận này cho dù theo luật bất cẩn, hợp đồng hoặc vốn chủ sở hữu đối với bất kỳ tổn thất nào."
 
 msgid "Others (please specify)"
-msgstr "Khác (vui lòng nêu rõ)"
+msgstr ""
 
 msgid "Our Accounting &amp; Payments team manages our wide range of bank accounts and e-currency systems, as well as the huge volume of transactions that take place every day."
 msgstr "Đội ngũ Kế Toán và Thanh Toán &amp; của chúng tôi sẽ quản lý một diện rộng các tài khoản ngân hàng và hệ thống tiền điện tử, cũng như một số lượng lớn các giao dịch diễn ra hàng ngày."
@@ -8207,7 +8240,7 @@ msgid "Passport"
 msgstr "Hộ chiếu"
 
 msgid "Passport photo page"
-msgstr ""
+msgstr "Ảnh trang hộ chiếu"
 
 msgid "Password Reset"
 msgstr "Đổi Mật Khẩu"
@@ -8366,10 +8399,10 @@ msgid "Personal details"
 msgstr "Thông tin cá nhân"
 
 msgid "Photo of your document"
-msgstr ""
+msgstr "Ảnh tài liệu của bạn"
 
 msgid "Photo of your face"
-msgstr ""
+msgstr "Ảnh khuôn mặt của bạn"
 
 msgid "Pillar 3 Disclosures"
 msgstr "Tiết lộ cột 3"
@@ -8585,7 +8618,7 @@ msgid "Please select a country"
 msgstr "Xin vui lòng chọn quốc gia"
 
 msgid "Please select a reason."
-msgstr "Vui lòng chọn một lý do."
+msgstr ""
 
 msgid "Please select a valid time."
 msgstr "Vui lòng chọn một thời gian hợp lệ."
@@ -8618,7 +8651,7 @@ msgid "Please set your %130-day turnover limit%2 to remove deposit limits."
 msgstr "Xin vui lòng thiết lập %130 ngày giới hạn doanh thu%2 của bạn để loại bỏ giới hạn tiền gửi."
 
 msgid "Please specify the reasons for closing your accounts"
-msgstr "Vui lòng nêu rõ lý do bạn đóng các tài khoản của mình"
+msgstr ""
 
 msgid "Please specify your preferred reality-check interval in minutes"
 msgstr "Hãy chỉ rõ khoảng thời gian kiểm tra thực tế ưa thích của bạn vào biên bản"
@@ -8642,10 +8675,10 @@ msgid "Please take note that our swap rate also depends on the time and days you
 msgstr "Xin hãy lưu ý rằng tỷ lệ trao đổi của chúng tôi cũng phụ thuộc vào thời gian và ngày bạn giữ mở phiên của bạn:"
 
 msgid "Please tell us why you are closing your account (please select one):"
-msgstr "Vui lòng chia sẻ với chúng tôi lý do bạn đóng tài khoản của mình (Vui lòng chọn một):"
+msgstr ""
 
 msgid "Please try again"
-msgstr ""
+msgstr "Vui lòng thử lại"
 
 msgid "Please update your %1 to continue."
 msgstr "Vui lòng cập nhật %1 của bạn để tiếp tục."
@@ -8654,7 +8687,7 @@ msgid "Please wait for confirmation. Our customer support team will get back to 
 msgstr "Xin vui lòng chờ đợi để xác nhận. Nhóm hỗ trợ khách hàng của chúng tôi sẽ liên lạc với bạn về trạng thái tài khoản thông qua email trong vòng bốn giờ."
 
 msgid "Point your phone’s camera at the QR code"
-msgstr ""
+msgstr "Chĩa máy quay trên điện thoại của bạn vào mã QR"
 
 msgid "Portfolio"
 msgstr "Hồ sơ"
@@ -8768,7 +8801,7 @@ msgid "Predict the last decimal digit of the spot price with Digits. There are t
 msgstr "Dự đoán chữ số cuối của số thập phân trong giá tại điểm giao dịch Chữ Số. Có ba loại giao dịch Chữ số:"
 
 msgid "Prefer another trading website"
-msgstr "Ưa thích trang web giao dịch khác"
+msgstr ""
 
 msgid "Preferences:"
 msgstr "Tài khoản tham khảo:"
@@ -8987,7 +9020,7 @@ msgid "Provide the customer support agent with the four-digit verification code 
 msgstr "Hỗ trợ khách hàng đại lý với mã xác minh bốn chữ số bên dưới để xác nhận."
 
 msgid "Provide the whole document page for best results"
-msgstr ""
+msgstr "Cung cấp toàn bộ trang tài liệu để có kết quả tốt nhất"
 
 msgid "Provision of service"
 msgstr "Các điều khoản về dịch vụ"
@@ -9203,10 +9236,10 @@ msgid "Recommend alternatives to redundant or obsolete systems"
 msgstr "Đề xuất lựa chọn thay thế cho các hệ thống dư thừa hoặc đã lỗi thời"
 
 msgid "Recover camera access to continue face verification"
-msgstr ""
+msgstr "Khôi phục quyền truy cập máy ảnh để tiếp tục xác minh khuôn mặt"
 
 msgid "Recovery"
-msgstr ""
+msgstr "Phục hồi"
 
 msgid "Recruit, train, and nurture affiliates and IBs in countries where Deriv Group is active, leveraging your direct knowledge and experience of the local market"
 msgstr "Tuyển dụng, huấn luyện và nuôi dưỡng các nhà Liên Kết và IB ở các nước có Deriv Group đang hoạt động, tăng mức hiểu biết trực tiếp và kinh nghiệm của bạn về thị trường nội địa"
@@ -9215,7 +9248,7 @@ msgid "Recruitment Process"
 msgstr "Quy trình tuyển dụng"
 
 msgid "Redo"
-msgstr ""
+msgstr "Hoàn tác"
 
 msgid "Ref."
 msgstr "Tham khảo."
@@ -9242,10 +9275,10 @@ msgid "Refine and polish engineer-generated documents and open source projects t
 msgstr "Tinh chỉnh các tài liệu kỹ thuật và dự án nguồn mở để trình bày chúng một cách rõ ràng và nhất quán"
 
 msgid "Refresh"
-msgstr ""
+msgstr "Làm mới"
 
 msgid "Refresh this page to restart the identity verification process"
-msgstr ""
+msgstr "Làm mới trang này để bắt đầu lại quá trình xác minh danh tính"
 
 msgid "Refund policy"
 msgstr "Chính sách hoàn tiền"
@@ -9323,10 +9356,10 @@ msgid "Remaining Time"
 msgstr "Thời gian còn lại"
 
 msgid "Remember to press stop when you're done. <fallback>Redo video actions</fallback>"
-msgstr ""
+msgstr "Hãy nhớ nhấn dừng khi bạn đã xong. <fallback>Làm lại đoạn phim hành động</fallback>"
 
 msgid "Remove your glasses, if necessary"
-msgstr ""
+msgstr "Hãy bỏ kính, nếu cần thiết"
 
 msgid "Replication,"
 msgstr "Mô Phỏng Nhân Rộng,"
@@ -9374,7 +9407,7 @@ msgid "Research new payment systems that are available in the market"
 msgstr "Nghiên cứu các hệ thống thanh toán mới có sẵn trên thị trường"
 
 msgid "Resend link"
-msgstr ""
+msgstr "Gửi lại đường dẫn"
 
 msgid "Reset Barrier"
 msgstr "Đặt lại Giới Hạn"
@@ -9397,14 +9430,23 @@ msgstr "Đặt lại Bán"
 msgid "Reset Time"
 msgstr "Thời gian đặt lại"
 
+msgid "Reset my virtual balance"
+msgstr "Đặt lại số dư ảo của tôi"
+
 msgid "Reset password"
 msgstr "Đổi Mật Khẩu"
+
+msgid "Reset the balance of your virtual account to %1 anytime."
+msgstr "Đặt lại số dư tài khoản ảo của bạn thành %1 bất kỳ lúc nào."
 
 msgid "Reset to original settings"
 msgstr "Thiết lập lại cài đặt gốc"
 
+msgid "Reset your virtual balance"
+msgstr "Đặt lại số dư ảo"
+
 msgid "Residence permit"
-msgstr ""
+msgstr "Giấy phép cư trú"
 
 msgid "Residents of countries that have been identified by the FATF as having strategic deficiencies shall be restricted from opening an account with Deriv Investments (Europe) Limited."
 msgstr "Công dân của các quốc gia mà đã được xác định bởi FATF là thiếu sót chiến lược sẽ bị hạn chế từ việc mở một tài khoản với Công ty Đầu tư Deriv Limited (Châu Âu)."
@@ -9434,13 +9476,13 @@ msgid "Rest assured that your information will only be used for CRS/FATCA report
 msgstr "Hãy yên tâm rằng thông tin của bạn sẽ chỉ được sử dụng cho mục đích báo cáo CRS/FATCA và sẽ được giữ an toàn."
 
 msgid "Restart process on a different device"
-msgstr ""
+msgstr "Bắt đầu lại quá trình trên thiết bị khác"
 
 msgid "Restart the process on the latest version of Google Chrome"
-msgstr ""
+msgstr "Bắt đầu lại quá trình trên phiên bản trình duyệt Google Chrome mới nhất"
 
 msgid "Restart the process on the latest version of Safari"
-msgstr ""
+msgstr "Bắt đầu lại quá trình trên phiên bản trình duyệt Safari mới nhất"
 
 msgid "Restrict the client’s account to prevent the client from closing any affected trades until the corporate action is passed"
 msgstr "Hạn chế tài khoản của khách hàng để ngăn khách hàng đóng bất kỳ giao dịch bị ảnh hưởng nào cho đến khi hoạt động của cổ đông công ty được thông qua"
@@ -9596,16 +9638,16 @@ msgid "Scalable"
 msgstr "Khả năng mở rộng"
 
 msgid "Scan QR code"
-msgstr ""
+msgstr "Quét mã QR"
 
 msgid "Scan the QR code below with your authentication app. We recommend %1 or %2. Please note that %3 is not supported."
 msgstr "Quét mã QR dưới đây với ứng dụng xác thực của bạn. Chúng tôi khuyên bạn nên dùng %1 hoặc %2. Xin lưu ý rằng %3 không được hỗ trợ."
 
 msgid "Scan the QR code with your phone"
-msgstr ""
+msgstr "Quét mã QR với điện thoại của bạn"
 
 msgid "Scans and photocopies are not accepted"
-msgstr ""
+msgstr "Các bản scan và sao chép không được chấp nhận"
 
 msgid "Schedule and coordinate interviews with candidates"
 msgstr "Lên lịch và sắp xếp phỏng vấn với các ứng viên"
@@ -9629,7 +9671,7 @@ msgid "Scrutinise clients' user behaviour on our trading platform"
 msgstr "Xem xét kỹ lưỡng hành vi của khách hàng trên nền tảng giao dịch của chúng tôi"
 
 msgid "Search for country"
-msgstr ""
+msgstr "Tìm quốc gia của bạn"
 
 msgid "Search..."
 msgstr "Tìm kiếm..."
@@ -9686,10 +9728,10 @@ msgid "Select Trade Type"
 msgstr "Chọn loại hình giao dịch"
 
 msgid "Select a %{country} document"
-msgstr ""
+msgstr "Chọn một tài liệu %{country}"
 
 msgid "Select country"
-msgstr ""
+msgstr "Chọn quốc gia"
 
 msgid "Select currency"
 msgstr "Chọn tiền tệ"
@@ -9698,7 +9740,7 @@ msgid "Select date"
 msgstr "Chọn ngày"
 
 msgid "Select issuing country"
-msgstr ""
+msgstr "Chọn quốc gia phát hành"
 
 msgid "Select market:"
 msgstr "Chọn thị trường:"
@@ -9734,13 +9776,13 @@ msgid "Self-motivation and flexibility in task rotations"
 msgstr "Năng động và linh hoạt trong luân chuyển nhiệm vụ công việc"
 
 msgid "Selfie"
-msgstr ""
+msgstr "Ảnh tự chụp"
 
 msgid "Selfie holding proof of identity (front)"
 msgstr "Ảnh chân dung chứng minh danh tính (mặt trước)"
 
 msgid "Selfie uploaded"
-msgstr ""
+msgstr "Ảnh tự chụp đã được tải lên"
 
 msgid "Sell"
 msgstr "Bán"
@@ -9761,13 +9803,13 @@ msgid "Sell your long-term contracts before expiry to protect any profits you ma
 msgstr "Bán các hợp đồng dài hạn trước khi hết thời hạn để bảo vệ bất kỳ lợi nhuận nào bạn đã có hoặc để giảm thiểu thiệt hại của bạn."
 
 msgid "Send a secure link to your phone"
-msgstr ""
+msgstr "Gửi đường dẫn an toàn tới điện thoại"
 
 msgid "Send link"
-msgstr ""
+msgstr "Gửi đường dẫn"
 
 msgid "Send this one-time link to your phone"
-msgstr ""
+msgstr "Gửi đường dẫn giới hạn đến điện thoại của bạn"
 
 msgid "Send us your CV and cover letter. We'll compare your skills and experience with our requirements."
 msgstr "Gửi chúng tôi CV và thư giới thiệu của bạn. Chúng tôi sẽ so sánh các kỹ năng và kinh nghiệm của bạn với các yêu cầu của chúng tôi."
@@ -9776,7 +9818,7 @@ msgid "Send your funds to the payment agent. The deposited funds, less the agent
 msgstr "Khi gửi tiền của bạn cho đại lý thanh toán, số tiền trong quỹ đặt cọc sẽ giảm và hoa hồng của đại lý sẽ được hiển thị trong tài khoản của bạn."
 
 msgid "Sending"
-msgstr ""
+msgstr "Đang gửi"
 
 msgid "Sep"
 msgstr "Tháng Chín"
@@ -9890,7 +9932,7 @@ msgid "Should these expenses not be covered by funds in the Affiliate's account,
 msgstr "Nếu tiền trong tài khoản của Bên liên kết không đủ bù đắp những khoản chi phí này Công Ty có quyền điều tra những phương tiện thay thế khác để lấy được khoản thanh toán này, ví dụ: nếu tài khoản của Bên liên kết vừa tạo tài khoản mua, Công Ty sẽ giữ lại tiền thanh toán hoa hồng của những tài khoản này tới khi trả hết khoản nợ đang có."
 
 msgid "Show all details — including the bottom 2 lines"
-msgstr ""
+msgstr "Hiển thị tất cả chi tiết - bao gồm 2 dòng cuối"
 
 msgid "Show all historical transactions up to"
 msgstr "Hiển thị tất cả các lịch sử giao dịch tới"
@@ -9965,7 +10007,7 @@ msgid "Some of the things that cryptocurrencies have in common include:"
 msgstr "Một số đặc điểm chung của các cryptocurrency:"
 
 msgid "Something's gone wrong"
-msgstr ""
+msgstr "Có vấn đề xảy ra"
 
 msgid "Sorry,"
 msgstr "Rất tiếc,"
@@ -9989,7 +10031,7 @@ msgid "Sorry, mobile version is not available yet."
 msgstr "Rất tiếc, ứng dụng cho điện thoại vẫn chưa khả dụng."
 
 msgid "Sorry, no mobile phone bills"
-msgstr ""
+msgstr "Rất tiếc, không có hóa đơn điện thoại di động"
 
 msgid "Sorry, this feature is available to virtual accounts only."
 msgstr "Rất tiếc, tính năng này chỉ khả dụng với tài khoản tiền ảo."
@@ -10112,7 +10154,7 @@ msgid "Step 1: Choose demo or real account"
 msgstr "Bước 1: Chọn tài khoản demo hay tài khoản thực"
 
 msgid "Step 1: Close all open positions"
-msgstr "Bước 1: Đóng tất cả các giao dịch mở"
+msgstr ""
 
 msgid "Step 1: Define your position"
 msgstr "Bước 1: Xác định phiên của bạn"
@@ -10133,7 +10175,7 @@ msgid "Step 2: Understand when to buy and when to sell"
 msgstr "Bước 2: Hiểu khi nào mua và khi nào bán"
 
 msgid "Step 2: Withdraw your funds"
-msgstr "Bước 2: Rút vốn của bạn"
+msgstr ""
 
 msgid "Step 3"
 msgstr "Bước 3"
@@ -10154,7 +10196,7 @@ msgid "Step outdoors and soak up the sun on one of Labuan's pristine beaches. Th
 msgstr "Bước ra ngoài và hấp thụ ánh nắng mặt trời trên một trong những bãi biển nguyên sơ của Labuan. Ngoài ra còn có hoạt động lặn, nhảy dù, chèo thuyền kayak và câu cá biển sâu hấp dẫn."
 
 msgid "Steps required to continue verification on your mobile"
-msgstr ""
+msgstr "Các bước cần thiết để tiếp tục xác minh trên điện thoại di động của bạn"
 
 msgid "Sticpay is a global e-wallet service for money transfers and online payments. For more information, please visit %1."
 msgstr "Sticpay là một loại ví điện tử toàn cầu dùng để chuyển tiền và thanh toán trực tuyến. Để biết thêm chi tiết, vui lòng truy cập %1."
@@ -10250,40 +10292,40 @@ msgid "Submit a report on HackerOne of any potential security issue you found, a
 msgstr "Gửi báo cáo HackerOne về bất kỳ vấn đề liên quan đến bảo mật mà bạn tìm thấy, cùng với những đề nghị bạn có để giải quyết vấn đề."
 
 msgid "Submit document"
-msgstr ""
+msgstr "Nộp tài liệu"
 
 msgid "Submit for review"
 msgstr "Gửi để đánh giá"
 
 msgid "Submit identity card (back)"
-msgstr ""
+msgstr "Nộp chứng minh thư (mặt sau)"
 
 msgid "Submit identity card (front)"
-msgstr ""
+msgstr "Nộp chứng minh thư (mặt trước)"
 
 msgid "Submit license (back)"
-msgstr ""
+msgstr "Nộp giấy phép (mặt sau)"
 
 msgid "Submit license (front)"
-msgstr ""
+msgstr "Nộp giấy phép (mặt trước)"
 
 msgid "Submit one of the documents below"
 msgstr "Gửi một trong các tài liệu dưới đây"
 
 msgid "Submit passport photo page"
-msgstr ""
+msgstr "Nộp ảnh hộ chiếu"
 
 msgid "Submit residence permit (back)"
-msgstr ""
+msgstr "Nộp giấy phép cư trú (mặt sau)"
 
 msgid "Submit residence permit (front)"
-msgstr ""
+msgstr "Nộp giấy phép cư trú (mặt trước)"
 
 msgid "Submit the document below"
 msgstr "Nộp một trong các giấy tờ dưới đây"
 
 msgid "Submit verification"
-msgstr ""
+msgstr "Nộp xác minh"
 
 msgid "Submit your CV and Cover Letter"
 msgstr "Gửi CV và Đơn Xin Việc của bạn"
@@ -10412,34 +10454,34 @@ msgid "Table 6 - Likelihood of execution information"
 msgstr "Bảng 6 - Khả năng thông tin thực hiện"
 
 msgid "Take a photo"
-msgstr ""
+msgstr "Chụp một bức ảnh"
 
 msgid "Take a photo of the back of your card"
-msgstr ""
+msgstr "Chụp một bức ảnh mặt sau thẻ của bạn"
 
 msgid "Take a photo of the back of your license"
-msgstr ""
+msgstr "Chụp một bức ảnh mặt sau giấy phép của bạn"
 
 msgid "Take a photo of the front of your card"
-msgstr ""
+msgstr "Chụp một bức ảnh mặt trước thẻ của bạn"
 
 msgid "Take a photo of the front of your license"
-msgstr ""
+msgstr "Chụp một bức ảnh mặt trước giấy phép của bạn"
 
 msgid "Take a photo of your passport photo page"
-msgstr ""
+msgstr "Chụp trang hộ chiếu của bạn"
 
 msgid "Take a photo using the <fallback>basic camera mode</fallback> instead"
-msgstr ""
+msgstr "Hãy chụp ảnh bằng <fallback> chế độ máy ảnh cơ bản </fallback>"
 
 msgid "Take a photo with your phone"
-msgstr ""
+msgstr "Chụp ảnh bằng điện thoại của bạn"
 
 msgid "Take a selfie"
-msgstr ""
+msgstr "Chụp selfie"
 
 msgid "Take a selfie showing your face"
-msgstr ""
+msgstr "Chụp một bức ảnh có mặt của bạn"
 
 msgid "Take a short-term or long-term view with trade durations from 10 seconds to 365 days."
 msgstr "Có một góc nhìn ngắn hạn hoặc dài hạn với thời hạn giao dịch từ 10 giây đến 365 ngày."
@@ -10451,7 +10493,7 @@ msgid "Take necessary measures to correct and enhance IT operations"
 msgstr "Có các biện pháp cần thiết để khắc phục và tăng cường vận hành IT"
 
 msgid "Take photo"
-msgstr ""
+msgstr "Chụp ảnh"
 
 msgid "Taking the following measures, the Company is committed to making sure that the client's personal data and transactions are secure:"
 msgstr "Với việc thực hiện các biện pháp sau, Công Ty sẽ chắc chắn đảm bảo rằng các giao dịch và dữ liệu cá nhân của khách hàng sẽ được bảo mật:"
@@ -10562,7 +10604,7 @@ msgid "Th"
 msgstr "Thứ 5"
 
 msgid "Thank you"
-msgstr ""
+msgstr "Xin cảm ơn"
 
 msgid "Thank you for completing the Financial Assessment. You can now deposit funds and trade forex with real money on MetaTrader 5."
 msgstr "Cảm ơn bạn đã hoàn thành Đánh giá tài chính. Bây giờ bạn có thể gửi tiền và giao dịch ngoại hối bằng tiền thật trên MetaTrader 5."
@@ -11011,8 +11053,8 @@ msgstr "Công ty có quyền điều chỉnh, bổ sung, hay thay thế những 
 msgid "The Company reserves the right to refuse the Affiliate's referrals' application to open an account (or to close the Affiliate's account), as deemed necessary, to comply with any requirements that the Company may periodically establish and/or that may be required under applicable laws, rules, and regulations."
 msgstr "Nhằm tuân thủ những yêu cầu mà Công ty thiết lập theo định kỳ và/ hoặc có thể được yêu cầu theo điều luật, quy tắc và quy định hiện hành, nếu được coi là cần thiết, Công ty có quyền từ chối đơn xin mở tài khoản của người mà Bên liên kết giới thiệu (hoặc đóng tài khoản của họ)."
 
-msgid "The Company reserves the right to refuse the client's request to open an MT5 Real Account for any reason, and any MT5 Real Account may be closed at the Company's discretion at any time."
-msgstr "Công ty có quyền từ chối yêu cầu mở một Tài Khoản Thực MT5 của khách hàng vì bất kỳ lý do nào, và bất kỳ Tài Khoản Thực MT5 nào cũng có thể bị đóng lại theo quyết định của Công ty vào bất kỳ lúc nào."
+msgid "The Company reserves the right to refuse the client's request to open an MT5 Real Account for any reason, and any MT5 Real Account may be closed at the Company's discretion at any time upon 7-day notice."
+msgstr "Công ty có quyền từ chối yêu cầu của khách hàng về việc mở Tài khoản thực MT5 vì bất kỳ lý do gì, và bất kỳ Tài khoản thực MT5 nào cũng có thể bị đóng theo quyết định của Công ty bất cứ lúc nào sau khi thông báo trước 7 ngày."
 
 msgid "The Company reserves the right to refuse to do business with, to discontinue to do business with, and to reverse the transactions of clients who engage in any trading activity"
 msgstr "Công Ty có quyền từ chối, không tiếp tục làm ăn với, hay đảo ngược các giao dịch của khách hàng, người tham gia vào bất kỳ hoạt động giao dịch nào"
@@ -11793,7 +11835,7 @@ msgid "The leverage ratio refers to the number of times that the client's margin
 msgstr "Tỷ lệ đòn bẩy dùng để chỉ số lần ký quỹ của khách hàng (số tiền đặt ngoài tài khoản của họ để mở và duy trì một giao dịch) có thể dùng làm \"đòn bẩy\" để tham gia một Giao Dịch. Mẫu số tỷ lệ đòn bẩy luôn luôn là 1. Một đòn bẩy 50: 1 là tương đương với một điều kiện biên 2% (1 chia cho 50 = 2%). Ở tỷ lệ đòn bẩy mà Công ty/khách hàng thiết lập sẽ xác định số lượng điều kiện biên. Vì đòn bẩy là tỷ lệ nghịch với biên, các đòn bẩy khách hàng đặt cho Tài Khoản của mình càng hạ thấp, điều kiện biên được đặt bên cạnh tài khoản của họ (điều kiện ký quỹ của bạn) sẽ càng tăng cao."
 
 msgid "The link only works on mobile devices"
-msgstr ""
+msgstr "Đường dẫn chỉ hoạt động trên các thiết bị điện thoại di động"
 
 msgid "The market conditions of the financial instruments that client orders are related to, which includes the need for timely execution, availability of price improvement, liquidity of the market, size of client order, and the potential impact on total consideration"
 msgstr "Các điều kiện thị trường của các công cụ tài chính mà các lệnh của khách hàng có liên quan, bao gồm việc cần thiết để thực hiện kịp thời, sẵn có của cải thiện giá, tính thanh khoản của thị trường, kích thước đặt hàng của khách hàng, và những tác động tiềm năng khi cân nhắc tổng thể"
@@ -11856,7 +11898,7 @@ msgid "The payout is the amount paid to an options trader if their prediction is
 msgstr "Khoảng được trả là số tiền được trả cho một nhà giao dịch quyền chọn nếu dự đoán của mình là đúng."
 
 msgid "The photo should clearly show your document"
-msgstr ""
+msgstr "Ảnh phải hiển thị rõ ràng tài liệu của bạn"
 
 msgid "The premier platform for trading binary options in the world's financial markets"
 msgstr "Sàn giao dịch cao cấp cho giao dịch các lựa chọn nhị phân trên thị trường tài chính thế giới"
@@ -11892,7 +11934,7 @@ msgid "The provisions of this agreement or any orders and any applicable laws wi
 msgstr "Các điều khoản của Thỏa thuận này hoặc bất kỳ Lệnh nào và mọi luật hiện hành sẽ không bị vi phạm."
 
 msgid "The reason should be between 5 and 250 characters"
-msgstr "Lý do nên được viết trong khoảng từ 5 đến 250 ký tự"
+msgstr ""
 
 msgid "The requested transfer would reduce the client's Account Balance to less than the Margin required for the client's Open Positions."
 msgstr "Việc chuyển tiền được yêu cầu sẽ làm giảm số dư Tài Khoản của khách hàng xuống dưới số tiền Ký Quỹ bắt buộc đối với các Phiên Mở của họ."
@@ -12066,7 +12108,7 @@ msgid "These ST&Cs form part of, and need to be read together with, the general 
 msgstr "Những ST & Cs này là một phần và cần được đọc cùng với Điều Khoản Chung và các Điều Kiện liên quan đến việc sử dụng của %1."
 
 msgid "These are the documents most likely to show your current home address"
-msgstr ""
+msgstr "Đây là những tài liệu có nhiều khả năng hiển thị địa chỉ hiện tại bạn đang sống"
 
 msgid "These are trades where the trader predicts if a market will finish higher or lower than a specified price target."
 msgstr "Đây là những giao dịch mà nhà giao dịch dự đoán thị trường kết thúc cao hơn hoặc thấp hơn với giá mục tiêu đặt ra."
@@ -12279,7 +12321,7 @@ msgid "This page is only available to logged out clients."
 msgstr "Trang này chỉ dành cho khách hàng đã đăng xuất."
 
 msgid "This page will redirect to the %1 homepage after 10 seconds."
-msgstr "Trang này sẽ trở về %1 trang chủ sau 10 giây nữa."
+msgstr ""
 
 msgid "This policy applies to clients classified as retail or professional. Clients classified as eligible counterparties are outside the scope of this policy."
 msgstr "Chính sách này áp dụng cho các khách hàng bán lẻ hoặc khách hàng chuyên nghiệp. Những khách hàng thuộc nhóm đối tác đủ điều kiện không nằm trong diện áp dụng chính sách này."
@@ -12354,7 +12396,7 @@ msgid "Tips"
 msgstr "Mẹo"
 
 msgid "Tips to take a good selfie"
-msgstr ""
+msgstr "Các mẹo để có một bức ảnh tự chụp đẹp"
 
 msgid "Tips:"
 msgstr "Mẹo:"
@@ -12378,7 +12420,7 @@ msgid "To change your name, date of birth, country of residence, email, or tax i
 msgstr "Để thay đổi tên, ngày sinh, quốc gia cư trú, email hoặc thông tin thuế, vui lòng liên hệ với %1Hỗ Trợ Khách Hàng%2."
 
 msgid "To close your account, complete the following steps:"
-msgstr "Để đóng tài khoản, thực hiện các bước sau:"
+msgstr ""
 
 msgid "To create a MetaTrader 5 account:"
 msgstr "Để tạo một tài khoản Meta Trader 5:"
@@ -12414,7 +12456,7 @@ msgid "To maintain Open Positions, the client is required to have sufficient Acc
 msgstr "Để duy trì các Vị trí Mở, khách hàng sẽ cần phải có đủ Vốn sở Hữu để trả cho bất kỳ Yêu cầu Ký quỹ nào. Nếu mức độ Ký quỹ của một khách hàng thấp hơn mức độ được đặt trong tài khoản của khách hàng, họ đã bước vào một đợt Gọi Ký quỹ và cần phải nâng mức Ký quỹ lên trên mức mà tài khoản chỉ định để tránh việc Dừng Bán ra xảy ra. Khách hàng có thể sẽ không đặt được một Lệnh mở giao dịch trừ khi Vốn sở Hữu đủ để thanh toán Tổng Ký quỹ."
 
 msgid "To open a bank account, we will need to verify your identity."
-msgstr ""
+msgstr "Để mở một tài khoản ngân hàng, chúng tôi sẽ cần phải xác minh danh tính của bạn."
 
 msgid "To perform this action, please set the %1currency%2 of your account."
 msgstr "Để thực hiện hành động này, xin vui lòng thiết lập %1tiền tệ%2 của tài khoản của bạn."
@@ -12435,7 +12477,7 @@ msgid "To reset your trading or investor password, please click the button below
 msgstr "Để đổi mật khẩu giao dịch hoặc đầu tư của bạn, xin vui lòng bấm vào nút dưới đây:"
 
 msgid "To smoothly verify you, we need a better photo"
-msgstr ""
+msgstr "Để việc xác minh dễ dàng, chúng tôi cần một bức ảnh có chất lượng tốt hơn"
 
 msgid "To which it, at the time of execution of this Agreement was, or subsequently has become, in the public domain through no fault of the parties"
 msgstr "Tại đó, ở thời điểm thực hiện Thỏa thuận đã hoặc sau đó trở thành các khu vực công cộng mà không phải do lỗi của các bên"
@@ -12459,10 +12501,10 @@ msgid "Token name"
 msgstr "Tên Token"
 
 msgid "Too addictive"
-msgstr "Có tính gây nghiện cao"
+msgstr ""
 
 msgid "Too many failed attempts"
-msgstr ""
+msgstr "Có quá nhiều lần thử thất bại"
 
 msgid "Top Up Virtual Account"
 msgstr "Bổ Sung Tài Khoản Ảo"
@@ -12610,6 +12652,9 @@ msgstr "Giao dịch cryptocurrencies nổi tiếng trên MT5 của chúng tôi v
 
 msgid "Trade popular major and minor currency pairs, plus Smart FX indices – weighted indices that measure the value of a currency against a basket of major currencies."
 msgstr "Giao dịch các cặp tiền tệ lớn nhỏ phổ biến, ngoài ra còn có các chỉ số Smart FX - các chỉ số đo lường giá trị của một tiền tệ so với một loạt các đơn vị tiền tệ lớn."
+
+msgid "Trade server:"
+msgstr "Server giao dịch:"
 
 msgid "Trade type"
 msgstr "Loại giao dịch"
@@ -12837,10 +12882,10 @@ msgid "Try our other markets."
 msgstr "Thử các thị trường khác."
 
 msgid "Try using a JPG or PNG file"
-msgstr ""
+msgstr "Thử dùng tệp JPG hoặc PNG"
 
 msgid "Try using another file type."
-msgstr ""
+msgstr "Thử dùng loại file khác."
 
 msgid "Tu"
 msgstr "Thứ 3"
@@ -12950,6 +12995,9 @@ msgstr "Giao dịch di động siêu nhanh"
 msgid "Unable to read file %1"
 msgstr "Không thể đọc tập tin %1"
 
+msgid "Unavailable"
+msgstr "Không khả dụng"
+
 msgid "Under no circumstances shall the Company or its directors or employees be liable under this Agreement to the Programmer or any third party for any indirect, special, incidental, punitive, or consequential loss or damages or any other similar damages under any theory of liability (whether in contract, tort, strict liability, or any other theory), which are directly or indirectly attributable to the use of, or the inability to use, the %1 API, or any content contained thereon, even if the Company has been informed of the possibility thereof."
 msgstr "Trong bất cứ trường hợp nào, kể cả khi Công ty đã được thông báo về khả năng xảy ra sự việc, Công ty hay các giám đốc hoặc các nhân viên trong công ty sẽ không chịu trách nhiệm pháp lý theo Thỏa thuận này với Lập trình viên hoặc với bất kỳ một bên thứ ba nào khác về các thiệt hại hay thua lỗ gián tiếp, bất thường, ngẫu nhiên, có tính trừng phạt hay tổn thất hậu quả hay bất kỳ loại tổn thất tương tự khác theo lý thuyết về trách nhiệm pháp lý (có trong hợp đồng, sai lầm cá nhân, trách nhiệm pháp lý nghiêm ngặt hay bất kỳ một lý thuyết khác), cái mà có thể trực tiếp hay gián tiếp ảnh hưởng tới việc sử dụng, hoặc không thể sử dụng, %1 API, hay bất kỳ nội dung được chứa theo đó, kể cả khi Công ty đã được thông báo về khả năng các rủi ro đó có thể xảy ra."
 
@@ -13005,7 +13053,7 @@ msgid "Unless otherwise advised, DIEL shall treat a client as a retail client. C
 msgstr "Trừ phi được yêu cầu, DIEL sẽ coi khách hàng như một Khách hàng Bán lẻ. Khách hàng có thể yêu cầu, bằng cách viết cho DIEL, để thay đổi phân loại khách hàng mà họ được xếp vào và việc này sẽ có hiệu ứng phụ thuộc vào mức độ bảo vệ mà khách hàng có thể chi trả. DIEL sẽ đánh giá mức độ hiểu biết và kinh nghiệm của khách hàng có phù hợp với yêu cầu về sản phẩm dịch vụ/đầu tư của họ."
 
 msgid "Unsupported browser"
-msgstr ""
+msgstr "Trình duyệt không được hỗ trợ"
 
 msgid "Up to %1"
 msgstr "Lên đến %1"
@@ -13044,37 +13092,37 @@ msgid "Upgrade your account and start trading using real money."
 msgstr "Nâng cấp tài khoản của bạn và bắt đầu kinh doanh bằng cách sử dụng tiền thật."
 
 msgid "Upload"
-msgstr ""
+msgstr "Tải lên"
 
 msgid "Upload a selfie from your computer"
-msgstr ""
+msgstr "Tải một selfie từ máy tính của bạn"
 
 msgid "Upload anyway"
-msgstr ""
+msgstr "Vẫn tải lên"
 
 msgid "Upload back of card from your computer"
-msgstr ""
+msgstr "Tải mặt sau thẻ của bạn từ máy tính"
 
 msgid "Upload back of license from your computer"
-msgstr ""
+msgstr "Tải lên mặt sau của giấy phép từ máy tính của bạn"
 
 msgid "Upload front of card from your computer"
-msgstr ""
+msgstr "Tải mặt trước thẻ của bạn từ máy tính"
 
 msgid "Upload front of license from your computer"
-msgstr ""
+msgstr "Tải lên mặt trước của giấy phép từ máy tính của bạn"
 
 msgid "Upload passport photo page"
-msgstr ""
+msgstr "Đăng ảnh trang hộ chiếu"
 
 msgid "Upload passport photo page from your computer"
-msgstr ""
+msgstr "Tải ảnh hộ chiếu của bạn từ máy tính"
 
 msgid "Upload photo"
-msgstr ""
+msgstr "Tải lên ảnh"
 
 msgid "Uploads successful"
-msgstr ""
+msgstr "Tải lên thành công"
 
 msgid "Upon closing a trade, the realised profit (or loss), which is represented by the difference between the opening level and closing level of the trade multiplied by the number of lots (volume), becomes due and payable by the Company to the client (or due and payable by the client to the Company in cases of realised loss)."
 msgstr "Sau khi đóng một phiên giao dịch, lợi nhuận (hoặc thiệt hại) nhận được, được thể hiện qua sự chênh lệch giữa mức độ mở và đóng của một phiên giao dịch được nhân lên theo số lượng lô (khối), đến hạn và trả được bởi Công ty cho khách hàng (hoặc đến hạn và trả được từ khách hàng cho Công ty trong trường hợp lỗ)."
@@ -13176,13 +13224,13 @@ msgid "Verification code is wrong. Please use the link sent to your email."
 msgstr "Mã xác minh sai rồi. Xin vui lòng sử dụng liên kết được gửi tới email của bạn."
 
 msgid "Verification complete"
-msgstr ""
+msgstr "Hoàn thành xác minh"
 
 msgid "Verification required"
 msgstr "Cần được xác minh "
 
 msgid "Verify Identity"
-msgstr ""
+msgstr "Xác minh danh tính"
 
 msgid "Verify Reset Password"
 msgstr "Xác minh thiết lập lại mật khẩu"
@@ -13221,7 +13269,7 @@ msgid "View chart"
 msgstr "Xem biểu đồ"
 
 msgid "View from camera"
-msgstr ""
+msgstr "Xem qua camera"
 
 msgid "View guide"
 msgstr "Xem hướng dẫn"
@@ -13365,7 +13413,7 @@ msgid "We can't validate your personal details because there is some information
 msgstr "Chúng tôi không thể xác nhận thông tin cá nhân của bạn bởi một số thông tin vẫn còn thiếu."
 
 msgid "We cannot verify you without using your camera"
-msgstr ""
+msgstr "Chúng tôi không thể xác minh cho bạn nếu không sử dụng camera"
 
 msgid "We delete an order with the largest margin reserved."
 msgstr "Chúng tôi xóa một lệnh với biên độ lớn nhất được tạo trước."
@@ -13467,7 +13515,7 @@ msgid "We'd love to hear what you think."
 msgstr "Chúng tôi rất muốn nghe ý kiến của bạn."
 
 msgid "We'll compare it with your document"
-msgstr ""
+msgstr "Chúng tôi sẽ so sánh chúng với các tài liệu của bạn"
 
 msgid "We're almost there"
 msgstr "Gần hoàn tất rồi"
@@ -13485,7 +13533,7 @@ msgid "We're not obliged to conduct an appropriateness test, nor provide you wit
 msgstr "Chúng tôi không có nghĩa vụ tiến hành một bài kiểm tra phù hợp, cũng như cung cấp cho bạn bất kỳ cảnh báo nguy cơ nào"
 
 msgid "We're now ready to verify your identity"
-msgstr ""
+msgstr "Chúng tôi đã sẵn sàng xác minh danh tính cho bạn"
 
 msgid "We're projected to register over 377 million transactions this year, bringing the total number of contracts that were bought and sold on our platform since inception to over 1.42 billion."
 msgstr "Chúng tôi đang dự kiến sẽ thực hiện trên 377 triệu giao dịch trong năm nay, đưa tổng số hợp đồng đã được mua và bán được trên nền tảng của chúng tôi kể từ khi thành lập lên đến hơn 1.42 Tỷ."
@@ -13497,7 +13545,7 @@ msgid "We've grown in size over the years - both in terms of manpower and office
 msgstr "Chúng tôi đã phát triển mạnh trong năm qua - cả về nguồn nhân lực và văn phòng. Chúng tôi hiện có hơn %1 nhân viên trên 4 văn phòng tại Malaysia, Malta và Dubai. Tiếp tục tăng số lượng nhân viên dự kiến năm nay để phục vụ cho nhu cầu ngày càng tăng của các sản phẩm và dịch vụ mà chúng tôi cung cấp."
 
 msgid "We've sent a secure link to %{number}"
-msgstr ""
+msgstr "Chúng tôi đã gửi một link an toàn tới %{number}"
 
 msgid "Web and software developer"
 msgstr "Vận hành web và phần mềm"
@@ -13611,7 +13659,7 @@ msgid "When it comes to food, you'll be spoilt for choice. Cuisine from every pa
 msgstr "Khi nóii đến ẩm thực, bạn sẽ có vô vàn các lựa chọn. Ẩm thực từ mọi nơi trên thế giới đều có thể được thưởng thức tại Dubai, dù vậy các hương vị địa phương vẫn không hề kém cạnh: chebab (bánh kếp nghệ tây), khameer (bánh mỳ dẹt), harees (món thịt lợn đặc trưng), các món nướng thơm ngon, và kẹo hạt de cười là một vài món ăn địa phương sẽ khơi dậy vị giác của bạn. Ngoài ra cũng có vô vàn các lựa chọn phù hợp với tùi tiền như các chuỗi nhà hàng phục vụ cho mọi khẩu vị."
 
 msgid "When prompted, you must enable camera access to continue"
-msgstr ""
+msgstr "Khi được nhắc, bạn phải bật quyền truy cập máy ảnh để tiếp tục"
 
 msgid "When the Affiliate's referred clients open an account with any member of the Deriv group, the Company assumes ownership of the database of names and contact information and any other data of the Affiliate's referred clients."
 msgstr "Khi các khách hàng do Bên liên kết giới thiệu mở một tài khoản với bất kỳ thành viên nào của nhóm Deriv, Công ty sẽ giữ quyền sở hữu cơ sở dữ liệu tên và thông tin liên lạc và bất kỳ các dữ liệu khác của những khách hàng đó."
@@ -14022,10 +14070,10 @@ msgid "You are selling the base currency and buying the quote currency."
 msgstr "Bạn đang bán các loại tiền tệ cơ sở và mua các loại tiền tệ trong danh sách."
 
 msgid "You can %1open a cryptocurrency%2 account without closing your fiat currency account."
-msgstr "Bạn có thể %1mở một tài khoản tiền điện tử%2 mà không cần đóng tài khoản tiền pháp định hiện tại."
+msgstr ""
 
 msgid "You can %1open a real account%2 without closing your demo account."
-msgstr "Bạn có thể %1mở một tài khoản thực%2 mà không cần đóng tài khoản dùng thử của mình."
+msgstr ""
 
 msgid "You can %1set a new currency%2 before you deposit for the first time or create an MT5 account."
 msgstr "Bạn có thể đặt một đơn vị tiền tệ mới trước lần gửi tiền đầu tiên hoặc tạo một tài khoản MT5."
@@ -14061,22 +14109,19 @@ msgid "You can no longer change the currency because you've made a first-time de
 msgstr "Bạn không còn có thể thay đổi đơn vị tiền tệ vì lần gửi tiền đầu tiên đã được thực hiện."
 
 msgid "You can now return to your computer to continue"
-msgstr ""
+msgstr "Bây giờ bạn có thể quay lại máy tính của mình để tiếp tục"
 
 msgid "You can open a fiat currency account without closing your cryptocurrency account."
-msgstr "Bạn có thể mở một tài khoản tiền pháp định mà không cần đóng tài khoản tiền điện tử của mình."
+msgstr ""
 
 msgid "You can sell your contract before expiry to keep any profit you may have made or to minimise your loss."
 msgstr "Bạn có thể bán hợp đồng của bạn trước khi hết thời hạn để giữ bất kỳ lợi nhuận bạn có thể thực hiện hoặc để giảm thiểu thua lỗ của bạn."
 
 msgid "You can set limits to your account and trading activities. Go to the %1self-exclusion page%2 to manage your account limits."
-msgstr "Bạn có thể đặt các giới hạn cho tài khoản và các hoạt động giao dịch của mình. Đi đến %1trang tự loại trừ%2 để quản lý các giới hạn tài khoản của mình."
+msgstr ""
 
 msgid "You can top up your demo account with an additional %1 if your balance is %2 or less."
 msgstr "Bạn có thể nạp %1 vào tài khoản demo nếu số dư của bạn là từ %2 trở xuống."
-
-msgid "You can top up your virtual account with an additional %1 if your balance is %2 or less."
-msgstr "Bạn có thể nạp %1 vào tài khoản ảo nếu số dư của bạn là từ %2 trở xuống."
 
 msgid "You can use an authorized payment agent to process deposits and withdrawals for payment methods or local currencies not supported by %1. It's easy to do."
 msgstr "Bạn có thể sử dụng một đại lý thanh toán uỷ quyền để xử lý các khoản tiền gửi vào và rút ra để thực hiện phương thức thanh toán, hoặc để sử dụng nội tệ không được hỗ trợ bởi %1. Rất dễ dàng để làm."
@@ -14097,10 +14142,10 @@ msgid "You expect the %1 to rise in value so you can sell it back for a profit."
 msgstr "Bạn mong đợi %1 tăng, khi đó, bạn có thể bán lại và đạt một lợi nhuận."
 
 msgid "You have %1. You may open one or %2more cryptocurrency%3 accounts:"
-msgstr "Bạn có %1. Bạn có thể mở thêm một hoặc %2nhiều tài khoản tiền điện tử%3:"
+msgstr ""
 
 msgid "You have a %1 account. You may %2change your currency%3 to any of the following as long as you haven't made a deposit or created an MT5 account:"
-msgstr "Bạn có một tài khoản %1. Bạn có thể %2thay đổi loại tiền tệ hiện tại%3 thành bất cứ loại nào sau đây, miễn là bạn chưa từng nạp tiền hoặc tạo tài khoản MT5:"
+msgstr ""
 
 msgid "You have already withdrawn %1%2 in aggregate over the last %3 days."
 msgstr "Bạn đã rút %1%2 trong tổng số %3 ngày qua."
@@ -14109,7 +14154,7 @@ msgid "You have already withdrawn %1%2."
 msgstr "Bạn đã rút %1%2."
 
 msgid "You have an account but have not set a currency. You may %1choose one%2 of these as your account currency"
-msgstr "Bạn tạo tài khoản nhưng không thể chọn loại tiền tệ. Bạn có thể %1chọn một%2 trong những loại dưới đây như tiền tệ mặc định"
+msgstr ""
 
 msgid "You have created all accounts available to you."
 msgstr "Bạn đã tạo ra tất cả các tài khoản khả dụng cho bạn."
@@ -14259,7 +14304,7 @@ msgid "You win the payout if the market price ends in the digit you have selecte
 msgstr "Bạn sẽ nhận được tiền thưởng nếu giá thị trường kết thúc trong con số bạn đã chọn."
 
 msgid "You'll need to restart your verification on your computer"
-msgstr ""
+msgstr "Bạn sẽ phải làm mới quá trình xác minh trên máy tính của bạn"
 
 msgid "You're buying the %1 and selling the %2."
 msgstr "Bạn đang mua %1 và bán %2."
@@ -14319,7 +14364,7 @@ msgid "Your account is fully authenticated and your withdrawal limits have been 
 msgstr "Tài khoản của bạn được xác thực đầy đủ và mức giới hạn rút tiền của bạn đã được nâng lên."
 
 msgid "Your account is now closed"
-msgstr "Tài khoản của bạn đã được đóng"
+msgstr ""
 
 msgid "Your account is restricted. Kindly %1contact customer support%2 for assistance."
 msgstr "Tài khoản của bạn bị hạn chế. %1 vui lòng liên hệ hỗ trợ khách hàng %2 để được hỗ trợ."
@@ -14355,7 +14400,7 @@ msgid "Your commission for the previous calendar month will be deposited into yo
 msgstr "Hoa hồng của bạn cho tháng trước đó sẽ được gửi vào tài khoản của bạn vào 15 hàng tháng."
 
 msgid "Your computer may take a few seconds to update"
-msgstr ""
+msgstr "Máy tính của bạn có thể mất vài giây để cập nhật"
 
 msgid "Your demo account balance is currently %1 or less. You may top up your account with an additional %2."
 msgstr "Số dư tài khoản demo của bạn hiện nay là %1 hoặc ít hơn. Bạn có thể nạp thêm vào tài khoản demo %2."
@@ -14364,7 +14409,7 @@ msgid "Your document is being reviewed, please check back in 1-3 days"
 msgstr "Giấy tờ của bạn đang được xem xét, vui lòng kiểm tra lại trong 1-3 ngày nữa"
 
 msgid "Your face is needed in the selfie"
-msgstr ""
+msgstr "Mặt của bạn phải có trên ảnh tự chụp"
 
 msgid "Your fiat account's currency is currently set to %1."
 msgstr "Tài khoản của bạn có đơn vị tiền tệ hiện tại đặt là %1."
@@ -14376,10 +14421,10 @@ msgid "Your fund transfer is successful. Your new balances are:"
 msgstr "Chuyển khoản thành công. Số dư mới của bạn là:"
 
 msgid "Your link will expire in one hour"
-msgstr ""
+msgstr "Đường dẫn của bạn sẽ hết hạn sau một giờ"
 
 msgid "Your mobile link will expire in one hour"
-msgstr ""
+msgstr "Đường dẫn trên điện thoại của bạn sẽ hết hạn sau một giờ"
 
 msgid "Your name, email address and contact number"
 msgstr "Tên, địa chỉ email và số điện thoại liên lạc của bạn"
@@ -14459,9 +14504,6 @@ msgstr "Tham chiếu giao dịch của bạn là"
 msgid "Your transaction reference number is %1"
 msgstr "Số tham chiếu giao dịch của bạn là %1"
 
-msgid "Your virtual account balance is currently %1 or less. You may top up your account with an additional %2."
-msgstr "Số dư tài khoản ảo của bạn hiện nay là %1 hoặc ít hơn. Bạn có thể nạp thêm vào tài khoản ảo %2."
-
 msgid "Your web browser (%1) is out of date and may affect your trading experience. Proceed at your own risk. %2Update browser%3"
 msgstr "Trình duyệt web (%1) của bạn đã hết hạn và có thể ảnh hưởng đến trải nghiệm giao dịch của bạn. Nếu tiếp tục bạn sẽ có thể gặp một vài rắc rối. %2Nâng cấp trình duyệt%3"
 
@@ -14478,7 +14520,7 @@ msgid "You’ll be logged out automatically."
 msgstr "Bạn sẽ tự động đăng xuất khỏi tài khoản."
 
 msgid "You’ve successfully closed your account. We’ll send a confirmation email to %1."
-msgstr "Bạn đã đóng tài khoản thành công. Chúng tôi sẽ gửi email xác nhận tới %1"
+msgstr ""
 
 msgid "ZingPay is a payment facility that allows online bank transfers for clients in South Africa."
 msgstr "ZingPay là một phương tiện thanh toán cho phép chuyển khoản ngân hàng trực tuyến cho khách hàng ở Nam Phi."
@@ -14517,10 +14559,10 @@ msgid "a. Access the MT5 trading platform through the direct link %1 from DIEL's
 msgstr "a. Truy cập vào nền sàn giao dịch MT5 qua liên kết trực tiếp %1 từ giao diện web của DIEL, hoặc"
 
 msgid "account"
-msgstr "tài khoản"
+msgstr ""
 
 msgid "accounts"
-msgstr "các tài khoản"
+msgstr ""
 
 msgid "an Order to execute a transaction to close an Open Position when the price reaches the client's specified price"
 msgstr "một Lệnh để thực hiện một giao dịch cho việc đóng một Phiên Mở khi giá đạt tới Giá được khách hàng chỉ định"
@@ -14538,13 +14580,13 @@ msgid "b. Download and install the MT5 trading platform through the link %1"
 msgstr "b. Tải xuống và cài đặt Sàn Giao Dịch MT5 thông qua liên kết %1"
 
 msgid "back"
-msgstr ""
+msgstr "trở lại"
 
 msgid "binary options, forex, forex trading, online trading, financial trading, binary trading, index trading, trading stock indices, forex trades, trading commodities, binary options strategy, binary broker, binary bet, binary options trading platform, binary strategy, finance, investment, trading"
 msgstr "quyền chọn nhị phân, ngoại hối, giao dịch ngoại hối, giao dịch trực tuyến, giao dịch tài chính, giao dịch nhị phân, giao dịch chỉ số, chỉ số chứng khoán, giao dịch ngoại hối, giao dịch hàng hóa, chiến lược quyền chọn nhị phân, môi giới nhị phân, đặt cược nhị phân, sàn giao dịch quyền chọn nhị phân, chiến lược nhị phân, tài chính, đầu tư, kinh doanh"
 
 msgid "close"
-msgstr ""
+msgstr "đóng"
 
 msgid "day"
 msgstr "ngày"
@@ -14556,7 +14598,7 @@ msgid "details"
 msgstr "chi tiết"
 
 msgid "e.g. United States"
-msgstr ""
+msgstr "Ví dụ. Hợp chủng quốc Hoa kì"
 
 msgid "e.g. frontend.binaryws.com"
 msgstr "ví dụ: frontend.binaryws.com"
@@ -14607,7 +14649,7 @@ msgid "or"
 msgstr "hoặc"
 
 msgid "or upload photo – no scans or photocopies"
-msgstr ""
+msgstr "hoặc tải ảnh lên - không quét hoặc sao chụp"
 
 msgid "paysafecard offers a voucher-based online payment method that does not require a bank account, credit card, or other personal information. For more information, please visit %1."
 msgstr "paysafecard cung cấp phương thức thanh toán trực tuyến dựa trên các phiếu nạp không yêu cầu tài khoản ngân hàng, thẻ tín dụng hoặc thông tin cá nhân khác. Để biết thêm thông tin, vui lòng truy cập %1."

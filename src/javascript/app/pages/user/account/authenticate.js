@@ -842,7 +842,7 @@ const Authenticate = (() => {
                 onfido = Onfido.init({
                     containerId: 'onfido',
                     language   : {
-                        locale       : getLanguage().toLowerCase() || 'en_US',
+                        locale       : getLanguage().toLowerCase() || 'en',
                         phrases      : onfido_phrases,
                         mobilePhrases: onfido_phrases,
                     },
