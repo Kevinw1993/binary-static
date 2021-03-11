@@ -48,6 +48,7 @@ const PortfolioInit = (() => {
     };
 
     const createPortfolioRow = (data, is_first) => {
+        console.log(data);
         const new_class = is_first ? '' : 'new';
         const $div      = $('<div/>');
         $div.append($('<tr/>', { class: `tr-first ${new_class} ${data.contract_id}`, id: data.contract_id })

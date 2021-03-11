@@ -46,7 +46,7 @@ const Portfolio = () => (
                     tfoot: [
                         [
                             { text: it.L('Total') },
-                            { className: 'ref',                   attributes: { colSpan: 2 } },
+                            { className: 'ref',                   attributes: { colSpan: 3 } },
                             { className: 'cost',                  id: 'cost-of-open-positions' },
                             { className: 'value',                 id: 'value-of-open-positions', attributes: { colSpan: 2 } },
                         ],
