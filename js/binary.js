@@ -32479,8 +32479,6 @@ var StatementUI = function () {
     var createEmptyStatementTable = function createEmptyStatementTable() {
         var header = [localize('Contract'), localize('Ref. ID'), localize('Currency'), localize('Transaction time'), localize('Transaction'), localize('Credit/Debit'), localize('Balance'), localize('Details')];
 
-        var currency = Client.get('currency');
-
         var metadata = {
             id: table_id,
             cols: columns
@@ -32503,7 +32501,9 @@ var StatementUI = function () {
         }));
         var credit_debit_type = parseFloat(transaction.amount) >= 0 ? 'profit' : 'loss';
 
-        var $statement_row = Table.createFlexTableRow(['', statement_data.date, '<span ' + showTooltip(statement_data.app_id, oauth_apps[statement_data.app_id]) + '>' + statement_data.ref + '</span>', statement_data.localized_action, statement_data.amount, statement_data.balance, ''], columns, 'data');
+        var currency = Client.get('currency');
+
+        var $statement_row = Table.createFlexTableRow(['', '<span ' + showTooltip(statement_data.app_id, oauth_apps[statement_data.app_id]) + '>' + statement_data.ref + '</span>', currency, statement_data.date, statement_data.localized_action, statement_data.amount, statement_data.balance, ''], columns, 'data');
         $statement_row.children('.credit').addClass(credit_debit_type);
         $statement_row.children('.date').addClass('pre');
         $statement_row.children('.desc').html(statement_data.desc + '<br>');
