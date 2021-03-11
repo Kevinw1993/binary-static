@@ -32506,7 +32506,7 @@ var StatementUI = function () {
         var $statement_row = Table.createFlexTableRow(['', '<span ' + showTooltip(statement_data.app_id, oauth_apps[statement_data.app_id]) + '>' + statement_data.ref + '</span>', currency, statement_data.date, statement_data.localized_action, statement_data.amount, statement_data.balance, ''], columns, 'data');
         $statement_row.children('.credit').addClass(credit_debit_type);
         $statement_row.children('.date').addClass('pre');
-        $statement_row.children('.desc').html(statement_data.desc + '<br>');
+        $statement_row.children('.contract').html(statement_data.desc + '<br>');
 
         // create view button and append
         if (/^(buy|sell)$/i.test(statement_data.action_type)) {
