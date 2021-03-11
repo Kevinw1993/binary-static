@@ -12,24 +12,22 @@ const ProfitTableUI = (() => {
     let currency;
 
     const profit_table_id = 'profit-table';
-    const cols            = ['buy-date', 'ref', 'payout', 'contract', 'buy-price', 'sell-date', 'sell-price', 'pl', 'details'];
+    const cols            = ['contract', 'ref', 'currency', 'buy-date', 'buy-price', 'sell-date', 'sell-price', 'pl', 'details'];
 
     const createEmptyTable = () => {
         const header = [
-            localize('Date'),
-            localize('Ref.'),
-            localize('Potential Payout'),
             localize('Contract'),
-            localize('Purchase Price'),
-            localize('Sale Date'),
-            localize('Sale Price'),
+            localize('Ref. ID'),
+            localize('Currency'),
+            localize('Buy time'),
+            localize('Buy price'),
+            localize('Sell time'),
+            localize('Sell price'),
             localize('Profit/Loss'),
             localize('Details'),
         ];
 
         currency = Client.get('currency');
-
-        header[7] += currency ? ` (${Currency.getCurrencyDisplayCode(currency)})` : '';
 
         const footer = [localize('Total Profit/Loss'), '', '', '', '', '', '', '', ''];
 
@@ -69,10 +67,10 @@ const ProfitTableUI = (() => {
         const pl_type           = Number(transaction.sell_price - transaction.buy_price) >= 0 ? 'profit' : 'loss';
 
         const data = [
-            profit_table_data.buyDate,
-            `<span ${showTooltip(profit_table_data.app_id, oauth_apps[profit_table_data.app_id])}>${profit_table_data.ref}</span>`,
-            /binaryico/i.test(profit_table_data.shortcode) ? '-' : profit_table_data.payout, // TODO: remove ico exception when all ico contracts are removed
             '',
+            `<span ${showTooltip(profit_table_data.app_id, oauth_apps[profit_table_data.app_id])}>${profit_table_data.ref}</span>`,
+            currency,
+            profit_table_data.buyDate,
             profit_table_data.buyPrice,
             profit_table_data.sellDate,
             profit_table_data.sellPrice,
