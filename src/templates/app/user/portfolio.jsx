@@ -3,7 +3,7 @@ import { Table } from '../../_common/components/elements.jsx';
 
 const Portfolio = () => (
     <div id='portfolio'>
-        <h1 className='portfolio-header-margin'>{it.L('Portfolio')}</h1>
+        <h1 className='portfolio-header-margin'>{it.L('Open Positions')}</h1>
 
         <p className='notice-msg center-text invisible' id='error-msg' />
 
@@ -34,10 +34,11 @@ const Portfolio = () => (
                 data={{
                     thead: [
                         [
-                            { className: 'ref',                              text: it.L('Ref.') },
-                            { className: 'payout nowrap',                    text: it.L('Potential Payout') },
-                            { className: 'details',                          text: it.L('Contract Details') },
-                            { className: 'purchase',                         text: it.L('Purchase') },
+                            { className: 'details',                          text: it.L('Contract details') },
+                            { className: 'ref',                              text: it.L('Ref. ID') },
+                            { className: 'currency',                         text: it.L('Currency') },
+                            { className: 'purchase',                         text: it.L('Buy price') },
+                            { className: 'payout nowrap',                    text: it.L('Payout limit') },
                             { className: 'indicative nowrap',                text: it.L('Indicative') },
                             { className: 'button',                           text: '' },
                         ],
