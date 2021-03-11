@@ -13431,12 +13431,6 @@ var Table = function () {
      * @param {'header'|'data'} opt optional, default to "header"
      */
     var createFlexTableRow = function createFlexTableRow(data, metadata, opt) {
-        console.log('data');
-        console.log(data);
-
-        console.log('metadata');
-        console.log(metadata);
-
         if (data.length !== metadata.length) {
             throw new Error('metadata and data does not match');
         }
@@ -29149,9 +29143,11 @@ var ProfitTableUI = function () {
 
     var createProfitTableRow = function createProfitTableRow(transaction) {
         var profit_table_data = ProfitTable.getProfitTabletData(transaction);
+        console.log('propit');
+        console.log(profit_table_data);
         var pl_type = Number(transaction.sell_price - transaction.buy_price) >= 0 ? 'profit' : 'loss';
 
-        var data = ['<span ' + showTooltip(profit_table_data.app_id, oauth_apps[profit_table_data.app_id]) + '>' + profit_table_data.ref + '</span>', '<span ' + showTooltip(profit_table_data.app_id, oauth_apps[profit_table_data.app_id]) + '>' + profit_table_data.ref + '</span>', currency, profit_table_data.buyDate, profit_table_data.buyPrice, profit_table_data.sellDate, profit_table_data.sellPrice, profit_table_data.pl, ''];
+        var data = ['', '<span ' + showTooltip(profit_table_data.app_id, oauth_apps[profit_table_data.app_id]) + '>' + profit_table_data.ref + '</span>', currency, profit_table_data.buyDate, profit_table_data.buyPrice, profit_table_data.sellDate, profit_table_data.sellPrice, profit_table_data.pl, ''];
         var $row = Table.createFlexTableRow(data, cols, 'data');
 
         $row.children('.pl').addClass(pl_type);
