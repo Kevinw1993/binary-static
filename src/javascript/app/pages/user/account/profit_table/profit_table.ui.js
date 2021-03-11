@@ -12,7 +12,7 @@ const ProfitTableUI = (() => {
     let currency;
 
     const profit_table_id = 'profit-table';
-    const cols            = ['contract', 'ref', 'currency', 'buy-date', 'buy-price', 'sell-date', 'sell-price', 'pl', 'details'];
+    const cols            = ['contract', 'ref', 'currency', 'buy-time', 'buy-price', 'sell-time', 'sell-price', 'pl', 'details'];
 
     const createEmptyTable = () => {
         const header = [
@@ -81,7 +81,7 @@ const ProfitTableUI = (() => {
 
         $row.children('.pl').addClass(pl_type);
         $row.children('.contract').html(`${profit_table_data.desc}<br>`);
-        $row.children('.buy-date, .sell-date').each(function () {
+        $row.children('.buy-time, .sell-time').each(function () {
             $(this).wrapInner('<div class="new-width"></div>');
         });
 
