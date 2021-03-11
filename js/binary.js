@@ -29111,7 +29111,7 @@ var ProfitTableUI = function () {
     var currency = void 0;
 
     var profit_table_id = 'profit-table';
-    var cols = ['contract', 'ref', 'currency', 'buy-date', 'buy-price', 'sell-date', 'sell-price', 'pl', 'details'];
+    var cols = ['contract', 'ref', 'currency', 'buy-time', 'buy-price', 'sell-time', 'sell-price', 'pl', 'details'];
 
     var createEmptyTable = function createEmptyTable() {
         var header = [localize('Contract'), localize('Ref. ID'), localize('Currency'), localize('Buy time'), localize('Buy price'), localize('Sell time'), localize('Sell price'), localize('Profit/Loss'), localize('Details')];
@@ -29154,7 +29154,7 @@ var ProfitTableUI = function () {
 
         $row.children('.pl').addClass(pl_type);
         $row.children('.contract').html(profit_table_data.desc + '<br>');
-        $row.children('.buy-date, .sell-date').each(function () {
+        $row.children('.buy-time, .sell-time').each(function () {
             $(this).wrapInner('<div class="new-width"></div>');
         });
 
@@ -32474,7 +32474,7 @@ var StatementUI = function () {
     var oauth_apps = {};
 
     var table_id = 'statement-table';
-    var columns = ['date', 'ref', 'payout', 'act', 'desc', 'credit', 'bal', 'details'];
+    var columns = ['contract', 'ref', 'currency', 'transaction-time', 'transaction', 'credit', 'bal', 'details'];
 
     var createEmptyStatementTable = function createEmptyStatementTable() {
         var header = [localize('Contract'), localize('Ref. ID'), localize('Currency'), localize('Transaction time'), localize('Transaction'), localize('Credit/Debit'), localize('Balance'), localize('Details')];
@@ -32505,13 +32505,13 @@ var StatementUI = function () {
 
         var $statement_row = Table.createFlexTableRow(['', '<span ' + showTooltip(statement_data.app_id, oauth_apps[statement_data.app_id]) + '>' + statement_data.ref + '</span>', currency, statement_data.date, statement_data.localized_action, statement_data.amount, statement_data.balance, ''], columns, 'data');
         $statement_row.children('.credit').addClass(credit_debit_type);
-        $statement_row.children('.date').addClass('pre');
+        $statement_row.children('.transaction-time').addClass('pre');
         $statement_row.children('.contract').html(statement_data.desc + '<br>');
 
         // create view button and append
         if (/^(buy|sell)$/i.test(statement_data.action_type)) {
             var $view_button = $('<button/>', { class: 'button open_contract_details', text: localize('View'), contract_id: statement_data.id });
-            $statement_row.children('.desc,.details').append($view_button);
+            $statement_row.children('.contract,.details').append($view_button);
         }
 
         return $statement_row[0]; // return DOM instead of jquery object
