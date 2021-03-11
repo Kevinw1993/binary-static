@@ -29058,6 +29058,7 @@ var ProfitTable = function () {
         var sell_moment = moment.utc(transaction.sell_time * 1000);
         var buy_price = parseFloat(transaction.buy_price);
         var sell_price = parseFloat(transaction.sell_price);
+        console.log(transaction);
 
         return {
             buyDate: buy_moment.format('YYYY-MM-DD') + '\n' + buy_moment.format('HH:mm:ss') + ' GMT',
