@@ -13431,6 +13431,12 @@ var Table = function () {
      * @param {'header'|'data'} opt optional, default to "header"
      */
     var createFlexTableRow = function createFlexTableRow(data, metadata, opt) {
+        console.log('data');
+        console.log(data);
+
+        console.log('metadata');
+        console.log(metadata);
+
         if (data.length !== metadata.length) {
             throw new Error('metadata and data does not match');
         }
@@ -29110,7 +29116,7 @@ var ProfitTableUI = function () {
     var cols = ['contract', 'ref', 'buy-date', 'buy-price', 'sell-date', 'sell-price', 'pl', 'details'];
 
     var createEmptyTable = function createEmptyTable() {
-        var header = [localize('Contract'), localize('Ref.'), localize('Buy time'), localize('Buy price'), localize('Sell date'), localize('Sell price'), localize('Profit/Loss'), localize('Details')];
+        var header = [localize('Contract'), localize('Ref.'), localize('Currency'), localize('Buy time'), localize('Buy price'), localize('Sell date'), localize('Sell price'), localize('Profit/Loss'), localize('Details')];
 
         currency = Client.get('currency');
 
