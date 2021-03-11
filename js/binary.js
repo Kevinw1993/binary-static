@@ -29154,7 +29154,7 @@ var ProfitTableUI = function () {
         var pl_type = Number(transaction.sell_price - transaction.buy_price) >= 0 ? 'profit' : 'loss';
 
         var data = ['<span ' + showTooltip(profit_table_data.app_id, oauth_apps[profit_table_data.app_id]) + '>' + profit_table_data.ref + '</span>', /binaryico/i.test(profit_table_data.shortcode) ? '-' : profit_table_data.payout, // TODO: remove ico exception when all ico contracts are removed
-        '', currency, profit_table_data.buyDate, profit_table_data.buyPrice, profit_table_data.sellDate, profit_table_data.sellPrice, profit_table_data.pl, ''];
+        currency, profit_table_data.buyDate, profit_table_data.buyPrice, profit_table_data.sellDate, profit_table_data.sellPrice, profit_table_data.pl, ''];
         var $row = Table.createFlexTableRow(data, cols, 'data');
 
         $row.children('.pl').addClass(pl_type);
