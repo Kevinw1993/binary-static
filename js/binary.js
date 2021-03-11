@@ -29058,6 +29058,7 @@ var ProfitTable = function () {
         var sell_moment = moment.utc(transaction.sell_time * 1000);
         var buy_price = parseFloat(transaction.buy_price);
         var sell_price = parseFloat(transaction.sell_price);
+        console.log('transaction data');
         console.log(transaction);
 
         return {
@@ -29144,8 +29145,6 @@ var ProfitTableUI = function () {
 
     var createProfitTableRow = function createProfitTableRow(transaction) {
         var profit_table_data = ProfitTable.getProfitTabletData(transaction);
-        console.log('propit');
-        console.log(profit_table_data);
         var pl_type = Number(transaction.sell_price - transaction.buy_price) >= 0 ? 'profit' : 'loss';
 
         var data = ['', '<span ' + showTooltip(profit_table_data.app_id, oauth_apps[profit_table_data.app_id]) + '>' + profit_table_data.ref + '</span>', currency, profit_table_data.buyDate, profit_table_data.buyPrice, profit_table_data.sellDate, profit_table_data.sellPrice, profit_table_data.pl, ''];
