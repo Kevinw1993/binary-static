@@ -29062,11 +29062,11 @@ var ProfitTable = function () {
         console.log(transaction);
 
         return {
-            buyDate: buy_moment.format('YYYY-MM-DD') + '\n' + buy_moment.format('HH:mm:ss') + ' GMT',
+            buyDate: buy_moment.format('dd-mm-yyyy') + '\n' + buy_moment.format('HH:mm:ss') + ' GMT',
             ref: transaction.transaction_id,
             payout: +transaction.payout ? formatMoney(currency, parseFloat(transaction.payout), true) : '-',
             buyPrice: formatMoney(currency, buy_price, true),
-            sellDate: sell_moment.format('YYYY-MM-DD') + '\n' + sell_moment.format('HH:mm:ss') + ' GMT',
+            sellDate: sell_moment.format('dd-mm-yyyy') + '\n' + sell_moment.format('HH:mm:ss') + ' GMT',
             sellPrice: formatMoney(currency, sell_price, true),
             pl: formatMoney(currency, Number(sell_price - buy_price), true),
             desc: transaction.longcode,
@@ -29112,7 +29112,7 @@ var ProfitTableUI = function () {
     var cols = ['contract', 'ref', 'currency', 'buy-date', 'buy-price', 'sell-date', 'sell-price', 'pl', 'details'];
 
     var createEmptyTable = function createEmptyTable() {
-        var header = [localize('Contract'), localize('Ref.'), localize('Currency'), localize('Buy time'), localize('Buy price'), localize('Sell date'), localize('Sell price'), localize('Profit/Loss'), localize('Details')];
+        var header = [localize('Contract'), localize('Ref. ID'), localize('Currency'), localize('Buy time'), localize('Buy price'), localize('Sell time'), localize('Sell price'), localize('Profit/Loss'), localize('Details')];
 
         currency = Client.get('currency');
 
