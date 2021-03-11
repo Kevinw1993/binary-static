@@ -29107,7 +29107,7 @@ var ProfitTableUI = function () {
     var currency = void 0;
 
     var profit_table_id = 'profit-table';
-    var cols = ['buy-date', 'ref', 'payout', 'contract', 'buy-price', 'sell-date', 'sell-price', 'pl', 'details'];
+    var cols = ['contract', 'ref', 'currency', 'buy-date', 'buy-price', 'sell-date', 'sell-price', 'pl', 'details'];
 
     var createEmptyTable = function createEmptyTable() {
         var header = [localize('Contract'), localize('Ref.'), localize('Currency'), localize('Buy time'), localize('Buy price'), localize('Sell date'), localize('Sell price'), localize('Profit/Loss'), localize('Details')];
