@@ -15,7 +15,7 @@ const StatementUI = (() => {
 
     const createEmptyStatementTable = () => {
         const header = [
-            localize('Contract'),
+            localize('Contract details'),
             localize('Ref. ID'),
             localize('Currency'),
             localize('Transaction time'),

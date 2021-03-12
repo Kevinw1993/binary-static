@@ -39,16 +39,16 @@ const Portfolio = () => (
                             { className: 'currency',                         text: it.L('Currency') },
                             { className: 'purchase',                         text: it.L('Buy price') },
                             { className: 'payout nowrap',                    text: it.L('Payout limit') },
-                            { className: 'indicative nowrap',                text: it.L('Indicative') },
+                            { className: 'indicative nowrap',                text: it.L('Indicative price') },
                             { className: 'button',                           text: '' },
                         ],
                     ],
                     tfoot: [
                         [
                             { text: it.L('Total') },
-                            { className: 'ref',                   attributes: { colSpan: 3 } },
+                            { className: 'ref',                   attributes: { colSpan: 2 } },
                             { className: 'cost',                  id: 'cost-of-open-positions' },
-                            { className: 'value',                 id: 'value-of-open-positions', attributes: { colSpan: 2 } },
+                            { className: 'value',                 id: 'value-of-open-positions', attributes: { colSpan: 3 } },
                         ],
                     ],
                 }}

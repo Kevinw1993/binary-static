@@ -16,7 +16,7 @@ const ProfitTableUI = (() => {
 
     const createEmptyTable = () => {
         const header = [
-            localize('Contract'),
+            localize('Contract details'),
             localize('Ref. ID'),
             localize('Currency'),
             localize('Buy time'),
