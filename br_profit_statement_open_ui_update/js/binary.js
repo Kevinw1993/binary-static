@@ -10779,10 +10779,11 @@ var Clock = function () {
         }
     };
 
-    var showLocalTimeOnHover = function showLocalTimeOnHover(selector) {
+    var showLocalTimeOnHover = function showLocalTimeOnHover(selector, is_table) {
         document.querySelectorAll(selector || '.date').forEach(function (el) {
             var gmt_time_str = el.textContent.replace('\n', ' ');
-            var local_time = moment.utc(gmt_time_str, 'YYYY-MM-DD HH:mm:ss').local();
+
+            var local_time = !is_table ? moment.utc(gmt_time_str, 'YYYY-MM-DD HH:mm:ss').local() : moment.utc(gmt_time_str, 'DD MMM YYYY HH:mm:ss').local();
             if (local_time.isValid()) {
                 el.setAttribute('data-balloon', local_time.format('YYYY-MM-DD HH:mm:ss Z'));
             }
@@ -28621,9 +28622,10 @@ var PortfolioInit = function () {
     };
 
     var createPortfolioRow = function createPortfolioRow(data, is_first) {
+        var exclude_currency = true;
         var new_class = is_first ? '' : 'new';
         var $div = $('<div/>');
-        $div.append($('<tr/>', { class: 'tr-first ' + new_class + ' ' + data.contract_id, id: data.contract_id }).append($('<td/>', { class: 'details', text: data.longcode })).append($('<td/>', { class: 'ref' }).append($('<span ' + GetAppDetails.showTooltip(data.app_id, oauth_apps[data.app_id]) + ' data-balloon-position="right">' + data.transaction_id + '</span>'))).append($('<td/>', { class: 'currency', text: data.currency })).append($('<td/>', { class: 'purchase' }).append($('<strong/>', { html: formatMoney(data.currency, data.buy_price) }))).append($('<td/>', { class: 'payout' }).append($('<strong/>', { html: +data.payout ? formatMoney(data.currency, data.payout) : '-' }))).append($('<td/>', { class: 'indicative' }).append($('<strong/>', { class: 'indicative_price', text: '--.--' }))).append($('<td/>', { class: 'button' }).append($('<button/>', { class: 'button open_contract_details nowrap', contract_id: data.contract_id, text: localize('View') })))).append($('<tr/>', { class: 'tr-desc ' + new_class + ' ' + data.contract_id }).append($('<td/>', { colspan: '6', text: data.longcode })));
+        $div.append($('<tr/>', { class: 'tr-first ' + new_class + ' ' + data.contract_id, id: data.contract_id }).append($('<td/>', { class: 'details', text: data.longcode })).append($('<td/>', { class: 'ref' }).append($('<span ' + GetAppDetails.showTooltip(data.app_id, oauth_apps[data.app_id]) + ' data-balloon-position="right">' + data.transaction_id + '</span>'))).append($('<td/>', { class: 'currency', text: data.currency })).append($('<td/>', { class: 'purchase' }).append($('<strong/>', { html: formatMoney(data.currency, data.buy_price, exclude_currency) }))).append($('<td/>', { class: 'payout' }).append($('<strong/>', { html: +data.payout ? formatMoney(data.currency, data.payout, exclude_currency) : '-' }))).append($('<td/>', { class: 'indicative' }).append($('<strong/>', { class: 'indicative_price', text: '--.--' }))).append($('<td/>', { class: 'button' }).append($('<button/>', { class: 'button open_contract_details nowrap', contract_id: data.contract_id, text: localize('View') })))).append($('<tr/>', { class: 'tr-desc ' + new_class + ' ' + data.contract_id }).append($('<td/>', { colspan: '6', text: data.longcode })));
 
         $('#portfolio-body').prepend($div.html());
     };
@@ -28716,6 +28718,7 @@ var PortfolioInit = function () {
         var old_indicative = values[proposal.contract_id].indicative || 0.00;
         values[proposal.contract_id].indicative = proposal.bid_price;
 
+        var exclude_currency = true;
         var status_class = '';
         var no_resale_html = '';
         if (+proposal.is_sold === 1) {
@@ -28730,7 +28733,7 @@ var PortfolioInit = function () {
                 }
                 $td.removeClass('no_resale');
             }
-            $td.html($('<strong/>', { class: 'indicative_price ' + status_class, html: formatMoney(proposal.currency, values[proposal.contract_id].indicative) }).append(no_resale_html));
+            $td.html($('<strong/>', { class: 'indicative_price ' + status_class, html: formatMoney(proposal.currency, values[proposal.contract_id].indicative, exclude_currency) }).append(no_resale_html));
         }
 
         updateFooter();
@@ -28755,8 +28758,9 @@ var PortfolioInit = function () {
     };
 
     var updateFooter = function updateFooter() {
-        $('#cost-of-open-positions').html(formatMoney(currency, Portfolio.getSumPurchase(values)));
-        $('#value-of-open-positions').html(formatMoney(currency, Portfolio.getIndicativeSum(values)));
+        var exclude_currency = true;
+        $('#cost-of-open-positions').html(formatMoney(currency, Portfolio.getSumPurchase(values), exclude_currency));
+        $('#value-of-open-positions').html(formatMoney(currency, Portfolio.getIndicativeSum(values), exclude_currency));
     };
 
     var errorMessage = function errorMessage(msg) {
@@ -29003,7 +29007,8 @@ var ProfitTableInit = function () {
 
         BinarySocket.send(req).then(function (response) {
             profitTableHandler(response);
-            showLocalTimeOnHover('td.buy-date,td.sell-date');
+            var tableTimeTooltip = true;
+            showLocalTimeOnHover('td.buy-time,td.sell-time', tableTimeTooltip);
             $('.barspinner').setVisibility(0);
         });
     };
@@ -29114,7 +29119,7 @@ var ProfitTableUI = function () {
     var cols = ['contract', 'ref', 'currency', 'buy-time', 'buy-price', 'sell-time', 'sell-price', 'pl', 'details'];
 
     var createEmptyTable = function createEmptyTable() {
-        var header = [localize('Contract'), localize('Ref. ID'), localize('Currency'), localize('Buy time'), localize('Buy price'), localize('Sell time'), localize('Sell price'), localize('Profit/Loss'), localize('Details')];
+        var header = [localize('Contract details'), localize('Ref. ID'), localize('Currency'), localize('Buy time'), localize('Buy price'), localize('Sell time'), localize('Sell price'), localize('Profit/Loss'), localize('Details')];
 
         currency = Client.get('currency');
 
@@ -32215,7 +32220,9 @@ var StatementInit = function () {
                 //     .on('click', () => { StatementUI.exportCSV(); });
             }
         }
-        showLocalTimeOnHover('td.date');
+
+        var tableTimeTooltip = true;
+        showLocalTimeOnHover('td.transaction-time', tableTimeTooltip);
     };
 
     var loadStatementChunkWhenScroll = function loadStatementChunkWhenScroll() {
@@ -32477,7 +32484,7 @@ var StatementUI = function () {
     var columns = ['contract', 'ref', 'currency', 'transaction-time', 'transaction', 'credit', 'bal', 'details'];
 
     var createEmptyStatementTable = function createEmptyStatementTable() {
-        var header = [localize('Contract'), localize('Ref. ID'), localize('Currency'), localize('Transaction time'), localize('Transaction'), localize('Credit/Debit'), localize('Balance'), localize('Details')];
+        var header = [localize('Contract details'), localize('Ref. ID'), localize('Currency'), localize('Transaction time'), localize('Transaction'), localize('Credit/Debit'), localize('Balance'), localize('Details')];
 
         var metadata = {
             id: table_id,
