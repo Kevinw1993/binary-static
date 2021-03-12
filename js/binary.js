@@ -28719,7 +28719,6 @@ var PortfolioInit = function () {
         values[proposal.contract_id].indicative = proposal.bid_price;
 
         var exclude_currency = true;
-
         var status_class = '';
         var no_resale_html = '';
         if (+proposal.is_sold === 1) {
@@ -28759,6 +28758,7 @@ var PortfolioInit = function () {
     };
 
     var updateFooter = function updateFooter() {
+        var exclude_currency = true;
         $('#cost-of-open-positions').html(formatMoney(currency, Portfolio.getSumPurchase(values), exclude_currency));
         $('#value-of-open-positions').html(formatMoney(currency, Portfolio.getIndicativeSum(values), exclude_currency));
     };
