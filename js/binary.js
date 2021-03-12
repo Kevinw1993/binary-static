@@ -10789,6 +10789,8 @@ var Clock = function () {
             if (local_time.isValid()) {
                 console.log('work');
                 el.setAttribute('data-balloon', local_time.format('YYYY-MM-DD HH:mm:ss Z'));
+
+                console.log(el);
             }
         });
     };
