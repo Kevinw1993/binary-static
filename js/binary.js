@@ -775,6 +775,7 @@ var formatMoney = function formatMoney(currency_value, amount, exclude_currency)
         money = addComma(money, decimal_places);
     }
 
+    console.log(exclude_currency);
     return sign + (exclude_currency ? money : money + formatCurrency(currency_value));
 };
 
@@ -28732,7 +28733,7 @@ var PortfolioInit = function () {
                 }
                 $td.removeClass('no_resale');
             }
-            $td.html($('<strong/>', { class: 'indicative_price ' + status_class, html: formatMoney(proposal.currency, values[proposal.contract_id].indicative), hide_currency: hide_currency }).append(no_resale_html));
+            $td.html($('<strong/>', { class: 'indicative_price ' + status_class, html: formatMoney(proposal.currency, values[proposal.contract_id].indicative, hide_currency) }).append(no_resale_html));
         }
 
         updateFooter();
