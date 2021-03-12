@@ -32218,7 +32218,7 @@ var StatementInit = function () {
                 //     .on('click', () => { StatementUI.exportCSV(); });
             }
         }
-        showLocalTimeOnHover('.transaction-time');
+        showLocalTimeOnHover('td.transaction-time');
     };
 
     var loadStatementChunkWhenScroll = function loadStatementChunkWhenScroll() {
