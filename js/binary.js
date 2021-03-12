@@ -10782,12 +10782,9 @@ var Clock = function () {
     var showLocalTimeOnHover = function showLocalTimeOnHover(selector, is_table) {
         document.querySelectorAll(selector || '.date').forEach(function (el) {
             var gmt_time_str = el.textContent.replace('\n', ' ');
-            console.log(gmt_time_str);
 
             var local_time = !is_table ? moment.utc(gmt_time_str, 'YYYY-MM-DD HH:mm:ss').local() : moment.utc(gmt_time_str, 'DD MMM YYYY HH:mm:ss').local();
-            console.log(local_time);
             if (local_time.isValid()) {
-                console.log('work');
                 el.setAttribute('data-balloon', local_time.format('YYYY-MM-DD HH:mm:ss Z'));
 
                 console.log(el);
@@ -29012,7 +29009,8 @@ var ProfitTableInit = function () {
 
         BinarySocket.send(req).then(function (response) {
             profitTableHandler(response);
-            showLocalTimeOnHover('td.buy-time,td.sell-time', true);
+            var tableTimeTooltip = true;
+            showLocalTimeOnHover('td.buy-time,td.sell-time', tableTimeTooltip);
             $('.barspinner').setVisibility(0);
         });
     };
@@ -32145,7 +32143,7 @@ var StatementInit = function () {
         transactions_consumed = void 0;
 
     var tableExist = function tableExist() {
-        return document.getElementById('statement-table', true);
+        return document.getElementById('statement-table');
     };
 
     var finishedConsumed = function finishedConsumed() {
@@ -32224,8 +32222,9 @@ var StatementInit = function () {
                 //     .on('click', () => { StatementUI.exportCSV(); });
             }
         }
-        console.log('statement');
-        showLocalTimeOnHover('td.date');
+
+        var tableTimeTooltip = true;
+        showLocalTimeOnHover('td.transaction-time', tableTimeTooltip);
     };
 
     var loadStatementChunkWhenScroll = function loadStatementChunkWhenScroll() {
