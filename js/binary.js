@@ -29007,7 +29007,7 @@ var ProfitTableInit = function () {
 
         BinarySocket.send(req).then(function (response) {
             profitTableHandler(response);
-            showLocalTimeOnHover('td.buy-date,td.sell-date');
+            showLocalTimeOnHover('td.buy-time,td.sell-time');
             $('.barspinner').setVisibility(0);
         });
     };
@@ -29118,7 +29118,7 @@ var ProfitTableUI = function () {
     var cols = ['contract', 'ref', 'currency', 'buy-time', 'buy-price', 'sell-time', 'sell-price', 'pl', 'details'];
 
     var createEmptyTable = function createEmptyTable() {
-        var header = [localize('Contract'), localize('Ref. ID'), localize('Currency'), localize('Buy time'), localize('Buy price'), localize('Sell time'), localize('Sell price'), localize('Profit/Loss'), localize('Details')];
+        var header = [localize('Contract details'), localize('Ref. ID'), localize('Currency'), localize('Buy time'), localize('Buy price'), localize('Sell time'), localize('Sell price'), localize('Profit/Loss'), localize('Details')];
 
         currency = Client.get('currency');
 
@@ -32219,7 +32219,7 @@ var StatementInit = function () {
                 //     .on('click', () => { StatementUI.exportCSV(); });
             }
         }
-        showLocalTimeOnHover('td.date');
+        showLocalTimeOnHover('td.transaction-time');
     };
 
     var loadStatementChunkWhenScroll = function loadStatementChunkWhenScroll() {
@@ -32481,7 +32481,7 @@ var StatementUI = function () {
     var columns = ['contract', 'ref', 'currency', 'transaction-time', 'transaction', 'credit', 'bal', 'details'];
 
     var createEmptyStatementTable = function createEmptyStatementTable() {
-        var header = [localize('Contract'), localize('Ref. ID'), localize('Currency'), localize('Transaction time'), localize('Transaction'), localize('Credit/Debit'), localize('Balance'), localize('Details')];
+        var header = [localize('Contract details'), localize('Ref. ID'), localize('Currency'), localize('Transaction time'), localize('Transaction'), localize('Credit/Debit'), localize('Balance'), localize('Details')];
 
         var metadata = {
             id: table_id,
