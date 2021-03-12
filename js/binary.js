@@ -32218,7 +32218,7 @@ var StatementInit = function () {
                 //     .on('click', () => { StatementUI.exportCSV(); });
             }
         }
-        showLocalTimeOnHover('td.transaction-time');
+        showLocalTimeOnHover('td.date');
     };
 
     var loadStatementChunkWhenScroll = function loadStatementChunkWhenScroll() {
@@ -32477,7 +32477,7 @@ var StatementUI = function () {
     var oauth_apps = {};
 
     var table_id = 'statement-table';
-    var columns = ['contract', 'ref', 'currency', 'transaction-time', 'transaction', 'credit', 'bal', 'details'];
+    var columns = ['contract', 'ref', 'currency', 'date', 'transaction', 'credit', 'bal', 'details'];
 
     var createEmptyStatementTable = function createEmptyStatementTable() {
         var header = [localize('Contract details'), localize('Ref. ID'), localize('Currency'), localize('Transaction time'), localize('Transaction'), localize('Credit/Debit'), localize('Balance'), localize('Details')];
@@ -32508,7 +32508,7 @@ var StatementUI = function () {
 
         var $statement_row = Table.createFlexTableRow(['', '<span ' + showTooltip(statement_data.app_id, oauth_apps[statement_data.app_id]) + '>' + statement_data.ref + '</span>', currency, statement_data.date, statement_data.localized_action, statement_data.amount, statement_data.balance, ''], columns, 'data');
         $statement_row.children('.credit').addClass(credit_debit_type);
-        $statement_row.children('.transaction-time').addClass('pre');
+        $statement_row.children('.date').addClass('pre');
         $statement_row.children('.contract').html(statement_data.desc + '<br>');
 
         // create view button and append
