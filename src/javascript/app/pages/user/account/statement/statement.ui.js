@@ -61,6 +61,7 @@ const StatementUI = (() => {
         ], columns, 'data');
         $statement_row.children('.credit').addClass(credit_debit_type);
         $statement_row.children('.transaction-time').addClass('pre');
+        $statement_row.children('.transaction-time').css('font-size', 14);
         $statement_row.children('.contract').html(`${statement_data.desc}<br>`);
 
         // create view button and append
