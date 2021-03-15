@@ -81,8 +81,8 @@ const ProfitTableUI = (() => {
 
         $row.children('.pl').addClass(pl_type);
         $row.children('.contract').html(`${profit_table_data.desc}<br>`);
+        $row.children('.contract').css('width','200px');
         $row.children('.buy-time, .sell-time').each(function () {
-            $(this).css('font-size', 14);
             $(this).wrapInner('<div class="new-width"></div>');
         });
 
