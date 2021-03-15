@@ -29160,6 +29160,7 @@ var ProfitTableUI = function () {
         $row.children('.pl').addClass(pl_type);
         $row.children('.contract').html(profit_table_data.desc + '<br>');
         $row.children('.buy-time, .sell-time').each(function () {
+            $(this).css('font-size', 14);
             $(this).wrapInner('<div class="new-width"></div>');
         });
 
@@ -32513,6 +32514,7 @@ var StatementUI = function () {
         var $statement_row = Table.createFlexTableRow(['', '<span ' + showTooltip(statement_data.app_id, oauth_apps[statement_data.app_id]) + '>' + statement_data.ref + '</span>', currency, statement_data.date, statement_data.localized_action, statement_data.amount, statement_data.balance, ''], columns, 'data');
         $statement_row.children('.credit').addClass(credit_debit_type);
         $statement_row.children('.transaction-time').addClass('pre');
+        $statement_row.children('.transaction-time').css('font-size', 14);
         $statement_row.children('.contract').html(statement_data.desc + '<br>');
 
         // create view button and append
