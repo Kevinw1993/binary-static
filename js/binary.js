@@ -32209,7 +32209,7 @@ var StatementInit = function () {
 
             // Show a message when the table is empty
             if (transactions_received === 0 && current_batch.length === 0) {
-                $('#statement-table').find('tbody').append($('<tr/>', { class: 'flex-tr' }).append($('<td/>', { colspan: 6 }).append($('<p/>', { class: 'notice-msg center-text', text: localize('You\'ve made no transactions of this type up to this date.') }))));
+                $('#statement-table').find('tbody').append($('<tr/>', { class: 'flex-tr' }).append($('<td/>', { colspan: 7 }).append($('<p/>', { class: 'notice-msg center-text', text: localize('You\'ve made no transactions of this type up to this date.') }))));
             } else {
                 $('#util_row').setVisibility(1);
                 // uncomment to enable export to CSV
@@ -32513,6 +32513,7 @@ var StatementUI = function () {
         var $statement_row = Table.createFlexTableRow(['', '<span ' + showTooltip(statement_data.app_id, oauth_apps[statement_data.app_id]) + '>' + statement_data.ref + '</span>', currency, statement_data.date, statement_data.localized_action, statement_data.amount, statement_data.balance, ''], columns, 'data');
         $statement_row.children('.credit').addClass(credit_debit_type);
         $statement_row.children('.transaction-time').addClass('pre');
+        $statement_row.children('.transaction-time').css('font-size', 14);
         $statement_row.children('.contract').html(statement_data.desc + '<br>');
 
         // create view button and append
