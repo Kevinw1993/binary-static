@@ -32209,7 +32209,7 @@ var StatementInit = function () {
 
             // Show a message when the table is empty
             if (transactions_received === 0 && current_batch.length === 0) {
-                $('#statement-table').find('tbody').append($('<tr/>', { class: 'flex-tr' }).append($('<td/>', { colspan: 7 }).append($('<p/>', { class: 'notice-msg center-text', text: localize('You\'ve made no transactions of this type up to this date.') }))));
+                $('#statement-table').find('tbody').append($('<tr/>', { class: 'flex-tr' }).append($('<td/>', { colspan: 6 }).append($('<p/>', { class: 'notice-msg center-text', text: localize('You\'ve made no transactions of this type up to this date.') }))));
             } else {
                 $('#util_row').setVisibility(1);
                 // uncomment to enable export to CSV
