@@ -10786,8 +10786,6 @@ var Clock = function () {
             var local_time = !is_table ? moment.utc(gmt_time_str, 'YYYY-MM-DD HH:mm:ss').local() : moment.utc(gmt_time_str, 'DD MMM YYYY HH:mm:ss').local();
             if (local_time.isValid()) {
                 el.setAttribute('data-balloon', local_time.format('YYYY-MM-DD HH:mm:ss Z'));
-
-                console.log(el);
             }
         });
     };
