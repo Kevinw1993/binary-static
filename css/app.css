@@ -601,8 +601,11 @@ tbody#instruments > tr > td {
   display: none; }
 
 @media screen and (max-width: 768px) {
+  #portfolio .contract {
+    display: none;
+    width: 0 !important; }
   #portfolio .details {
-    display: table-column;
+    display: none;
     width: 0 !important; }
   #portfolio tr td {
     padding: 10px 5px 5px; }
