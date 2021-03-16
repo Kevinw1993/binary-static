@@ -1952,13 +1952,11 @@ table {
 
 @media (max-width: 600px) {
   .table-container #statement-table tr > th.details, .table-container #statement-table tr > td.details, .table-container #statement-table tr div tr > .details.td, .table-container tr div #statement-table tr > .details.td, .table-container #profit-table tr > th.details, .table-container #profit-table tr > td.details, .table-container #profit-table tr div tr > .details.td, .table-container tr div #profit-table tr > .details.td {
-    display: none !important; }
+    display: table-column !important; }
     .table-container #statement-table tr > th.details .button, .table-container #statement-table tr > td.details .button, .table-container #statement-table tr div tr > .details.td .button, .table-container tr div #statement-table tr > .details.td .button, .table-container #profit-table tr > th.details .button, .table-container #profit-table tr > td.details .button, .table-container #profit-table tr div tr > .details.td .button, .table-container tr div #profit-table tr > .details.td .button {
       padding: 8px 15px; }
   .table-container #statement-table tr > th.contract, .table-container #statement-table tr > td.contract, .table-container #statement-table tr div tr > .contract.td, .table-container tr div #statement-table tr > .contract.td, .table-container #profit-table tr > th.contract, .table-container #profit-table tr > td.contract, .table-container #profit-table tr div tr > .contract.td, .table-container tr div #profit-table tr > .contract.td {
     display: none !important; }
-    .table-container #statement-table tr > th.contract .button, .table-container #statement-table tr > td.contract .button, .table-container #statement-table tr div tr > .contract.td .button, .table-container tr div #statement-table tr > .contract.td .button, .table-container #profit-table tr > th.contract .button, .table-container #profit-table tr > td.contract .button, .table-container #profit-table tr div tr > .contract.td .button, .table-container tr div #profit-table tr > .contract.td .button {
-      padding: 8px 15px; }
   .table-container #statement-table tr th, .table-container #statement-table tr td, .table-container #statement-table tr div .td, .table-container #profit-table tr th, .table-container #profit-table tr td, .table-container #profit-table tr div .td {
     font-size: 0.7561436673rem; } }
 
