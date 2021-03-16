@@ -34,19 +34,20 @@ const Portfolio = () => (
                 data={{
                     thead: [
                         [
-                            { className: 'details',                          text: it.L('Contract details') },
+                            { className: 'contract',                          text: it.L('Contract details') },
                             { className: 'ref',                              text: it.L('Ref. ID') },
                             { className: 'currency',                         text: it.L('Currency') },
                             { className: 'purchase',                         text: it.L('Buy price') },
                             { className: 'payout nowrap',                    text: it.L('Payout limit') },
                             { className: 'indicative nowrap',                text: it.L('Indicative price') },
-                            { className: 'button',                           text: '' },
+                            { className: 'button',                           text: it.L('Details') },
                         ],
                     ],
                     tfoot: [
                         [
                             { text: it.L('Total') },
-                            { className: 'ref',                   attributes: { colSpan: 2 } },
+                            { className: 'ref'                                                                              },
+                            { className: 'temp-column'                                                                      },
                             { className: 'cost',                  id: 'cost-of-open-positions', attributes: { colSpan: 2 } },
                             { className: 'value',                 id: 'value-of-open-positions', attributes: { colSpan: 2 } },
                         ],

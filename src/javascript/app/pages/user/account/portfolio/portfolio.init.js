@@ -52,7 +52,7 @@ const PortfolioInit = (() => {
         const new_class = is_first ? '' : 'new';
         const $div      = $('<div/>');
         $div.append($('<tr/>', { class: `tr-first ${new_class} ${data.contract_id}`, id: data.contract_id })
-            .append($('<td/>', { class: 'details', text: data.longcode }))
+            .append($('<td/>', { class: 'contract', text: data.longcode }))
             .append($('<td/>', { class: 'ref' }).append($(`<span ${GetAppDetails.showTooltip(data.app_id, oauth_apps[data.app_id])} data-balloon-position="right">${data.transaction_id}</span>`)))
             .append($('<td/>', { class: 'currency', text: data.currency }))
             .append($('<td/>', { class: 'purchase' }).append($('<strong/>', { html: formatMoney(data.currency, data.buy_price, exclude_currency) })))
