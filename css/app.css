@@ -592,9 +592,15 @@ tbody#instruments > tr > td {
   padding: 10px;
   text-align: left; }
   #portfolio th.ref {
+    column-span: 2;
     -webkit-column-span: 2;
-       -moz-column-span: 2;
-            column-span: 2; }
+    /* Safari & Chrome */
+    -moz-column-span: 2;
+    /* Firefox */
+    -ms-column-span: 2;
+    /* Internet Explorer */
+    -o-column-span: 2;
+    /* Opera */ }
     @media (max-width: 600px) {
       #portfolio th.ref {
         column-span: 1;
