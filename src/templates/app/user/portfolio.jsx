@@ -47,8 +47,8 @@ const Portfolio = () => (
                         [
                             { text: it.L('Total') },
                             { className: 'ref',                   attributes: { colSpan: 2 } },
-                            { className: 'cost',                  id: 'cost-of-open-positions' },
-                            { className: 'value',                 id: 'value-of-open-positions', attributes: { colSpan: 3 } },
+                            { className: 'cost',                  id: 'cost-of-open-positions', attributes: { colSpan: 2 } },
+                            { className: 'value',                 id: 'value-of-open-positions', attributes: { colSpan: 2 } },
                         ],
                     ],
                 }}
