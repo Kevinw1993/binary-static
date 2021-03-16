@@ -32498,7 +32498,7 @@ var StatementUI = function () {
         $statement_row.children('.credit').addClass(credit_debit_type);
         $statement_row.children('.transaction-time').addClass('pre');
         $statement_row.children('.contract').html(statement_data.desc + '<br>');
-        // $statement_row.children('.contract').css('width','200px');
+        $statement_row.children('.contract').css('width', '200px');
 
         // create view button and append
         if (/^(buy|sell)$/i.test(statement_data.action_type)) {
