@@ -591,28 +591,9 @@ tbody#instruments > tr > td {
 #portfolio th {
   padding: 10px;
   text-align: left; }
-  #portfolio th.ref {
-    column-span: 2;
-    -webkit-column-span: 2;
-    /* Safari & Chrome */
-    -moz-column-span: 2;
-    /* Firefox */
-    -ms-column-span: 2;
-    /* Internet Explorer */
-    -o-column-span: 2;
-    /* Opera */ }
-    @media (max-width: 600px) {
-      #portfolio th.ref {
-        column-span: 1;
-        /* W3C */
-        -webkit-column-span: 1;
-        /* Safari & Chrome */
-        -moz-column-span: 1;
-        /* Firefox */
-        -ms-column-span: 1;
-        /* Internet Explorer */
-        -o-column-span: 1;
-        /* Opera */ } }
+  @media (max-width: 600px) {
+    #portfolio th.temp_column {
+      display: none; } }
   #portfolio th.details {
     width: 45%; }
 
