@@ -605,7 +605,7 @@ tbody#instruments > tr > td {
     display: none;
     width: 0 !important; }
   #portfolio .details {
-    display: none;
+    display: table-column;
     width: 0 !important; }
   #portfolio tr td {
     padding: 10px 5px 5px; }
