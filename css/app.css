@@ -592,7 +592,7 @@ tbody#instruments > tr > td {
   padding: 10px;
   text-align: left; }
   @media (max-width: 600px) {
-    #portfolio th.temp_column {
+    #portfolio th.temp-column {
       display: none; } }
   #portfolio th.details {
     width: 45%; }
