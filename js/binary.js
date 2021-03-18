@@ -1139,6 +1139,9 @@ var GTM = function () {
         return (/^(1|1098|14473|15284|16303|15265|16929)$/.test(getAppId())
         );
     };
+    var isGtmAvailable = function isGtmAvailable() {
+        return window.dataLayer !== ( false || undefined);
+    };
 
     var getCommonVariables = function getCommonVariables() {
         return _extends({
@@ -1155,8 +1158,10 @@ var GTM = function () {
     };
 
     var pushDataLayer = function pushDataLayer(data) {
-        if (isGtmApplicable() && !isLoginPages()) {
-            dataLayer.push(_extends({}, getCommonVariables(), data));
+        if (isGtmAvailable()) {
+            if (isGtmApplicable() && !isLoginPages()) {
+                dataLayer.push(_extends({}, getCommonVariables(), data));
+            }
         }
     };
 
@@ -32499,6 +32504,11 @@ var StatementUI = function () {
         $statement_row.children('.transaction-time').addClass('pre');
         $statement_row.children('.contract').html(statement_data.desc + '<br>');
         $statement_row.children('.contract').css('width', '200px');
+
+        // add processing time tooltip for withdrawal
+        if (transaction.action_type === 'withdrawal') {
+            $statement_row.children('.contract').find('span').attr('data-balloon', transaction.withdrawal_details);
+        }
 
         // create view button and append
         if (/^(buy|sell)$/i.test(statement_data.action_type)) {
