@@ -59,7 +59,7 @@ const Home                = require('../../static/pages/home');
 const KeepSafe            = require('../../static/pages/keep_safe');
 const JobDetails          = require('../../static/pages/job_details');
 const Platforms           = require('../../static/pages/platforms');
-const Dmt5Signals          = require('../../static/pages/dmt5_signals');
+const Mt5Signals          = require('../../static/pages/mt5_signals');
 const Regulation          = require('../../static/pages/regulation');
 const StaticPages         = require('../../static/pages/static_pages');
 const TermsAndConditions  = require('../../static/pages/tnc');
@@ -88,7 +88,7 @@ const pages_config = {
     cryptocurrencies         : { module: GetStarted.Cryptocurrencies },
     cyberjaya                : { module: StaticPages.Locations },
     detailsws                : { module: PersonalDetails,            is_authenticated: true, needs_currency: true },
-    dmt5signals              : { module: Dmt5Signals },
+    mt5signals               : { module: Mt5Signals },
     download                 : { module: MetatraderDownloadUI },
     dp2p                     : { module: DP2P,                       is_authenticated: true },
     dubai                    : { module: StaticPages.Locations },

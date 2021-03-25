@@ -19,7 +19,7 @@ const os_list = [
     // }
 ];
 
-const Dmt5Signals = (() => {
+const Mt5Signals = (() => {
     const onLoad = () => {
         BinarySocket.wait('website_status').then(() => {
             $('.desktop-app').setVisibility(isIndonesia() && !isBinaryApp());
@@ -49,4 +49,4 @@ const Dmt5Signals = (() => {
     };
 })();
 
-module.exports = Dmt5Signals;
+module.exports = Mt5Signals;
