@@ -180,21 +180,6 @@ a.previous-wrapper {
     border: 1px solid #dedede;
     border-radius: 4px;
     margin-bottom: 20px; }
-    #mt_account_management .mt-panel .password--field-wrapper {
-      max-width: unset; }
-      #mt_account_management .mt-panel .password--field-wrapper input {
-        max-width: unset; }
-    #mt_account_management .mt-panel .password--message {
-      white-space: unset; }
-    @media screen and (max-width: 480px) {
-      #mt_account_management .mt-panel .password--field-wrapper {
-        max-width: unset; }
-        #mt_account_management .mt-panel .password--field-wrapper input {
-          width: 100% !important; }
-      #mt_account_management .mt-panel .password--meter {
-        top: 22px; }
-      #mt_account_management .mt-panel .password--toggle {
-        top: 5px; } }
   #mt_account_management .flex {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -591,9 +576,6 @@ tbody#instruments > tr > td {
 #portfolio th {
   padding: 10px;
   text-align: left; }
-  @media (max-width: 600px) {
-    #portfolio th.temp-column {
-      display: none; } }
   #portfolio th.details {
     width: 45%; }
 
@@ -604,9 +586,6 @@ tbody#instruments > tr > td {
   display: none; }
 
 @media screen and (max-width: 768px) {
-  #portfolio .contract {
-    display: none;
-    width: 0 !important; }
   #portfolio .details {
     display: table-column;
     width: 0 !important; }
