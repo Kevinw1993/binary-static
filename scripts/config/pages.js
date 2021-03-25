@@ -76,7 +76,7 @@ module.exports = [
     ['tour',                                    'static/tour',                                 'full_width', 'Tour'],
     ['why-us',                                  'static/why_us',                               'full_width', 'Why Us'],
     ['platforms',                               'static/platforms',                            'full_width', 'Trading Platforms'],
-    ['dmt5signals',                             'static/dmt5_signals',                         'full_width', 'DMT5 Signals'],
+    ['mt5signals',                              'static/mt5_signals',                          'full_width', 'MT5 Signals'],
 
     ['about-us',                                'static/about/index',                          'full_width', 'About Us'],
     ['asuncion',                                'static/about/asuncion',                       'full_width', 'Careers - Asunción'],
