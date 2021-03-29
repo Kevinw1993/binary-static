@@ -51,7 +51,7 @@ const Mt5Signals = () => (
                     <TabContentContainer>
                         <TabContent id='signal_subscriber'>
                             <div className='container gr-padding-20 gr-parent'>
-                                <p>{it.L('The MT5 trading signals service allows you to copy the trades of more experienced traders to your MT5 account. Once you’ve subscribed to a signal, the provider’s deals will be automatically replicated on your [_1] MT5 trading account each time they place a trade.',it.website_name)}
+                                <p>{it.L('The MT5 trading signals service allows you to copy the trades of more experienced traders to your MT5 account. Once you’ve subscribed to a signal, the provider’s deals will be automatically replicated on your [_1] MT5 trading account each time they place a trade.', it.website_name)}
                                 </p>
                             </div>
                             <div className='fill-bg-color gr-padding-30 fullwidth' >
