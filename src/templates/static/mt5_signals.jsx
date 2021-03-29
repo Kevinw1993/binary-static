@@ -51,7 +51,7 @@ const Mt5Signals = () => (
                     <TabContentContainer>
                         <TabContent id='signal_subscriber'>
                             <div className='container gr-padding-20 gr-parent'>
-                                <p>{it.L('The MT5 trading signals service allows you to copy the trades of more experienced traders to your MT5 account. Once you’ve subscribed to a signal, the provider’s deals will be automatically replicated on your Binary.com MT5 trading account each time they place a trade.')}
+                                <p>{it.L('The MT5 trading signals service allows you to copy the trades of more experienced traders to your MT5 account. Once you’ve subscribed to a signal, the provider’s deals will be automatically replicated on your [_1] MT5 trading account each time they place a trade.',it.website_name)}
                                 </p>
                             </div>
                             <div className='fill-bg-color gr-padding-30 fullwidth' >
@@ -141,8 +141,8 @@ const Mt5Signals = () => (
                                         <ol>
                                             <li>{it.L('You must have an MQL5 community account to subscribe to trading signals. If you don’t have an account yet, please go to [_1] to register.', '<a href="https://www.mql5.com/en/auth_register">MQL5.com</a>')}</li>
                                             <li>{it.L('You’ll need to fund your MQL5 account to subscribe to paid signals. [_1]', '<a href="https://www.mql5.com/en/articles/302#deposit">Learn how to fund your account</a>')}</li>
-                                            <li>{it.L('You can only subscribe to one signal provider with one Binary.com account at any given time. You can use your signal on up to 3 computers.')}</li>
-                                            <li> {it.L('You won’t be able to trade manually with the same Binary.com MT5 account once you’ve subscribed to a signal.')}
+                                            <li>{it.L('You can only subscribe to one signal provider with one [_1] account at any given time. You can use your signal on up to 3 computers.',it.website_name)}</li>
+                                            <li> {it.L('You won’t be able to trade manually with the same [_1] MT5 account once you’ve subscribed to a signal.',it.website_name)}
                                             </li>
                                         </ol>
                                         <p>{it.L('Have more questions? Check out the [_1] section on the MQL5 website.', '<a href="https://www.mql5.com/en/forum/10773#q17">FAQ </a>')} </p>
@@ -211,8 +211,8 @@ const Mt5Signals = () => (
                                         <ol>
                                             <li>{it.L('You must have an MQL5 community account to subscribe to trading signals. If you don’t have an account yet, please go to MQL5.com to register.')}</li>
                                             <li>{it.L('You’ll need to fund your MQL5 account to subscribe to paid signals. Learn how to fund your account.')}</li>
-                                            <li>{it.L('You can only subscribe to one signal provider with one Binary.com account at any given time. You can use your signal on up to 3 computers.')} </li>
-                                            <li>{it.L(' You won’t be able to trade manually with the same Binary.com MT5 account once you’ve subscribed to a signal.')}</li>
+                                            <li>{it.L('You can only subscribe to one signal provider with one [_1] account at any given time. You can use your signal on up to 3 computers.',it.website_name)} </li>
+                                            <li>{it.L(' You won’t be able to trade manually with the same [_1] MT5 account once you’ve subscribed to a signal.',it.website_name)}</li>
                                         </ol>
                                     </div>
                                 </div>

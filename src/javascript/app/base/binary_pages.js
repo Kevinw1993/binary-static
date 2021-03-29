@@ -88,7 +88,7 @@ const pages_config = {
     cryptocurrencies         : { module: GetStarted.Cryptocurrencies },
     cyberjaya                : { module: StaticPages.Locations },
     detailsws                : { module: PersonalDetails,            is_authenticated: true, needs_currency: true },
-    mt5signals               : { module: Mt5Signals },
+    'mt5-signals'            : { module: Mt5Signals },
     download                 : { module: MetatraderDownloadUI },
     dp2p                     : { module: DP2P,                       is_authenticated: true },
     dubai                    : { module: StaticPages.Locations },
