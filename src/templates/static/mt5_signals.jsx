@@ -147,7 +147,7 @@ const Mt5Signals = () => (
                                         </ol>
                                         <p>{it.L('Have more questions? Check out the [_1] section on the MQL5 website.', '<a href="https://www.mql5.com/en/forum/10773#q17">FAQ </a>')} </p>
                                         <div className='center-text gr-padding-20'>
-                                            <a className='button' href='https://app.deriv.com/mt5'><span>{it.L('Go to the MT5 Terminal')}</span></a>
+                                            <a className='button' href='https://www.binary.com/en/user/metatrader.html'><span>{it.L('Go to the MT5 Terminal')}</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -219,7 +219,7 @@ const Mt5Signals = () => (
                                 <p>{it.L('<strong>Note:</strong> You need to upgrade your MQL5 account to seller status to be able to add a signal. If you’ve not upgraded yet, follow the steps on this page to register as a seller.')}
                                 </p>
                                 <div className='center-text gr-padding-20'>
-                                    <a className='button' href='https://app.deriv.com/mt5'><span>{it.L('Go to the MT5 Terminal')}</span></a>
+                                    <a className='button' href='https://www.binary.com/en/user/metatrader.html'><span>{it.L('Go to the MT5 Terminal')}</span></a>
                                 </div>
                             </div>
 
