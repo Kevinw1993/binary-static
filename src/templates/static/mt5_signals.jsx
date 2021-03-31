@@ -64,7 +64,7 @@ const Mt5Signals = () => (
                                             <div className='gr-padding-10 facts'>
                                                 <div className='gr-row no-padding'>
                                                     <Box>
-                                                        <BoxInner className='border-right-top' image='copy_trade' text={it.L('Minimise trading risk by copying from expert traders.', `<a href="${ it.url_for('group-history') }">`, '</a>')} />
+                                                        <BoxInner className='border-right-top' image='copy_trade' text={it.L('Minimise trading risk by copying from expert traders.')} />
                                                         <BoxInner className='border-right-top' image='save_time' text={it.L('Save time – no need to open, monitor, and close trades.')} />
                                                         <BoxInner className='border-right-top' image='easy_setup' text={it.L('Easy to set up – no installation required.')} />
                                                     </Box>
@@ -104,7 +104,7 @@ const Mt5Signals = () => (
                                             </ol>
                                         </div>
                                     </div>
-                                    <p> {it.L('[_1]Note [_2] : For a wider selection of signal providers, go to MQL5 showcase page and search for Deriv under the Broker server field.', '<strong>', '</strong>')}
+                                    <p> {it.L('[_1]Note[_2]: For a wider selection of signal providers, go to MQL5 showcase page and search for Deriv under the Broker server field.', '<strong>', '</strong>')}
                                     </p>
                                 </div>
                             </div>
@@ -139,15 +139,15 @@ const Mt5Signals = () => (
                                     <div>
                                         <p>{it.L('[_1]Note: [_2] ', '<strong>', '</strong>')}</p>
                                         <ol>
-                                            <li>{it.L('You must have an MQL5 community account to subscribe to trading signals. If you don’t have an account yet, please go to [_1]MQL5.com[_2] to register.', '<a href="https://www.mql5.com/en/auth_register">','</a>')}</li>
-                                            <li>{it.L('You’ll need to fund your MQL5 account to subscribe to paid signals.[_1] Learn how to fund your account [_2]', '<a href="https://www.mql5.com/en/articles/302#deposit">','</a>')}</li>
+                                            <li>{it.L('You must have an MQL5 community account to subscribe to trading signals. If you don’t have an account yet, please go to [_1]MQL5.com[_2] to register.', '<a href="https://www.mql5.com/en/auth_register">', '</a>')}</li>
+                                            <li>{it.L('You’ll need to fund your MQL5 account to subscribe to paid signals. [_1]Learn how to fund your account[_2].', '<a href="https://www.mql5.com/en/articles/302#deposit">', '</a>')}</li>
                                             <li>{it.L('You can only subscribe to one signal provider with one [_1] account at any given time. You can use your signal on up to 3 computers.',it.website_name)}</li>
-                                            <li> {it.L('You won’t be able to trade manually with the same [_1] MT5 account once you’ve subscribed to a signal.',it.website_name)}
+                                            <li> {it.L('You won’t be able to trade manually with the same [_1] MT5 account once you’ve subscribed to a signal.', it.website_name)}
                                             </li>
                                         </ol>
-                                        <p>{it.L('Have more questions? Check out the [_1]FAQ[_2] section on the MQL5 website.', '<a href="https://www.mql5.com/en/forum/10773#q17">' ,'</a>')} </p>
+                                        <p>{it.L('Have more questions? Check out the [_1]FAQ[_2] section on the MQL5 website.', '<a href="https://www.mql5.com/en/forum/10773#q17">', '</a>')} </p>
                                         <div className='center-text gr-padding-20'>
-                                            <a className='button' href='https://www.binary.com/en/user/metatrader.html'><span>{it.L('Go to the MT5 Terminal')}</span></a>
+                                            <a className='button' href={it.url_for('user/metatrader')}><span>{it.L('Go to the MT5 Terminal')}</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -196,7 +196,7 @@ const Mt5Signals = () => (
                                         <div className='gr-4 gr-12-m gr-padding-10 gr-child'>
                                             <img className='responsive' src={it.url_for('images/pages/mt5_signals/signal_provider_register_2.png')} />
                                             <ol start='2'>
-                                                <li>{it.L('Complete the form with your Deriv MT5 account credentials. For the [_1]Broker[_2] field, add [_1]Deriv-Server[_2]  as your broker or [_1]Deriv-Demo [_2] if your signal is for demo accounts only.', '<strong>', '</strong>')}</li>
+                                                <li>{it.L('Complete the form with your Deriv MT5 account credentials. For the [_1]Broker[_2] field, add [_1]Deriv-Server[_2]  as your broker or [_1]Deriv-Demo[_2] if your signal is for demo accounts only.', '<strong>', '</strong>')}</li>
                                             </ol>
                                         </div>
                                         <div className='gr-4 gr-12-m gr-padding-10 gr-child'>
@@ -207,19 +207,19 @@ const Mt5Signals = () => (
                                         </div>
                                     </div>
                                     <div className='gr-padding-30' >
-                                        <p>{it.L('[_1]Note:[_2] ', '<strong>', '</strong>')}</p>
+                                        <p><strong>{it.L('Note:')}</strong></p>
                                         <ol>
-                                            <li>{it.L('You must have an MQL5 community account to subscribe to trading signals. If you don’t have an account yet, please go to [_1]MQL5.com[_2] to register.', '<a href="https://www.mql5.com/en/auth_register">','</a>')}</li>
-                                            <li>{it.L('You’ll need to fund your MQL5 account to subscribe to paid signals.[_1] Learn how to fund your account [_2]', '<a href="https://www.mql5.com/en/articles/302#deposit">','</a>')}</li>
-                                            <li>{it.L('You can only subscribe to one signal provider with one [_1] account at any given time. You can use your signal on up to 3 computers.',it.website_name)} </li>
-                                            <li>{it.L('You won’t be able to trade manually with the same [_1] MT5 account once you’ve subscribed to a signal.',it.website_name)}</li>
+                                            <li>{it.L('You must have an MQL5 community account to subscribe to trading signals. If you don’t have an account yet, please go to [_1]MQL5.com[_2] to register.', '<a href="https://www.mql5.com/en/auth_register">', '</a>')}</li>
+                                            <li>{it.L('You’ll need to fund your MQL5 account to subscribe to paid signals. [_1] Learn how to fund your account[_2].', '<a href="https://www.mql5.com/en/articles/302#deposit">', '</a>')}</li>
+                                            <li>{it.L('You can only subscribe to one signal provider with one [_1] account at any given time. You can use your signal on up to 3 computers.', it.website_name)} </li>
+                                            <li>{it.L('You won’t be able to trade manually with the same [_1] MT5 account once you’ve subscribed to a signal.', it.website_name)}</li>
                                         </ol>
                                     </div>
                                 </div>
-                                <p>{it.L('[_1]Note:[_2] You need to upgrade your MQL5 account to seller status to be able to add a signal. If you’ve not upgraded yet, follow the steps on this page to register as a seller.','<strong>', '</strong>')}
+                                <p>{it.L('[_1]Note:[_2] You need to upgrade your MQL5 account to seller status to be able to add a signal. If you’ve not upgraded yet, follow the steps on this page to register as a seller.', '<strong>', '</strong>')}
                                 </p>
                                 <div className='center-text gr-padding-20'>
-                                    <a className='button' href='https://www.binary.com/en/user/metatrader.html'><span>{it.L('Go to the MT5 Terminal')}</span></a>
+                                    <a className='button' href={it.url_for('user/metatrader')}><span>{it.L('Go to the MT5 Terminal')}</span></a>
                                 </div>
                             </div>
 
