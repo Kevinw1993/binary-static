@@ -12,13 +12,13 @@ const BoxInner = ({ className = '', href, target, image, text }) => (
         { href ?
             <React.Fragment>
                 <a href={target ? href : it.url_for(href)} target={target || '_self'}>
-                    <img className='gr-7 gr-centered' src={it.url_for(`images/pages/mt5_signals/${image}.svg`)} />
+                    <img className='gr-7 gr-centered' src={it.url_for(`images/pages/mt5_signals/${image}.svg`)} height='64px' />
                 </a>
                 <p>{text}</p>
             </React.Fragment>
             :
             <React.Fragment>
-                <img className='gr-7 gr-centered' src={it.url_for(`images/pages/mt5_signals/${image}.svg`)} />
+                <img className='gr-7 gr-centered' src={it.url_for(`images/pages/mt5_signals/${image}.svg`)} height='64px' />
                 <p>{text}</p>
             </React.Fragment>
         }
@@ -36,7 +36,7 @@ const Box = ({ children }) => (
 const Mt5Signals = () => (
     <div className='static_full'>
         <div className='container'>
-            <h1 className='center-text'>{it.L('MT5 Signals')}</h1>
+            <h1 className='center-text'>{it.L('MetaTrader 5 Signals')}</h1>
             <TabContainer className='gr-padding-30 gr-parent full-width' theme='light'>
                 <TabsSubtabs
                     id='mt5_signals_tabs'
@@ -104,7 +104,7 @@ const Mt5Signals = () => (
                                             </ol>
                                         </div>
                                     </div>
-                                    <p>{it.L('[_1]Note:[_2] For a wider selection of signal providers, go to MQL5 showcase page and search for Deriv under the Broker server field.', '<strong>', '</strong>')}
+                                    <p>{it.L('[_1]Note:[_2] For a wider selection of signal providers, go to [_3]MQL5 showcase page[_4] and search for Deriv under the Broker server field.', '<strong>', '</strong>', '<a href="https://www.mql5.com/en/signals/mt5">', '</a>')}
                                     </p>
                                 </div>
                             </div>
@@ -171,7 +171,7 @@ const Mt5Signals = () => (
                                                 <div className='gr-row no-padding'>
                                                     <Box>
                                                         <BoxInner className='border-right-top' image='easy_setup' text={it.L('Easy to set up – no installation required.')} />
-                                                        <BoxInner className='border-right-top' image='additional_income' text={it.L('Additional income stream from monthly subscriptions,')} />
+                                                        <BoxInner className='border-right-top' image='additional_income' text={it.L('Additional income stream from monthly subscriptions.')} />
                                                         <BoxInner className='border-right-top' image='automated_copy_trade' text={it.L('Automated copying – no extra work from you.')} />
                                                     </Box>
                                                 </div>
@@ -204,15 +204,6 @@ const Mt5Signals = () => (
                                                 <li>{it.L('Click [_1]OK[_2] and add a description to complete the registration', '<strong>', '</strong>')}</li>
                                             </ol>
                                         </div>
-                                    </div>
-                                    <div className='gr-padding-30' >
-                                        <p><strong>{it.L('Note:')}</strong></p>
-                                        <ol>
-                                            <li>{it.L('You must have an MQL5 community account to subscribe to trading signals. If you don’t have an account yet, please go to [_1]MQL5.com[_2] to register.', '<a href="https://www.mql5.com/en/auth_register">', '</a>')}</li>
-                                            <li>{it.L('You’ll need to fund your MQL5 account to subscribe to paid signals. [_1] Learn how to fund your account[_2].', '<a href="https://www.mql5.com/en/articles/302#deposit">', '</a>')}</li>
-                                            <li>{it.L('You can only subscribe to one signal provider with one [_1] account at any given time. You can use your signal on up to 3 computers.', it.website_name)} </li>
-                                            <li>{it.L('You won’t be able to trade manually with the same [_1] MT5 account once you’ve subscribed to a signal.', it.website_name)}</li>
-                                        </ol>
                                     </div>
                                 </div>
                                 <p>{it.L('[_1]Note:[_2] You need to upgrade your MQL5 account to seller status to be able to add a signal. If you’ve not upgraded yet, follow the steps on this page to register as a seller.', '<strong>', '</strong>')}
