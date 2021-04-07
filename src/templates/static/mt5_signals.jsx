@@ -196,7 +196,7 @@ const Mt5Signals = () => (
                                             <img className='responsive' src={it.url_for('images/pages/mt5_signals/signal_provider_register_2.png')} />
                                             <ol start='2'>
                                                 <li>{it.L('Complete the form with your Deriv MT5 account credentials. In the Broker field, enter your account server name:[_3][_1]Deriv-Demo[_2] if your signal is for demo accounts only', '<strong>', '</strong>','<br>')}
-                                                    <ul>
+                                                    <ul className='bullet'>
                                                         <li>{it.L('[_1]Deriv-Server[_2] or [_1]Deriv-Server-02[_2] if your signals is for real accounts only', '<strong>', '</strong>')}</li>
                                                         <li>{it.L('(You can find the account server name on your [_1]MT5 dashboard[_2]).', '<a href ={it.url_for("user/metatrader")}>', '</a>')}</li>
                                                     </ul>
