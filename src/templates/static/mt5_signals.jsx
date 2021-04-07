@@ -199,7 +199,7 @@ const Mt5Signals = () => (
                                                     <ul className='bullet'>
                                                         <li>{it.L('[_1]Deriv-Demo[_2] if your signal is for demo accounts only.', '<strong>', '</strong>')}</li>
                                                         <li>{it.L('[_1]Deriv-Server[_2] or [_1]Deriv-Server-02[_2] if your signals is for real accounts only.', '<strong>', '</strong>')}</li>
-                                                        <li>{it.L('(You can find the account server name on your [_1]MT5 dashboard[_2]).', '<a href ={it.url_for("user/metatrader")}>', '</a>')}</li>
+                                                        <li>{it.L('(You can find the account server name on your [_1]MT5 dashboard[_2].', `<a href=${it.url_for('user/metatrader')} target="_blank">`, '</a>')}</li>
                                                     </ul>
                                                 </li>
                                             </ol>
