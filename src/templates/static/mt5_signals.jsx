@@ -12,13 +12,13 @@ const BoxInner = ({ className = '', href, target, image, text }) => (
         { href ?
             <React.Fragment>
                 <a href={target ? href : it.url_for(href)} target={target || '_self'}>
-                    <img className='gr-7 gr-centered' src={it.url_for(`images/pages/mt5_signals/${image}.svg`)} height='64px' />
+                    <img className='gr-12 gr-centered' src={it.url_for(`images/pages/mt5_signals/${image}.svg`)} height='64px' />
                 </a>
                 <p>{text}</p>
             </React.Fragment>
             :
             <React.Fragment>
-                <img className='gr-7 gr-centered' src={it.url_for(`images/pages/mt5_signals/${image}.svg`)} height='64px' />
+                <img className='gr-12 gr-centered' src={it.url_for(`images/pages/mt5_signals/${image}.svg`)} height='64px' />
                 <p>{text}</p>
             </React.Fragment>
         }
