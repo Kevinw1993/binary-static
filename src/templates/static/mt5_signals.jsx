@@ -85,19 +85,19 @@ const Mt5Signals = () => (
                                         {it.L('How to subscribe to a MT5 signal')}
                                     </h2>
                                     <div className='gr-row gr-padding-30'>
-                                        <div className='gr-4 gr-12-m gr-padding-10 gr-child'>
+                                        <div className='gr-4 gr-12-m gr-padding-10 gr-child signal_provider-container'>
                                             <img className='responsive' src={it.url_for('images/pages/mt5_signals/mt5_terminal.png')} />
                                             <ol>
                                                 <li>{it.L('From your MT5 trading terminal, click on the [_1]Signals[_2] tab to view the list of signal providers.', '<strong>', '</strong>')}</li>
                                             </ol>
                                         </div>
-                                        <div className='gr-4 gr-12-m gr-padding-10 gr-child'>
+                                        <div className='gr-4 gr-12-m gr-padding-10 gr-child signal_provider-container'>
                                             <img className='responsive' src={it.url_for('images/pages/mt5_signals/mt5_subscribe.png')} />
                                             <ol start='2'>
                                                 <li>{it.L('Select the signal provider you prefer and click the [_1]Subscribe[_2] button.', '<strong>', '</strong>')}</li>
                                             </ol>
                                         </div>
-                                        <div className='gr-4 gr-12-m gr-padding-10 gr-child'>
+                                        <div className='gr-4 gr-12-m gr-padding-10 gr-child signal_provider-container'>
                                             <img className='responsive' src={it.url_for('images/pages/mt5_signals/mt5_trading_risk.png')} />
                                             <ol start='3'>
                                                 <li>{it.L('Configure your trading and risk management parameters. Then click [_1]OK[_2] to complete the process.', '<strong>', '</strong>')}</li>
