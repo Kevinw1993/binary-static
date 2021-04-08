@@ -118,19 +118,19 @@ const Mt5Signals = () => (
                                     </h2>
                                     <div className='gr-row gr-padding-30'>
                                         <div className='gr-4 gr-12-m gr-padding-10 gr-child signal_provider-container'>
-                                            <img className='signal_provider_image responsive' src={it.url_for('images/pages/mt5_signals/mt5_terminal.png')} />
+                                            <img className='responsive' src={it.url_for('images/pages/mt5_signals/mt5_terminal.png')} />
                                             <ol>
                                                 <li>{it.L('From your MT5 trading terminal, click on the [_1]Signals[_2] tab.', '<strong>', '</strong>')}</li>
                                             </ol>
                                         </div>
                                         <div className='gr-4 gr-12-m gr-padding-10 gr-child signal_provider-container'>
-                                            <img className='signal_provider_image responsive' src={it.url_for('images/pages/mt5_signals/mt5_statistics.png')} />
+                                            <img className='responsive' src={it.url_for('images/pages/mt5_signals/mt5_statistics.png')} />
                                             <ol start='2'>
                                                 <li>{it.L('Click on the [_1]My Statistics[_2] tab and select your signal provider.', '<strong>', '</strong>')}</li>
                                             </ol>
                                         </div>
                                         <div className='gr-4 gr-12-m gr-padding-10 gr-child signal_provider-container'>
-                                            <img className='signal_provider_image responsive' src={it.url_for('images/pages/mt5_signals/mt5_subscribe2.png')} />
+                                            <img className='responsive' src={it.url_for('images/pages/mt5_signals/mt5_subscribe2.png')} />
                                             <ol start='3'>
                                                 <li>{it.L('Click the [_1]Renew[_2] button to renew the service or the [_1]Unsubscribe[_2] button to cancel the subscription.', '<strong>', '</strong>')}</li>
                                             </ol>
