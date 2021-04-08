@@ -2281,6 +2281,9 @@ body #not_authenticated_financial ul.checked > li {
 #self_exclusion_dialog #dialog_content {
   max-width: 496px; }
 
+.signal_provider_image {
+  border: 1px solid #dedede; }
+
 .timeline {
   margin: 0 auto;
   overflow: hidden;
