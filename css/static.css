@@ -2281,7 +2281,18 @@ body #not_authenticated_financial ul.checked > li {
 #self_exclusion_dialog #dialog_content {
   max-width: 496px; }
 
-.signal_provider_image {
+.signal_provider-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  @media screen and (max-width: 1023px) {
+    .signal_provider-container {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: reverse;
+          -ms-flex-flow: column-reverse;
+              flex-flow: column-reverse; } }
+
+.signal_provider-image {
   border: 1px solid #dedede; }
 
 .timeline {
