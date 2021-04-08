@@ -2289,8 +2289,8 @@ body #not_authenticated_financial ul.checked > li {
     .signal_provider-container {
       -webkit-box-orient: vertical;
       -webkit-box-direction: reverse;
-          -ms-flex-flow: column-reverse;
-              flex-flow: column-reverse; } }
+          -ms-flex-direction: column-reverse;
+              flex-direction: column-reverse; } }
 
 .signal_provider-image {
   border: 1px solid #dedede; }
