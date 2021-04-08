@@ -117,20 +117,20 @@ const Mt5Signals = () => (
                                         {it.L('How to renew or cancel your subscription')}
                                     </h2>
                                     <div className='gr-row gr-padding-30'>
-                                        <div className='gr-4 gr-12-m gr-padding-10 gr-child'>
-                                            <img className='border-dark-gray responsive' src={it.url_for('images/pages/mt5_signals/mt5_terminal.png')} />
+                                        <div className='gr-4 gr-12-m gr-padding-10 gr-child signal_provider-container'>
+                                            <img className='signal_provider_image responsive' src={it.url_for('images/pages/mt5_signals/mt5_terminal.png')} />
                                             <ol>
                                                 <li>{it.L('From your MT5 trading terminal, click on the [_1]Signals[_2] tab.', '<strong>', '</strong>')}</li>
                                             </ol>
                                         </div>
-                                        <div className='gr-4 gr-12-m gr-padding-10 gr-child'>
-                                            <img className='border-dark-gray responsive' src={it.url_for('images/pages/mt5_signals/mt5_statistics.png')} />
+                                        <div className='gr-4 gr-12-m gr-padding-10 gr-child signal_provider-container'>
+                                            <img className='signal_provider_image responsive' src={it.url_for('images/pages/mt5_signals/mt5_statistics.png')} />
                                             <ol start='2'>
                                                 <li>{it.L('Click on the [_1]My Statistics[_2] tab and select your signal provider.', '<strong>', '</strong>')}</li>
                                             </ol>
                                         </div>
-                                        <div className='gr-4 gr-12-m gr-padding-10 gr-child'>
-                                            <img className='border-dark-gray responsive' src={it.url_for('images/pages/mt5_signals/mt5_subscribe2.png')} />
+                                        <div className='gr-4 gr-12-m gr-padding-10 gr-child signal_provider-container'>
+                                            <img className='signal_provider_image responsive' src={it.url_for('images/pages/mt5_signals/mt5_subscribe2.png')} />
                                             <ol start='3'>
                                                 <li>{it.L('Click the [_1]Renew[_2] button to renew the service or the [_1]Unsubscribe[_2] button to cancel the subscription.', '<strong>', '</strong>')}</li>
                                             </ol>
@@ -163,7 +163,7 @@ const Mt5Signals = () => (
                             <div className='fill-bg-color gr-padding-30 fullwidth' >
                                 <div className='container gr-padding-30 gr-child'>
                                     <h2 className='center-text'>
-                                        {it.L('Benefits of being an MT5 provider')}
+                                        {it.L('Benefits of being a MT5 provider')}
                                     </h2>
                                     <div className='fill-bg-color gr-padding-30'>
                                         <div className='container section'>
@@ -186,26 +186,26 @@ const Mt5Signals = () => (
                                         {it.L('How to register as a signal provider')}
                                     </h2>
                                     <div className='gr-row gr-padding-30'>
-                                        <div className='gr-4 gr-12-m gr-padding-10 gr-child'>
-                                            <img className='responsive' src={it.url_for('images/pages/mt5_signals/signal_provider_register_1.png')} />
+                                        <div className='gr-4 gr-12-m gr-padding-10 gr-child signal_provider-container'>
+                                            <img className='signal_provider-image' src={it.url_for('images/pages/mt5_signals/signal_provider_register_1.png')} />
                                             <ol>
                                                 <li>{it.L('Go to the MQL5 signals showcase page and click on the [_1]Create signal[_2] button.', '<strong>', '</strong>')}</li>
                                             </ol>
                                         </div>
-                                        <div className='gr-4 gr-12-m gr-padding-10 gr-child'>
-                                            <img className='responsive' src={it.url_for('images/pages/mt5_signals/signal_provider_register_2.png')} />
+                                        <div className='gr-4 gr-12-m gr-padding-10 gr-child signal_provider-container'>
+                                            <img className='signal_provider-image' src={it.url_for('images/pages/mt5_signals/signal_provider_register_2.png')} />
                                             <ol start='2'>
                                                 <li>{it.L('Complete the form with your MT5 account credentials. In the Broker field, enter your account server name:')}
                                                     <ul className='bullet'>
                                                         <li>{it.L('[_1]Deriv-Demo[_2] if your signal is for demo accounts only.', '<strong>', '</strong>')}</li>
                                                         <li>{it.L('[_1]Deriv-Server[_2] or [_1]Deriv-Server-02[_2] if your signals is for real accounts only.', '<strong>', '</strong>')}</li>
-                                                        <li>{it.L('(You can find the account server name on your [_1]MT5 dashboard[_2]).', `<a href=${it.url_for('user/metatrader')} target="_blank">`, '</a>')}</li>
+                                                        <li>{it.L('(You can find the account server name on your [_1]MT5 dashboard[_2]).', `<a href=${it.url_for('user/metatrader')}>`, '</a>')}</li>
                                                     </ul>
                                                 </li>
                                             </ol>
                                         </div>
-                                        <div className='gr-4 gr-12-m gr-padding-10 gr-child'>
-                                            <img className='responsive' src={it.url_for('images/pages/mt5_signals/signal_provider_register_3.png')} />
+                                        <div className='gr-4 gr-12-m gr-padding-10 gr-child signal_provider-container'>
+                                            <img className='signal_provider-image' src={it.url_for('images/pages/mt5_signals/signal_provider_register_3.png')} />
                                             <ol start='3'>
                                                 <li>{it.L('Add a description and click [_1]Save[_2] to complete the registration.', '<strong>', '</strong>')}</li>
                                             </ol>
