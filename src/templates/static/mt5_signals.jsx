@@ -82,13 +82,13 @@ const Mt5Signals = () => (
                             <div className='gr-padding-30' >
                                 <div className='container gr-padding-30 gr-child'>
                                     <h2 className='center-text'>
-                                        {it.L('How to subscribe to an MT5 signal')}
+                                        {it.L('How to subscribe to a MT5 signal')}
                                     </h2>
                                     <div className='gr-row gr-padding-30'>
                                         <div className='gr-4 gr-12-m gr-padding-10 gr-child'>
                                             <img className='responsive' src={it.url_for('images/pages/mt5_signals/mt5_terminal.png')} />
                                             <ol>
-                                                <li>{it.L('From your MT5 trading terminal, click on the [_1]Signals tab[_2] to view the list of signal providers.', '<strong>', '</strong>')}</li>
+                                                <li>{it.L('From your MT5 trading terminal, click on the [_1]Signals[_2] tab to view the list of signal providers.', '<strong>', '</strong>')}</li>
                                             </ol>
                                         </div>
                                         <div className='gr-4 gr-12-m gr-padding-10 gr-child'>
@@ -140,11 +140,11 @@ const Mt5Signals = () => (
                                         <p><strong>{it.L('Note:')}</strong></p>
                                         <ol>
                                             <li>{it.L('You must have an MQL5 community account to subscribe to trading signals. If you don’t have an account yet, please go to [_1]MQL5.com[_2] to register.', '<a href="https://www.mql5.com/en/auth_register">', '</a>')}</li>
-                                            <li>{it.L('You’ll need to fund your MQL5 account to subscribe to paid signals. [_1]Learn how to fund your account[_2].', '<a href="https://www.mql5.com/en/articles/302#deposit">', '</a>')}</li>
+                                            <li>{it.L('You’ll need to fund your MQL5 account to subscribe to paid signals. Learn [_1]how to fund your account[_2].', '<a href="https://www.mql5.com/en/articles/302#deposit">', '</a>')}</li>
                                             <li>{it.L('You can only subscribe to one signal provider with one [_1] account at any given time. You can use your signal on up to 3 computers.', it.website_name)}</li>
                                             <li>{it.L('You won’t be able to trade manually with the same [_1] MT5 account once you’ve subscribed to a signal.', it.website_name)}</li>
                                         </ol>
-                                        <p>{it.L('Have more questions? Check out the [_1]FAQ[_2] section on the MQL5 website.', '<a href="https://www.mql5.com/en/forum/10773#q17">', '</a>')} </p>
+                                        <p>{it.L('Have more questions? Check out the [_1]FAQ section[_2] on the MQL5 website.', '<a href="https://www.mql5.com/en/forum/10773#q17">', '</a>')} </p>
                                         <div className='center-text gr-padding-20'>
                                             <a className='button' href={it.url_for('user/metatrader')}><span>{it.L('Go to the MT5 Terminal')}</span></a>
                                         </div>
@@ -207,7 +207,7 @@ const Mt5Signals = () => (
                                         <div className='gr-4 gr-12-m gr-padding-10 gr-child'>
                                             <img className='responsive' src={it.url_for('images/pages/mt5_signals/signal_provider_register_3.png')} />
                                             <ol start='3'>
-                                                <li>{it.L('Click [_1]OK[_2] and add a description to complete the registration.', '<strong>', '</strong>')}</li>
+                                                <li>{it.L('Add a description and click [_1]Save[_2] to complete the registration.', '<strong>', '</strong>')}</li>
                                             </ol>
                                         </div>
                                     </div>
