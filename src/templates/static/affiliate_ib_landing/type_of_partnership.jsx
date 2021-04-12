@@ -150,11 +150,8 @@ const TypesOfPartnership = () => (
                                 data={{
                                     thead: [
                                         [
-                                            { text: it.L('Asset'), attributes: { rowSpan: 2 } },
-                                            { text: it.L('Commission per round trade') },
-                                        ],
-                                        [
-                                            { text: it.L('$ per 100,000 USD of turnover'), className: 'center-text' },
+                                            { text: it.L('Asset')},
+                                            { text: it.L('Commission per USD 100k USD turnover'), className: 'center-text' },
                                         ],
                                     ],
                                     tbody: [
@@ -237,10 +234,10 @@ const TypesOfPartnership = () => (
                                     thead: [
                                         [
                                             { text: it.L('Asset'), attributes: { rowSpan: 2 } },
-                                            { text: it.L('Commission') },
+                                            { text: it.L('Commission per lot') },
                                         ],
                                         [
-                                            { text: it.L('per lot'), className: 'center-text' },
+                                            { text: it.L('(1 standard forex lot is 100k units)'), className: 'center-text' },
                                         ],
                                     ],
                                     tbody: [
@@ -255,11 +252,8 @@ const TypesOfPartnership = () => (
                                 data={{
                                     thead: [
                                         [
-                                            { text: it.L('Asset'), attributes: { rowSpan: 2 } },
-                                            { text: it.L('Commission per round trade') },
-                                        ],
-                                        [
-                                            { text: it.L('$ per 100,000 USD of turnover'), className: 'center-text' },
+                                            { text: it.L('Asset') },
+                                            { text: it.L('Commission per USD 100k USD turnover'), className: 'center-text' },
                                         ],
                                     ],
                                     tbody: [
@@ -357,10 +351,10 @@ const TypesOfPartnership = () => (
                                     thead: [
                                         [
                                             { text: it.L('Asset'), attributes: { rowSpan: 2 } },
-                                            { text: it.L('Commission') },
+                                            { text: it.L('Commission per lot') },
                                         ],
                                         [
-                                            { text: it.L('per lot'), className: 'center-text' },
+                                            { text: it.L('(1 standard lot is 100k units)'), className: 'center-text' },
                                         ],
                                     ],
                                     tbody: [
@@ -375,11 +369,8 @@ const TypesOfPartnership = () => (
                                 data={{
                                     thead: [
                                         [
-                                            { text: it.L('Asset'), attributes: { rowSpan: 2 } },
-                                            { text: it.L('Commission per round trade') },
-                                        ],
-                                        [
-                                            { text: it.L('$ per 100,000 USD of turnover'), className: 'center-text' },
+                                            { text: it.L('Asset') },
+                                            { text: it.L('Commission per USD 100k USD turnover'), className: 'center-text' },
                                         ],
                                     ],
                                     tbody: [
