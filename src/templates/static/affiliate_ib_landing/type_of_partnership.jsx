@@ -152,7 +152,7 @@ const TypesOfPartnership = () => (
                                     thead: [
                                         [
                                             { text: it.L('Asset') },
-                                            { text: it.L('Commission per USD 100k USD turnover'), className: 'center-text' },
+                                            { text: it.L('Commission per USD 100k turnover'), className: 'center-text' },
                                         ],
                                     ],
                                     tbody: [
