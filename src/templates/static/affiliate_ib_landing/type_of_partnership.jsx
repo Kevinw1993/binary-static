@@ -146,6 +146,7 @@ const TypesOfPartnership = () => (
                             <h3 id='ib_header' className='secondary-color'>{it.L('Commision structure')}</h3>
 
                             <h3>{it.L('Synthetic Account')}</h3>
+                            <p>{it.L('Earn when your clients trade on an MT5 Synthetics account.')}</p>
                             <Table
                                 data={{
                                     thead: [
@@ -156,15 +157,11 @@ const TypesOfPartnership = () => (
                                     ],
                                     tbody: [
                                         [
-                                            { text: it.L('Crash 1000 Index') },
-                                            { text: it.L('0.25') },
-                                        ],
-                                        [
                                             { text: it.L('Crash 500 Index') },
                                             { text: it.L('0.35') },
                                         ],
                                         [
-                                            { text: it.L('Boom 1000 Index') },
+                                            { text: it.L('Crash 1000 Index') },
                                             { text: it.L('0.25') },
                                         ],
                                         [
@@ -172,8 +169,8 @@ const TypesOfPartnership = () => (
                                             { text: it.L('0.35') },
                                         ],
                                         [
-                                            { text: it.L('Step Index') },
-                                            { text: it.L('0.10') },
+                                            { text: it.L('Boom 1000 Index') },
+                                            { text: it.L('0.25') },
                                         ],
                                         [
                                             { text: it.L('Volatility 10 Index') },
@@ -215,6 +212,10 @@ const TypesOfPartnership = () => (
                                             { text: it.L('Volatility 100 (1s) Index') },
                                             { text: it.L('7.50') },
                                         ],
+                                        [
+                                            { text: it.L('Step Index') },
+                                            { text: it.L('0.10') },
+                                        ],
                                     ],
                                 }}
                             />
@@ -229,6 +230,7 @@ const TypesOfPartnership = () => (
                                 <p className='text-align-left'>{it.L('[_1]Please note[_2]: Commission payout for all assets will be converted to your deposit currency based on the latest exchange rate.', '<strong>', '</strong>')}</p>
                             </div>
                             <h3>{it.L('Financial account')}</h3>
+                            <p>{it.L('Earn when your clients trade on an MT5 Financial account.')}</p>
                             <Table
                                 data={{
                                     thead: [
@@ -242,8 +244,30 @@ const TypesOfPartnership = () => (
                                     ],
                                     tbody: [
                                         [
-                                            { text: it.L('Forex and metals*') },
+                                            { text: it.L('Forex') },
                                             { text: it.L('5') },
+                                        ],                                        [
+                                            { text: it.L('Metals') },
+                                            { text: it.L('5') },
+                                        ],
+                                    ],
+                                }}
+                            />
+                            <Table
+                                data={{
+                                    thead: [
+                                        [
+                                            { text: it.L('Asset') },
+                                            { text: it.L('Commission per USD 100K turnover'), className: 'center-text' },
+                                        ],
+                                    ],
+                                    tbody: [
+                                        [
+                                            { text: it.L('Stock indices') },
+                                            { text: it.L('USD 1') },
+                                        ],                                        [
+                                            { text: it.L('Stocks') },
+                                            { text: it.L('USD 10') },
                                         ],
                                     ],
                                 }}
@@ -346,6 +370,7 @@ const TypesOfPartnership = () => (
                                 <p className='text-align-left'>{it.L('For forex, your commission is represented in the base currency (EUR in the above example). Commission payout for all assets will be converted to your deposit currency based on the latest exchange rate.')}</p>
                             </div>
                             <h3>{it.L('Financial STP account')}</h3>
+                            <p>{it.L('Earn when your clients trade on an MT5 Financial STP account.')}</p>
                             <Table
                                 data={{
                                     thead: [
@@ -359,7 +384,7 @@ const TypesOfPartnership = () => (
                                     ],
                                     tbody: [
                                         [
-                                            { text: it.L('Forex*') },
+                                            { text: it.L('Forex') },
                                             { text: it.L('2.5') },
                                         ],
                                     ],
@@ -475,7 +500,6 @@ const TypesOfPartnership = () => (
                                     width='100%'
                                     className='gr-padding-20'
                                 />
-                                <p className='text-align-left'>{it.L('For cryptocurrency assets, a deal for 1 lot of BTC/USD (with a BTC to USD exchange rate of USD 50,000) will pay out USD 20 in commission based on the following formula:')}</p>
                                 <img
                                     src={it.url_for('images/pages/affiliates_ib_landing/formulas/min-financial-stp-crypto-spot.svg')}
                                     width='100%'
