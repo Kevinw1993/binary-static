@@ -479,7 +479,7 @@ const TypesOfPartnership = () => (
                                     width='100%'
                                     className='gr-padding-20'
                                 />
-                                <p className='text-align-left'>{it.L('For cryptocurrency assets, a deal for 1 lot of BTC/USD (with a BTC to USD exchange rate of USD 50,000) will pay out USD 20 in commission based on the following formula:')}</p>
+                                <p className='text-align-left'>{it.L('For cryptocurrency assets, a deal for 1 lot of BTC/USD (with a BTC to USD exchange rate of USD 50,000) will pay out USD 10 in commission based on the following formula:')}</p>
                                 <img
                                     src={it.url_for('images/pages/affiliates_ib_landing/formulas/formula-financial-stp-crypto.svg')}
                                     width='100%'
