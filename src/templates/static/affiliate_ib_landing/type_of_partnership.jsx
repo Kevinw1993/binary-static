@@ -494,7 +494,7 @@ const TypesOfPartnership = () => (
                                 <p className='text-align-left'>{it.L('To receive the minimum commission (0.01 in any currency) allowed by the system, the minimum volume requirement is calculated based on the following formulas:')}</p>
                             
                                 <p className='text-align-left'><strong>{it.L('Example:')}</strong></p>
-                                <p className='text-align-left'>{it.L('A deal for 1 lot of BTC/USD (with a BTC to USD exchange rate of USD 50,000) per USD 100,000 turnover will pay out a commission of USD 20. The minimum volume required to receive the minimum commission of USD 0.01 is determined using the following formula:')}</p>
+                                <p className='text-align-left'>{it.L('A deal for 1 lot of BTC/USD (with a BTC to USD exchange rate of USD 50,000) per USD 100,000 turnover will pay out a commission of USD 10. The minimum volume required to receive the minimum commission of USD 0.01 is determined using the following formula:')}</p>
                                 <img
                                     src={it.url_for('images/pages/affiliates_ib_landing/formulas/min-financial-stp-crypto-value.svg')}
                                     width='100%'
