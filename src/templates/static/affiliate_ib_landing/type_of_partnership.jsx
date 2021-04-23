@@ -246,7 +246,8 @@ const TypesOfPartnership = () => (
                                         [
                                             { text: it.L('Forex') },
                                             { text: it.L('5') },
-                                        ],                                        [
+                                        ],
+                                        [
                                             { text: it.L('Metals') },
                                             { text: it.L('5') },
                                         ],
@@ -265,7 +266,8 @@ const TypesOfPartnership = () => (
                                         [
                                             { text: it.L('Stock indices') },
                                             { text: it.L('USD 1') },
-                                        ],                                        [
+                                        ],
+                                        [
                                             { text: it.L('Stocks') },
                                             { text: it.L('USD 10') },
                                         ],
