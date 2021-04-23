@@ -1745,4 +1745,16 @@ body #not_authenticated_financial ul.checked > li {
             margin-bottom: 20px;
         }
     }
+
+.signal_provider {
+    &-container {
+        display: flex;
+        @media screen and (max-width: 480px) {
+            flex-direction: column-reverse;
+        }
+    }
+    &-image {
+        border: 2px solid $COLOR_GRAY;
+    }
+
 }
