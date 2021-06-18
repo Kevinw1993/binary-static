@@ -245,6 +245,14 @@ const AccountClosure = (() => {
                 addSection(account, txt_balance);
             });
         }
+        if (response.error.details.pending_withdrawals) {
+            Object.keys(response.error.details.pending_withdrawals).forEach((account) => {
+                const txt_pending_withdrawals = `${response.error.details.pending_withdrawals[account]} withdrawal(s)`;
+                console.log(txt_pending_withdrawals);
+                section_id = 'account_closure_pending_withdrawals';
+                addSection(account, txt_pending_withdrawals);
+            });
+        }
     };
 
     const showFormMessage = (localized_msg) => {
