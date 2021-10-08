@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-static\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-10-01 04:10\n"
+"PO-Revision-Date: 2021-10-08 02:33\n"
 "Last-Translator: \n"
 "Language-Team: Acholi\n"
 "MIME-Version: 1.0\n"
@@ -2204,7 +2204,7 @@ msgid "Binary options trading is not available in your country."
 msgstr "crwdns163210:0crwdne163210:0"
 
 msgid "Binary options trading is not available via your Multipliers account.<br/>Please switch back to your Options account."
-msgstr "crwdns166153:0crwdne166153:0"
+msgstr "crwdns167539:0crwdne167539:0"
 
 msgid "Binary options trading is relatively easy. You can purchase a contract in just three steps:"
 msgstr "crwdns42035:0crwdne42035:0"
@@ -2435,7 +2435,7 @@ msgid "CFDs"
 msgstr "crwdns42056:0crwdne42056:0"
 
 msgid "CFDs Account"
-msgstr "crwdns166155:0crwdne166155:0"
+msgstr "crwdns167541:0crwdne167541:0"
 
 msgid "CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. %1 of retail investor accounts lose money when trading CFDs with Deriv Investments (Europe) Limited. You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money."
 msgstr "crwdns123320:0%1crwdne123320:0"
@@ -2692,6 +2692,9 @@ msgstr "crwdns42069:0crwdne42069:0"
 msgid "Choose scopes:"
 msgstr "crwdns53622:0crwdne53622:0"
 
+msgid "Choose the document type"
+msgstr "crwdns167369:0crwdne167369:0"
+
 msgid "Choose the market, trade type, duration, barrier, and payout."
 msgstr "crwdns42071:0crwdne42071:0"
 
@@ -2738,13 +2741,13 @@ msgid "Click OK to proceed."
 msgstr "crwdns44473:0crwdne44473:0"
 
 msgid "Click here to open a Multipliers Account"
-msgstr "crwdns166157:0crwdne166157:0"
+msgstr "crwdns167543:0crwdne167543:0"
 
 msgid "Click here to open a Real Account"
 msgstr "crwdns44566:0crwdne44566:0"
 
 msgid "Click here to open an Options account"
-msgstr "crwdns166159:0crwdne166159:0"
+msgstr "crwdns167545:0crwdne167545:0"
 
 msgid "Click here to retry"
 msgstr "crwdns38031:0crwdne38031:0"
@@ -3389,7 +3392,7 @@ msgid "Create New Demo Account"
 msgstr "crwdns163892:0crwdne163892:0"
 
 msgid "Create a CFDs account"
-msgstr "crwdns166161:0crwdne166161:0"
+msgstr "crwdns167547:0crwdne167547:0"
 
 msgid "Create a MetaTrader 5 account"
 msgstr "crwdns165311:0crwdne165311:0"
@@ -3407,10 +3410,10 @@ msgid "Create an MT5 account now"
 msgstr "crwdns51324:0crwdne51324:0"
 
 msgid "Create an MT5 password for logging in to your CFDs account."
-msgstr "crwdns166163:0crwdne166163:0"
+msgstr "crwdns167549:0crwdne167549:0"
 
 msgid "Create an MT5 password. You can use this password for all your MT5 accounts."
-msgstr "crwdns166165:0crwdne166165:0"
+msgstr "crwdns167551:0crwdne167551:0"
 
 msgid "Create and maintain wireframes and mockups for new and existing products"
 msgstr "crwdns51868:0crwdne51868:0"
@@ -3434,7 +3437,7 @@ msgid "Create mathematical/statistical models for pricing, analyse fat tails to 
 msgstr "crwdns89876:0crwdne89876:0"
 
 msgid "Create new demo account"
-msgstr "crwdns163894:0crwdne163894:0"
+msgstr "crwdns166265:0crwdne166265:0"
 
 msgid "Create new token"
 msgstr "crwdns53626:0crwdne53626:0"
@@ -3737,7 +3740,7 @@ msgid "Demo Accounts"
 msgstr "crwdns43429:0crwdne43429:0"
 
 msgid "Demo CFDs"
-msgstr "crwdns166167:0crwdne166167:0"
+msgstr "crwdns167553:0crwdne167553:0"
 
 msgid "Demo Financial STP"
 msgstr "crwdns117992:0crwdne117992:0"
@@ -4483,6 +4486,9 @@ msgstr "crwdns45850:0crwdne45850:0"
 msgid "Enter your MT5 password to add a %1 MT5 %2 account."
 msgstr "crwdns165317:0%1crwdnd165317:0%2crwdne165317:0"
 
+msgid "Enter your document number"
+msgstr "crwdns167371:0crwdne167371:0"
+
 msgid "Enter your email"
 msgstr "crwdns38361:0crwdne38361:0"
 
@@ -5075,7 +5081,7 @@ msgid "Find a trading platform that suits your experience and preferred strategy
 msgstr "crwdns53374:0crwdne53374:0"
 
 msgid "Find out more"
-msgstr "crwdns166169:0crwdne166169:0"
+msgstr "crwdns167555:0crwdne167555:0"
 
 msgid "Find out more about the costs and details of each CFD asset we offer."
 msgstr "crwdns42150:0crwdne42150:0"
@@ -5371,6 +5377,9 @@ msgstr "crwdns38527:0%1crwdne38527:0"
 msgid "GamCare"
 msgstr "crwdns38528:0crwdne38528:0"
 
+msgid "Gaming Account"
+msgstr "crwdns166275:0crwdne166275:0"
+
 msgid "General"
 msgstr "crwdns38532:0crwdne38532:0"
 
@@ -5458,6 +5467,9 @@ msgstr "crwdns38553:0crwdne38553:0"
 msgid "Go"
 msgstr "crwdns38554:0crwdne38554:0"
 
+msgid "Go Back"
+msgstr "crwdns167373:0crwdne167373:0"
+
 msgid "Go back"
 msgstr "crwdns156204:0crwdne156204:0"
 
@@ -5471,7 +5483,7 @@ msgid "Go short = sell"
 msgstr "crwdns42173:0crwdne42173:0"
 
 msgid "Go to DTrader"
-msgstr "crwdns166171:0crwdne166171:0"
+msgstr "crwdns167557:0crwdne167557:0"
 
 msgid "Go to MT5 download page"
 msgstr "crwdns50496:0crwdne50496:0"
@@ -6382,8 +6394,8 @@ msgstr "crwdns123372:0%1licrwdnd123372:0%2crwdne123372:0"
 msgid "In the EU, financial products are offered by Deriv Investments (Europe) Limited, W Business Centre, Level 3, Triq Dun Karm, Birkirkara, BKR 9033, Malta, regulated as a Category 3 Investment Services provider by the Malta Financial Services Authority (%1licence no. IS/70156%2)."
 msgstr "crwdns123374:0%1licrwdnd123374:0%2crwdne123374:0"
 
-msgid "In the Isle of Man and the UK, Synthetic indices are offered by Deriv (MX) Ltd, Millennium House, Level 1, Victoria Road, Douglas IM2 4RW, Isle of Man; licensed and regulated in Great Britain by (1) the Gambling Commission under %1account no. 39172%3 and by (2) the Gambling Supervision Commission in the Isle of Man (%2view licence%3)."
-msgstr "crwdns159270:0%1acrwdnd159270:0%3crwdnd159270:0%2crwdnd159270:0%3crwdne159270:0"
+msgid "In the Isle of Man and the UK, virtual events based bets on synthetic indices offered by Deriv (MX) Ltd, Millennium House, Level 1, Victoria Road, Douglas IM2 4RW, Isle of Man; licensed and regulated in Great Britain by (1) the Gambling Commission under account no. 39172 and by (2) the Gambling Supervision Commission in the Isle of Man (%2view licence%3)."
+msgstr "crwdns166299:0%2crwdnd166299:0%3crwdne166299:0"
 
 msgid "In the UK, our clients trade through Deriv (MX) Ltd and Deriv Investments (Europe) Limited. In the Isle of Man, they trade through Deriv (MX) Ltd. In the European Union (except UK), they trade through Deriv (Europe) Limited and Deriv Investments (Europe) Limited. In the rest of the world, they trade through Deriv (SVG) LLC, Deriv (V) Ltd, Deriv (BVI) Ltd and Deriv (FX) Ltd."
 msgstr "crwdns123376:0crwdne123376:0"
@@ -6426,6 +6438,9 @@ msgstr "crwdns42209:0crwdne42209:0"
 
 msgid "In this case, you predict that the price will rise. This is also known as 'going long'."
 msgstr "crwdns42210:0crwdne42210:0"
+
+msgid "In which country was your document issued?"
+msgstr "crwdns167375:0crwdne167375:0"
 
 msgid "In-depth knowledge of accounting principles, best practices, standards, and regulations"
 msgstr "crwdns52102:0crwdne52102:0"
@@ -6682,6 +6697,9 @@ msgstr "crwdns158174:0crwdne158174:0"
 msgid "It is the responsibility of each client to read and understand this legal notice and the terms and conditions (\"Terms\") pursuant to which an acquisition of financial contracts via this site is governed."
 msgstr "crwdns158176:0crwdne158176:0"
 
+msgid "It looks like your identity document has expired. Please try again with a valid document."
+msgstr "crwdns167377:0crwdne167377:0"
+
 msgid "It may be disconnected. <fallback>Try using your phone instead</fallback>."
 msgstr "crwdns158386:0crwdne158386:0"
 
@@ -6810,9 +6828,6 @@ msgstr "crwdns39018:0crwdne39018:0"
 
 msgid "Kindly send a scan of a valid proof of address to %1support@binary.com%2"
 msgstr "crwdns68436:0%1scrwdnd68436:0%2crwdne68436:0"
-
-msgid "Kindly send a scan of a valid proof of identity to %1support@binary.com%2"
-msgstr "crwdns68438:0%1scrwdnd68438:0%2crwdne68438:0"
 
 msgid "Know how much you will win or lose before you purchase the contract."
 msgstr "crwdns89986:0crwdne89986:0"
@@ -7799,7 +7814,7 @@ msgid "Multipliers"
 msgstr "crwdns157624:0crwdne157624:0"
 
 msgid "Multipliers Account"
-msgstr "crwdns166173:0crwdne166173:0"
+msgstr "crwdns167559:0crwdne167559:0"
 
 msgid "Must be a clear, colour photo"
 msgstr "crwdns46269:0crwdne46269:0"
@@ -7951,6 +7966,9 @@ msgstr "crwdns53144:0crwdne53144:0"
 msgid "New password"
 msgstr "crwdns39251:0crwdne39251:0"
 
+msgid "New proof of identity document needed"
+msgstr "crwdns167379:0crwdne167379:0"
+
 msgid "New to CFD trading? We explain a few basics that all CFD traders need to know before they start trading."
 msgstr "crwdns42294:0crwdne42294:0"
 
@@ -7965,6 +7983,9 @@ msgstr "crwdns39254:0crwdne39254:0"
 
 msgid "Next Available Price"
 msgstr "crwdns46072:0crwdne46072:0"
+
+msgid "Next, we'll need your proof of address"
+msgstr "crwdns167381:0crwdne167381:0"
 
 msgid "No"
 msgstr "crwdns42296:0crwdne42296:0"
@@ -8297,7 +8318,7 @@ msgid "Open a %1 account through DIEL's website %2"
 msgstr "crwdns122008:0%1crwdnd122008:0%2crwdne122008:0"
 
 msgid "Open a Multipliers Account"
-msgstr "crwdns166175:0crwdne166175:0"
+msgstr "crwdns167561:0crwdne167561:0"
 
 msgid "Open a Real Account"
 msgstr "crwdns44591:0crwdne44591:0"
@@ -8351,10 +8372,10 @@ msgid "Opens"
 msgstr "crwdns39349:0crwdne39349:0"
 
 msgid "Options"
-msgstr "crwdns166177:0crwdne166177:0"
+msgstr "crwdns166301:0crwdne166301:0"
 
 msgid "Options Account"
-msgstr "crwdns166179:0crwdne166179:0"
+msgstr "crwdns167563:0crwdne167563:0"
 
 msgid "Options that let you “look back” on the optimum high or low achieved by the market to determine the payout."
 msgstr "crwdns43577:0crwdne43577:0"
@@ -8411,7 +8432,7 @@ msgid "Our Accounting &amp; Payments team manages our wide range of bank account
 msgstr "crwdns52188:0crwdne52188:0"
 
 msgid "Our CFDs account is suitable for both new and experienced traders."
-msgstr "crwdns166181:0crwdne166181:0"
+msgstr "crwdns167565:0crwdne167565:0"
 
 msgid "Our Company"
 msgstr "crwdns39362:0crwdne39362:0"
@@ -8465,7 +8486,7 @@ msgid "Our office in Dubai is located at the world-class Jumeirah Lake Towers (J
 msgstr "crwdns56624:0crwdne56624:0"
 
 msgid "Our products and services may expose you to risks that can be substantial at times, including the risk of losing your entire investment. Please note that by clicking %1Continue%2, you’ll be accepting these risks."
-msgstr "crwdns166183:0%1Ccrwdnd166183:0%2crwdne166183:0"
+msgstr "crwdns167567:0%1Ccrwdnd167567:0%2crwdne167567:0"
 
 msgid "Our proprietary synthetic indices that simulate market forces"
 msgstr "crwdns42317:0crwdne42317:0"
@@ -8902,6 +8923,9 @@ msgstr "crwdns68492:0crwdne68492:0"
 msgid "Please do not share your bank account, credit card, or e-wallet with another client, as this may cause delays in your withdrawals."
 msgstr "crwdns52730:0crwdne52730:0"
 
+msgid "Please ensure all your personal details are the same as in your chosen document. If you wish to update your personal details, go to %1account settings%2."
+msgstr "crwdns167383:0%1acrwdnd167383:0%2crwdne167383:0"
+
 msgid "Please ensure that you have the Telegram app installed on your device."
 msgstr "crwdns51280:0crwdne51280:0"
 
@@ -8922,6 +8946,9 @@ msgstr "crwdns39480:0crwdne39480:0"
 
 msgid "Please enter no more than %1 characters for both fields."
 msgstr "crwdns162550:0%1crwdne162550:0"
+
+msgid "Please enter the correct format. Example:"
+msgstr "crwdns167385:0crwdne167385:0"
 
 msgid "Please enter your %1tax information%2 below to continue."
 msgstr "crwdns43563:0%1tacrwdnd43563:0%2crwdne43563:0"
@@ -8972,7 +8999,7 @@ msgid "Please remember at all times that trading binary options can be an exciti
 msgstr "crwdns39493:0crwdne39493:0"
 
 msgid "Please remember that it is your responsibility to keep your answers accurate and up to date."
-msgstr "crwdns166185:0crwdne166185:0"
+msgstr "crwdns167569:0crwdne167569:0"
 
 msgid "Please resolve all pending issues to continue"
 msgstr "crwdns45993:0crwdne45993:0"
@@ -8995,6 +9022,9 @@ msgstr "crwdns39500:0crwdne39500:0"
 msgid "Please select the checkbox."
 msgstr "crwdns39501:0crwdne39501:0"
 
+msgid "Please select the country of document issuance"
+msgstr "crwdns167387:0crwdne167387:0"
+
 msgid "Please select the country where you are a tax resident. If you have any doubts, kindly consult your tax advisor."
 msgstr "crwdns52644:0crwdne52644:0"
 
@@ -9003,6 +9033,9 @@ msgstr "crwdns53250:0crwdne53250:0"
 
 msgid "Please select the date range of your statement:"
 msgstr "crwdns51376:0crwdne51376:0"
+
+msgid "Please select the document type and enter the document number."
+msgstr "crwdns167389:0crwdne167389:0"
 
 msgid "Please set %1country of residence%2 before upgrading to a real-money account."
 msgstr "crwdns39503:0%1ccrwdnd39503:0%2crwdne39503:0"
@@ -9045,6 +9078,9 @@ msgstr "crwdns158458:0crwdne158458:0"
 
 msgid "Please update your %1 to continue."
 msgstr "crwdns85999:0%1crwdne85999:0"
+
+msgid "Please upload your identity document."
+msgstr "crwdns167391:0crwdne167391:0"
 
 msgid "Please wait for confirmation. Our customer support team will get back to you regarding your account status via email within four hours."
 msgstr "crwdns39512:0crwdne39512:0"
@@ -9527,7 +9563,7 @@ msgid "Real Account Opening"
 msgstr "crwdns165715:0crwdne165715:0"
 
 msgid "Real CFDs"
-msgstr "crwdns166187:0crwdne166187:0"
+msgstr "crwdns167571:0crwdne167571:0"
 
 msgid "Real Estate"
 msgstr "crwdns52618:0crwdne52618:0"
@@ -10006,6 +10042,9 @@ msgstr "crwdns160160:0crwdne160160:0"
 msgid "Sale of Property"
 msgstr "crwdns39706:0crwdne39706:0"
 
+msgid "Sample:"
+msgstr "crwdns167393:0crwdne167393:0"
+
 msgid "Saturday"
 msgstr "crwdns39707:0crwdne39707:0"
 
@@ -10220,7 +10259,7 @@ msgid "Server"
 msgstr "crwdns39756:0crwdne39756:0"
 
 msgid "Server maintenance starts at 01:00 (GMT) every Sunday. This process may take up to 2 hours to complete. You may experience service disruption during this time."
-msgstr "crwdns166189:0crwdne166189:0"
+msgstr "crwdns167573:0crwdne167573:0"
 
 msgid "Server:"
 msgstr "crwdns122016:0crwdne122016:0"
@@ -10238,7 +10277,7 @@ msgid "Set Currency"
 msgstr "crwdns39763:0crwdne39763:0"
 
 msgid "Set MT5 password"
-msgstr "crwdns166191:0crwdne166191:0"
+msgstr "crwdns167575:0crwdne167575:0"
 
 msgid "Set barrier(s) to define your position and trigger the payout you'll receive."
 msgstr "crwdns42368:0crwdne42368:0"
@@ -10661,7 +10700,7 @@ msgid "Strong passwords contain at least 8 characters, combine uppercase and low
 msgstr "crwdns160106:0crwdne160106:0"
 
 msgid "Strong passwords contain at least 8 characters. Combine uppercase and lowercase letters, numbers, and symbols."
-msgstr "crwdns166193:0crwdne166193:0"
+msgstr "crwdns167577:0crwdne167577:0"
 
 msgid "Strong understanding of colours, typography, identity design, and branding"
 msgstr "crwdns52360:0crwdne52360:0"
@@ -10728,6 +10767,9 @@ msgstr "crwdns41767:0crwdne41767:0"
 
 msgid "Submit passport photo page"
 msgstr "crwdns158532:0crwdne158532:0"
+
+msgid "Submit proof of address"
+msgstr "crwdns167395:0crwdne167395:0"
 
 msgid "Submit residence permit (back)"
 msgstr "crwdns158534:0crwdne158534:0"
@@ -13169,7 +13211,7 @@ msgid "Trade with leverage"
 msgstr "crwdns42462:0crwdne42462:0"
 
 msgid "Trade with real funds and get access to competitive trading conditions."
-msgstr "crwdns166195:0crwdne166195:0"
+msgstr "crwdns167579:0crwdne167579:0"
 
 msgid "Trade with the industry pioneer and holder of a patented pricing technology."
 msgstr "crwdns90130:0crwdne90130:0"
@@ -13210,9 +13252,6 @@ msgstr "crwdns88792:0%1ccrwdnd88792:0%2crwdne88792:0"
 msgid "Trading binary options and CFDs can involve substantial risks. Do not trade with money you cannot afford to lose, and never trade with borrowed money. Learn about %1Responsible Trading%2."
 msgstr "crwdns51088:0%1crwdnd51088:0%2crwdne51088:0"
 
-msgid "Trading binary options may not be suitable for everyone, so please ensure that you fully understand the risks involved. Your losses can exceed your initial deposit and you do not own or have any interest in the underlying asset."
-msgstr "crwdns46451:0crwdne46451:0"
-
 msgid "Trading contracts for difference (CFDs) on Synthetic Indices may not be suitable for everyone. Please ensure that you fully understand the risks involved, including the possibility of losing all the funds in your MT5 account. Gambling can be addictive – please play responsibly."
 msgstr "crwdns90132:0crwdne90132:0"
 
@@ -13245,6 +13284,9 @@ msgstr "crwdns55808:0crwdne55808:0"
 
 msgid "Trading on %1 can become addictive. If you feel the need to exclude yourself from the website, please use the %2self-exclusion facilities%3."
 msgstr "crwdns51090:0%1crwdnd51090:0%2scrwdnd51090:0%3crwdne51090:0"
+
+msgid "Trading options may not be suitable for everyone, so please ensure that you fully understand the risks involved."
+msgstr "crwdns167503:0crwdne167503:0"
 
 msgid "Trading platforms"
 msgstr "crwdns50436:0crwdne50436:0"
@@ -13547,7 +13589,7 @@ msgid "Unemployed"
 msgstr "crwdns40324:0crwdne40324:0"
 
 msgid "Unfortunately, this service isn’t available in your country. If you’d like to trade multipliers, try DTrader on Deriv."
-msgstr "crwdns166197:0crwdne166197:0"
+msgstr "crwdns167581:0crwdne167581:0"
 
 msgid "University degree in Marketing, Mathematics, IT/Programming or any related field"
 msgstr "crwdns52438:0crwdne52438:0"
@@ -13627,6 +13669,9 @@ msgstr "crwdns158594:0crwdne158594:0"
 msgid "Upload front of license from your computer"
 msgstr "crwdns158596:0crwdne158596:0"
 
+msgid "Upload identity document"
+msgstr "crwdns167397:0crwdne167397:0"
+
 msgid "Upload passport photo page"
 msgstr "crwdns158598:0crwdne158598:0"
 
@@ -13658,7 +13703,7 @@ msgid "Usage limit"
 msgstr "crwdns55846:0crwdne55846:0"
 
 msgid "Use MT5 password to sign in to any of your CFDs accounts when using MT5 apps on your mobile or other devices."
-msgstr "crwdns166199:0crwdne166199:0"
+msgstr "crwdns167583:0crwdne167583:0"
 
 msgid "Use a few words, avoid common phrases"
 msgstr "crwdns160118:0crwdne160118:0"
@@ -13709,7 +13754,7 @@ msgid "Use their best endeavours to attract potential clients for Binary"
 msgstr "crwdns56544:0crwdne56544:0"
 
 msgid "Use this password to grant viewing access to another user. While they may view your trading account, they will not be able to trade or take any other actions. If this is the first time you try to create password, or you have forgotten your password, please reset it."
-msgstr "crwdns166201:0crwdne166201:0"
+msgstr "crwdns167585:0crwdne167585:0"
 
 msgid "Use to the utmost benefit any possible additional features that some payment processors offer"
 msgstr "crwdns68412:0crwdne68412:0"
@@ -13753,8 +13798,14 @@ msgstr "crwdns40357:0crwdne40357:0"
 msgid "Verification complete"
 msgstr "crwdns158606:0crwdne158606:0"
 
+msgid "Verification of document number failed"
+msgstr "crwdns167399:0crwdne167399:0"
+
 msgid "Verification required"
 msgstr "crwdns121680:0crwdne121680:0"
+
+msgid "Verify"
+msgstr "crwdns167401:0crwdne167401:0"
 
 msgid "Verify Identity"
 msgstr "crwdns158608:0crwdne158608:0"
@@ -13767,6 +13818,9 @@ msgstr "crwdns53512:0crwdne53512:0"
 
 msgid "Verify identity"
 msgstr "crwdns121682:0crwdne121682:0"
+
+msgid "Verify your identity"
+msgstr "crwdns167403:0crwdne167403:0"
 
 msgid "Version 49. Last modified 23-11-2020."
 msgstr "crwdns158180:0crwdne158180:0"
@@ -13868,7 +13922,7 @@ msgid "Vs 407 zrnaf nalguvat fcrpvny gb lbh lbh znl pbcl lbhe nccyvpngvba gb wl+
 msgstr "crwdns40392:0crwdne40392:0"
 
 msgid "WARNING"
-msgstr "crwdns166203:0crwdne166203:0"
+msgstr "crwdns167587:0crwdne167587:0"
 
 msgid "Waiting for contract settlement."
 msgstr "crwdns51356:0crwdne51356:0"
@@ -14008,6 +14062,9 @@ msgstr "crwdns46445:0crwdne46445:0"
 msgid "We were unable to verify your document automatically. We will try to verify your document manually. Please check back in 1-3 days."
 msgstr "crwdns120918:0crwdne120918:0"
 
+msgid "We were unable to verify your identity based on the details you entered."
+msgstr "crwdns167405:0crwdne167405:0"
+
 msgid "We will continue to close open positions until your margin level becomes higher than the stop out level."
 msgstr "crwdns90172:0crwdne90172:0"
 
@@ -14025,6 +14082,12 @@ msgstr "crwdns53110:0crwdne53110:0"
 
 msgid "We'll compare it with your document"
 msgstr "crwdns158614:0crwdne158614:0"
+
+msgid "We'll process your details within a few minutes and notify its status via email."
+msgstr "crwdns167407:0crwdne167407:0"
+
+msgid "We'll process your details within a few minutes and notify its status via email. Next, we'll need your proof of address"
+msgstr "crwdns167409:0crwdne167409:0"
 
 msgid "We're almost there"
 msgstr "crwdns45961:0crwdne45961:0"
@@ -14053,8 +14116,14 @@ msgstr "crwdns159586:0crwdne159586:0"
 msgid "We've grown in size over the years - both in terms of manpower and offices. We currently have over %1 employees across 10 offices in Malta, Dubai, Malaysia, Paraguay, Cyprus, Rwanda, and Belarus. Further growth in headcount is expected this year to cater to the increased demand in our products and services."
 msgstr "crwdns159482:0%1crwdne159482:0"
 
+msgid "We've received your document number"
+msgstr "crwdns167411:0crwdne167411:0"
+
 msgid "We've sent a secure link to %{number}"
 msgstr "crwdns158618:0%{number}crwdne158618:0"
+
+msgid "We've successfully verified your document number"
+msgstr "crwdns167413:0crwdne167413:0"
 
 msgid "Web and software developer"
 msgstr "crwdns52758:0crwdne52758:0"
@@ -14654,7 +14723,7 @@ msgid "You can top up your demo account with an additional %1 if your balance is
 msgstr "crwdns53004:0%1crwdnd53004:0%2crwdne53004:0"
 
 msgid "You can update personal details at any time in your account settings."
-msgstr "crwdns166205:0crwdne166205:0"
+msgstr "crwdns167589:0crwdne167589:0"
 
 msgid "You can use an authorized payment agent to process deposits and withdrawals for payment methods or local currencies not supported by %1. It's easy to do."
 msgstr "crwdns40629:0%1crwdne40629:0"
@@ -14681,7 +14750,7 @@ msgid "You have a new MT5 password to log in to your MT5 accounts on the web and
 msgstr "crwdns165343:0crwdne165343:0"
 
 msgid "You have a trading password for MT5"
-msgstr "crwdns166207:0crwdne166207:0"
+msgstr "crwdns167591:0crwdne167591:0"
 
 msgid "You have added a %1 account."
 msgstr "crwdns165737:0%1crwdne165737:0"
@@ -14837,7 +14906,7 @@ msgid "You will not be able to change currency once you have made a deposit."
 msgstr "crwdns165739:0crwdne165739:0"
 
 msgid "You will not be able to change your fiat account currency after creating this CFDs account. Are you sure you want to proceed?"
-msgstr "crwdns166209:0crwdne166209:0"
+msgstr "crwdns167593:0crwdne167593:0"
 
 msgid "You will not be able to change your fiat account's currency after making this deposit. Are you sure you want to proceed?"
 msgstr "crwdns53274:0crwdne53274:0"
@@ -14980,6 +15049,9 @@ msgstr "crwdns159704:0crwdne159704:0"
 msgid "Your document is being reviewed, please check back in 1-3 days. You must also submit a proof of identity."
 msgstr "crwdns159706:0crwdne159706:0"
 
+msgid "Your document number has been verified"
+msgstr "crwdns167415:0crwdne167415:0"
+
 msgid "Your face is needed in the selfie"
 msgstr "crwdns158628:0crwdne158628:0"
 
@@ -15024,9 +15096,6 @@ msgstr "crwdns68480:0crwdne68480:0"
 
 msgid "Your proof of identity has been verified successfully"
 msgstr "crwdns68482:0crwdne68482:0"
-
-msgid "Your proof of identity has expired"
-msgstr "crwdns68484:0crwdne68484:0"
 
 msgid "Your proof of identity submission failed because:"
 msgstr "crwdns159668:0crwdne159668:0"
@@ -15167,7 +15236,7 @@ msgid "deposit"
 msgstr "crwdns163590:0crwdne163590:0"
 
 msgid "deposit or create a CFDs account"
-msgstr "crwdns166211:0crwdne166211:0"
+msgstr "crwdns167595:0crwdne167595:0"
 
 msgid "details"
 msgstr "crwdns40791:0crwdne40791:0"

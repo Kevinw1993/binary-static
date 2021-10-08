@@ -252,6 +252,10 @@ label {
     font-weight: bold;
 }
 
+.width-50 {
+    width: 50%;
+}
+
 .errorfield {
     margin-top: 8px;
     color: $COLOR_RED;
@@ -364,7 +368,7 @@ _:-ms-fullscreen, :root #content-holder {
     vertical-align: middle;
 }
 
-#email_consent + label {
+#mail_consent + label {
     display: flex;
     justify-content: center;
 
@@ -407,6 +411,9 @@ input[type=checkbox] {
 .padding-x-30 {
     padding-right: 30px !important;
     padding-left: 30px !important;
+    
+.red {
+    color: $COLOR_RED;
 }
 
 button .barspinner.white {
@@ -478,6 +485,14 @@ button .barspinner.white {
 
 .clear {
     clear: both;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
 }
 
 .sidebar-container {
