@@ -15363,25 +15363,22 @@ var CloseBanner = function () {
         el_gaming_popup = void 0,
         el_learn_more = void 0;
 
-    // eslint-disable-next-line
-    console.log('hi');
     var onLoad = function onLoad() {
         BinarySocket.wait('authorize', 'website_status', 'landing_company').then(function () {
             var is_uk_residence = Client.get('residence') === 'gb' || State.getResponse('website_status.clients_country') === 'gb';
             var is_iom_client = Client.get('residence') === 'im' || State.getResponse('website_status.clients_country') === 'im';
-            // eslint-disable-next-line
-            console.log(is_iom_client);
             if (is_uk_residence) {
                 el_gaming_popup = getElementById('gaming-close-popup');
                 el_close_banner_container = getElementById('close_banner_container');
                 el_close_banner_container.setVisibility(1);
+                el_learn_more = getElementById('close_banner_btn');
             } else if (is_iom_client) {
                 el_gaming_popup = getElementById('gaming-close-popup-iom');
                 el_close_banner_container = getElementById('close_banner_container_iom');
                 el_close_banner_container.setVisibility(1);
+                el_learn_more = getElementById('close_banner_btn_iom');
             }
             el_gaming_popup.setVisibility(0);
-            el_learn_more = getElementById('close_banner_btn');
             el_learn_more.addEventListener('click', onShowPopup);
         });
     };
@@ -15417,14 +15414,10 @@ var ClosePopup = function () {
     var el_gaming_popup = void 0,
         el_accept_btn = void 0;
 
-    // eslint-disable-next-line
-    console.log('hi');
     var onLoad = function onLoad() {
         BinarySocket.wait('authorize', 'website_status', 'landing_company').then(function () {
             var is_uk_residence = Client.get('residence') === 'gb' || State.getResponse('website_status.clients_country') === 'gb';
             var is_iom_client = Client.get('residence') === 'im' || State.getResponse('website_status.clients_country') === 'im';
-            // eslint-disable-next-line
-            console.log(is_iom_client);
             if (is_uk_residence) {
                 el_gaming_popup = getElementById('gaming-close-popup');
                 el_accept_btn = getElementById('accept-btn');
