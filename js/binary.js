@@ -15353,6 +15353,9 @@ module.exports = Validation;
 
 
 var getElementById = __webpack_require__(/*! ../../_common/common_functions */ "./src/javascript/_common/common_functions.js").getElementById;
+var BinarySocket = __webpack_require__(/*! ../base/socket */ "./src/javascript/app/base/socket.js");
+var Client = __webpack_require__(/*! ../base/client */ "./src/javascript/app/base/client.js");
+var State = __webpack_require__(/*! ../../_common/storage */ "./src/javascript/_common/storage.js").State;
 
 var CloseBanner = function () {
 
@@ -15361,16 +15364,25 @@ var CloseBanner = function () {
         el_learn_more = void 0;
 
     var onLoad = function onLoad() {
-        el_close_banner_container = getElementById('close_banner_container');
-        el_close_banner_container.setVisibility(1);
-        el_gaming_popup = getElementById('gaming-close-popup');
-        el_gaming_popup.setVisibility(0);
-        el_learn_more = getElementById('close_banner_btn');
-        el_learn_more.addEventListener('click', onShowPopup);
+        BinarySocket.wait('authorize', 'website_status', 'landing_company').then(function () {
+            var is_uk_residence = Client.get('residence') === 'gb' || State.getResponse('website_status.clients_country') === 'gb';
+            var is_iom_client = Client.get('residence') === 'im' || State.getResponse('website_status.clients_country') === 'im';
+            if (is_uk_residence) {
+                el_gaming_popup = getElementById('gaming-close-popup');
+            } else if (is_iom_client) {
+                el_gaming_popup = getElementById('gaming-close-popup-iom');
+            }
+            el_close_banner_container = getElementById('close_banner_container');
+            el_close_banner_container.setVisibility(1);
+            el_gaming_popup.setVisibility(0);
+            el_learn_more = getElementById('close_banner_btn');
+            el_learn_more.addEventListener('click', onShowPopup);
+        });
     };
 
     var onShowPopup = function onShowPopup() {
         el_gaming_popup.setVisibility(1);
+        document.body.style.overflow = 'hidden';
     };
 
     return { onLoad: onLoad, onShowPopup: onShowPopup };
@@ -15391,20 +15403,33 @@ module.exports = CloseBanner;
 
 
 var getElementById = __webpack_require__(/*! ../../_common/common_functions */ "./src/javascript/_common/common_functions.js").getElementById;
+var BinarySocket = __webpack_require__(/*! ../base/socket */ "./src/javascript/app/base/socket.js");
+var Client = __webpack_require__(/*! ../base/client */ "./src/javascript/app/base/client.js");
+var State = __webpack_require__(/*! ../../_common/storage */ "./src/javascript/_common/storage.js").State;
 
 var ClosePopup = function () {
     var el_gaming_popup = void 0,
         el_accept_btn = void 0;
 
     var onLoad = function onLoad() {
-        el_gaming_popup = getElementById('gaming-close-popup');
-        el_gaming_popup.setVisibility(0);
-        el_accept_btn = getElementById('accept-btn');
-        el_accept_btn.addEventListener('click', onClosePopup);
+        BinarySocket.wait('authorize', 'website_status', 'landing_company').then(function () {
+            var is_uk_residence = Client.get('residence') === 'gb' || State.getResponse('website_status.clients_country') === 'gb';
+            var is_iom_client = Client.get('residence') === 'im' || State.getResponse('website_status.clients_country') === 'im';
+            if (is_uk_residence) {
+                el_gaming_popup = getElementById('gaming-close-popup');
+                el_accept_btn = getElementById('accept-btn');
+            } else if (is_iom_client) {
+                el_gaming_popup = getElementById('gaming-close-popup-iom');
+                el_accept_btn = getElementById('accept-btn-iom');
+            }
+            el_gaming_popup.setVisibility(0);
+            el_accept_btn.addEventListener('click', onClosePopup);
+        });
     };
 
     var onClosePopup = function onClosePopup() {
         el_gaming_popup.setVisibility(0);
+        document.body.style.overflow = 'auto';
     };
 
     return { onLoad: onLoad, onClosePopup: onClosePopup };
@@ -27876,7 +27901,11 @@ var TradePage = function () {
     var onLoad = function onLoad() {
         BinarySocket.wait('authorize', 'website_status', 'landing_company').then(function () {
             var is_uk_residence = Client.get('residence') === 'gb' || State.getResponse('website_status.clients_country') === 'gb';
-            if (is_uk_residence) {
+            var is_iom_client = Client.get('residence') === 'im' || State.getResponse('website_status.clients_country') === 'im';
+            if (is_uk_residence && Client.hasAccountType('real')) {
+                CloseBanner.onLoad();
+                ClosePopup.onLoad();
+            } else if (is_iom_client && Client.hasAccountType('real')) {
                 CloseBanner.onLoad();
                 ClosePopup.onLoad();
             } else {
